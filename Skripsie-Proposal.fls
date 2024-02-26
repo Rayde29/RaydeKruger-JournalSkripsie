@@ -251,6 +251,7 @@ OUTPUT chaps-main\chap-scope.aux
 INPUT .\chaps-main\chap-scope.tex
 INPUT .\chaps-main\chap-scope.tex
 INPUT chaps-main\chap-scope.tex
+INPUT D:\New folder\fonts\tfm\jknappen\ec\ecbx1440.tfm
 INPUT .\chaps-main\chap-literature_Review.tex
 INPUT .\chaps-main\chap-literature_Review.tex
 OUTPUT chaps-main\chap-literature_Review.aux
@@ -304,6 +305,8 @@ INPUT chaps-append\chap-maths.aux
 INPUT .\chaps-append\chap-experiment.aux
 INPUT .\chaps-append\chap-experiment.aux
 INPUT chaps-append\chap-experiment.aux
+INPUT C:\Users\Rayde Kruger\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+INPUT C:\Users\Rayde Kruger\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
 INPUT C:\Users\Rayde Kruger\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1200.pk
 INPUT C:\Users\Rayde Kruger\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1200.pk
 INPUT C:\Users\Rayde Kruger\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk

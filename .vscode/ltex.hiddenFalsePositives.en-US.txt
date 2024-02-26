@@ -1,0 +1,1 @@
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThe research and results from this project hopes to further the development of tip-propelled rotary aircraft, which currently is a relatively unresearched field.\\E$"}
