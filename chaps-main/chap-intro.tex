@@ -1,22 +1,57 @@
 \chapter{Introduction}
+    \label{sec: Introduction}
+    \section{Background}
+        Helicopters are said to be the only aircraft that, since their conception, has saved more lives than they have taken (\cite{anderson2010helicopters}). Their  high level of mobility, vertical take off and landings and their ability to hover give helicopters great versatility. Helicopters are the most common example of a rotary wing aircraft and are used in environments ranging from rocky mountains to stormy seas. With such high stakes it is vital to minimize points of potential failure. Two of these failure points in a helicopter are the tail rotor and the swashplate. The tail rotor is required to counter the torque produced by the engine which turns the main rotor to produce thrust. If the tail rotor were to stop working, the helicopter would lose its controllability and would have to land immediately. A tip thrust rotary aircraft places the propulsion on the tips of the aircraft's rotor and thus does not produce any torque that needs to be canceled, eliminating the need of a tail rotor. By using the tip thrust propulsion on  a rotor rather than a conventional drone, better hovering efficiencies can be obtained. Using tip thrust could potentially eliminate the need for mechanical complexity of traditional rotary aircraft. One of these mechanisms being the swashplate of a helicopter, which controls the pitch and is responsible for creating directional thrust. Similarly to the tail rotor, this is a critical component and requires constant maintenance to ensure the complex mechanism does not fail. \\
+        This paper will research, design, construct and test a tip thrust rotary aircraft which will actuate the pitch of the rotor through the use of propulsion situated on each blade. Traditionally, swashplates  change the rotor's pitch for portions of its rotation, this creates an unbalanced distribution of lift force, causing the aircraft to move in the desired direction. \\
+        The aim is to develop a rotary-wing aircraft in which rotor pitch is controlled by the tip thrust. The primary objective is to produce directional thrust by using the tip thrust to imitate the cyclic action created by a traditional swashpalte. 
 
-\section{Background}
 
-    Helicopters are said to be the only aircraft that, since its conception, has saved more lives than they have taken. Their  high level of mobility, vertical take off and landings and their ability to hover give helicopters great versatility. Helicopters are the most common example of a rotary aircraft and are used in environments ranging from rocky, mountainous to stormy seas. With such high stakes it is vital to minimize points of potential failure. One of these failure points is the helicopter's tail rotor. It is required to counter the toque produced by the engine which rotates the main rotor to produce lift. If the tail rotor were to stop working, the helicopter would lose its controllability and would have to land immediately. A jet-tipped rotary aircraft places the propulsion on the tips of the aircraft's rotor and thus does not produce any toque that needs to be canceled, eliminating the need of a tail rotor. As the tail rotor is connected to the same engine that operates the rotor, transmission of the rotation to the tail rotor increases complexity of the helicopter.
-     
-    \vspace{3mm}
-    This project will research, design, construct and test a jet-tipped rotary aircraft which will actuate the pitch of the rotor  the use of propulsion situated at the tip of the blades. Traditional rotary wing aircraft change the rotor's pitch for portions of its rotation, this creates an unbalanced, causing the aircraft to move in the desired direction. Different methods for directional thrust will investigate varying from traditional methods to using the propulsion force itself to control the direction of the aircraft. 
-    \vspace*{3mm}
-    
-    This project, which is prepared for Mechanical Project 448 and prepared by Mr RA Krüger, was proposed by the student after devising the concept with Dr A Gill. The research and results from this project hopes to further the development of tip-propelled rotary aircraft, which currently is a relatively unresearched field. Stated below include the projects scope, objectives, literature review, motivation and planning of the project are outlined. 
+        % \section{Project Definition}
+    %     \subsection{Problem Statement}
+    %         This project will go through the research, design, building and testing of a tip-thrust rotary-wing aircraft. It aims to create a rotary-wing aircraft for which the rotor's pitch is controlled by the tip thrust to eliminate the need of a swashplate. An investigation will be made to identify how traditional methods, such as a swashplate are used and how this can be achieved using the tip thrusts. To achieve directional thrust the tip thrust should vary the pitch of the rotor along its rotation. This will cause the rotor to have a higher pitch on one side, thereby increasing the lift generated, and a lower pitch on the other side, this will induce directional thrust.
 
-%Starting from the big picture, gradually narrow focus down to this project and where this report fits in. Hello world.
+    %     \subsection{Scope and Limitations}
+    %         The final design should prove controllability, but does not need to achieve sustained flight, and thus showing that the aircraft can produce lift in the desired direction will suffice. While a basic understanding of rotor design can be applied to the aircraft's main rotor, it is not the focus of the project and thus no computational fluid dynamics are required either. The most common method of propulsion for tip-thrust rotary aircraft is using an operating fluid in either a hot or cold cycle, this method will not be investigated due to the required large scale of these methods. 
+    %     \subsection{Objectives}
+    %         The objectives of this project are as follows:
+    %         \begin{itemize}
+    %             \item Create a mathematical model which describes the thrust generated
+    %             \item Design a proof of concept to achieve the desired aim
+    %             \item Construct a working proof of concept of the created design 
+    %             \item Implement a control system for the tip thrust
+    %             \item Implement a method to produce directional thrust
+    %             \item Test and analyze the proof of concept
+    %         \end{itemize}
+    %     \subsection{Research Questions}
+    %     \begin{enumerate}
+    %         \item \textbf{Can the aircraft be fully controlled using the tip thrust alone?}\\
+    %             An investigation should be done to test the viability of using tip thrust to introduce the control of the direction of the rotary aircraft.
+    %         \item \textbf{How accurate is the mathematical model?}\\
+    %             The amount of thrust produced should be compared to the amount of thrust predicted by the mathematical model to determine the accuracy of the model.
+    %         \item \textbf{What is the efficiency of the aircraft?}\\
+    %             The efficiency of the rotary aircraft can be evaluated by comparing the total lift it can produce compared to the lift created by the tip-thrust motors to determine if it is more effective than conventional drones.
+    %         \item \textbf{Which control system method works best?}\\
+    %             An investigation of the different control systems, including PID, lead/lag compensator and state space control, should be looked into to determine which method is the most effective. 
+    %         \item \textbf{How stable is the system?}\\
+    %             Rotary aircraft are inherently unstable. The system needs to be checked to determine how stable the implemented control system is.
+    %     \end{enumerate}
 
-\section{Objectives}
-
-The objectives of the project (in some cases the objectives of the report). If necessary describe limitations to the scope.
-
-\section{Motivation}
-
-Why this specific project/report is worth while.
-
+    %     \subsection{Motivation}
+    %         As previously mentioned, tip-thrust rotary aircraft remove the need for a tail rotor as they do not produce a torque that needs to be canceled. This decreases the complexity of the aircraft and reduces its weight as there is no longer a need for large transmission shafts and gearboxes. However, many current designs use this method of propulsion for autogyro aircraft designs. These use the main rotor to produce lift and have other methods for directional thrust. This adds another system to the aircraft which could introduce unreliability and increase complexity. By making the aircraft's pitch controllable with the tip thrusts on the rotor, it will decrease the complexity of the aircraft and decrease the weight, allowing for a larger payload to be carried. With the decreased weight and a larger rotor than conventional quad-copters, the efficiency of the aircraft will be increased. This will increase the potential flight time of the aircraft and reduce the mechanical complexity that is present with traditional helicopters, allowing the creation of small-scale aircraft with longer flight time a possibility. The tip-thrust will also remove failure points on the aircraft, while introducing redundancies as well, thereby increasing the safety of the aircraft.
+    %     \subsection{Use of AI}
+    %         During this project AI such as ChatGPT scholar was used to assist with gathering information and finding resources. Grammarly and ChatGPT were used to help improve grammar and the sentence structure, but no generated text has been used in the report. The STM32 Solver AI tool as well as ChatGPT was used to assist with debugging code as well as formatting for  MATLAB. A GUI (graphical user interface) was generated using ChatGPT. This interface was merely used to easily send and receive commands and to display data easily. The proof of concept can function without this by using Termite to send and receive commands. The use of the GUI helped optimizes the efficiency for testing.  
+    % \section{Planned Activities}
+    %     To help structure the project and give tangible goals, a list of planned activities, in the order they are expected to be completed in has been proposed. A Gantt chart, given in Appendix~\ref{sec: techo-analysis}, Figure~\ref{fig: gantt_chart} has been created using these activities with the length of time each is expected to take.
+    %     \begin{enumerate}
+    %         \item Decide on type of propulsion
+    %         \item Decide on transfer of potential energy to rotors
+    %         \item Pitch control system
+    %         \item Decide on the electronics
+    %         \item Pitch and rotor position sensing
+    %         \item Computations and software
+    %         \item Rotor and aircraft design
+    %         \item Build aircraft
+    %         \item Testing
+    %         \item Evaluation and data Processing
+    %         \item Finalize report
+    %     \end{enumerate}

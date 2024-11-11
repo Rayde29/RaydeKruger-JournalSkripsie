@@ -1,0 +1,1012 @@
+PWD c:\Users\Rayde Kruger\OneDrive\Desktop\University\PublicationSkripsie\Final_Report_LaTeX
+INPUT C:\Users\Rayde Kruger\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\Rayde Kruger\OneDrive\Desktop\University\PublicationSkripsie\Final_Report_LaTeX\Skripsie_Report.tex
+OUTPUT Skripsie_Report.log
+INPUT D:\New folder\tex\latex\base\book.cls
+INPUT D:\New folder\tex\latex\base\book.cls
+INPUT D:\New folder\tex\latex\base\bk12.clo
+INPUT D:\New folder\tex\latex\base\bk12.clo
+INPUT D:\New folder\tex\latex\base\bk12.clo
+INPUT D:\New folder\fonts\tfm\public\cm\cmr12.tfm
+INPUT D:\New folder\tex\latex\stellenbosch-2\stb-titlepage.sty
+INPUT D:\New folder\tex\latex\stellenbosch-2\stb-titlepage.sty
+INPUT D:\New folder\tex\latex\etoolbox\etoolbox.sty
+INPUT D:\New folder\tex\latex\etoolbox\etoolbox.sty
+INPUT D:\New folder\tex\latex\base\ifthen.sty
+INPUT D:\New folder\tex\latex\base\ifthen.sty
+INPUT D:\New folder\tex\latex\kvoptions\kvoptions.sty
+INPUT D:\New folder\tex\latex\kvoptions\kvoptions.sty
+INPUT D:\New folder\tex\latex\graphics\keyval.sty
+INPUT D:\New folder\tex\latex\graphics\keyval.sty
+INPUT D:\New folder\tex\generic\ltxcmds\ltxcmds.sty
+INPUT D:\New folder\tex\generic\ltxcmds\ltxcmds.sty
+INPUT D:\New folder\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT D:\New folder\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT D:\New folder\tex\latex\geometry\geometry.sty
+INPUT D:\New folder\tex\latex\geometry\geometry.sty
+INPUT D:\New folder\tex\generic\iftex\ifvtex.sty
+INPUT D:\New folder\tex\generic\iftex\ifvtex.sty
+INPUT D:\New folder\tex\generic\iftex\iftex.sty
+INPUT D:\New folder\tex\generic\iftex\iftex.sty
+INPUT D:\New folder\tex\latex\geometry\geometry.cfg
+INPUT D:\New folder\tex\latex\geometry\geometry.cfg
+INPUT D:\New folder\tex\latex\geometry\geometry.cfg
+INPUT D:\New folder\tex\latex\amsmath\amsmath.sty
+INPUT D:\New folder\tex\latex\amsmath\amsmath.sty
+INPUT D:\New folder\tex\latex\amsmath\amsopn.sty
+INPUT D:\New folder\tex\latex\amsmath\amstext.sty
+INPUT D:\New folder\tex\latex\amsmath\amstext.sty
+INPUT D:\New folder\tex\latex\amsmath\amsgen.sty
+INPUT D:\New folder\tex\latex\amsmath\amsgen.sty
+INPUT D:\New folder\tex\latex\amsmath\amsbsy.sty
+INPUT D:\New folder\tex\latex\amsmath\amsbsy.sty
+INPUT D:\New folder\tex\latex\amsmath\amsopn.sty
+INPUT D:\New folder\tex\latex\pdflscape\pdflscape.sty
+INPUT D:\New folder\tex\latex\pdflscape\pdflscape.sty
+INPUT D:\New folder\tex\latex\pdflscape\pdflscape-nometadata.sty
+INPUT D:\New folder\tex\latex\pdflscape\pdflscape-nometadata.sty
+INPUT D:\New folder\tex\latex\graphics\lscape.sty
+INPUT D:\New folder\tex\latex\graphics\lscape.sty
+INPUT D:\New folder\tex\latex\graphics\graphics.sty
+INPUT D:\New folder\tex\latex\graphics\graphics.sty
+INPUT D:\New folder\tex\latex\graphics\trig.sty
+INPUT D:\New folder\tex\latex\graphics\trig.sty
+INPUT D:\New folder\tex\latex\graphics-cfg\graphics.cfg
+INPUT D:\New folder\tex\latex\graphics-cfg\graphics.cfg
+INPUT D:\New folder\tex\latex\graphics-cfg\graphics.cfg
+INPUT D:\New folder\tex\latex\graphics-def\pdftex.def
+INPUT D:\New folder\tex\latex\graphics-def\pdftex.def
+INPUT D:\New folder\tex\latex\graphics-def\pdftex.def
+INPUT D:\New folder\tex\latex\adjustbox\adjustbox.sty
+INPUT D:\New folder\tex\latex\adjustbox\adjustbox.sty
+INPUT D:\New folder\tex\latex\xkeyval\xkeyval.sty
+INPUT D:\New folder\tex\latex\xkeyval\xkeyval.sty
+INPUT D:\New folder\tex\generic\xkeyval\xkeyval.tex
+INPUT D:\New folder\tex\generic\xkeyval\xkvutils.tex
+INPUT D:\New folder\tex\latex\adjustbox\adjcalc.sty
+INPUT D:\New folder\tex\latex\adjustbox\adjcalc.sty
+INPUT D:\New folder\tex\latex\adjustbox\trimclip.sty
+INPUT D:\New folder\tex\latex\adjustbox\trimclip.sty
+INPUT D:\New folder\tex\latex\graphics\graphicx.sty
+INPUT D:\New folder\tex\latex\graphics\graphicx.sty
+INPUT D:\New folder\tex\latex\collectbox\collectbox.sty
+INPUT D:\New folder\tex\latex\collectbox\collectbox.sty
+INPUT D:\New folder\tex\latex\adjustbox\tc-pdftex.def
+INPUT D:\New folder\tex\latex\adjustbox\tc-pdftex.def
+INPUT D:\New folder\tex\latex\adjustbox\tc-pdftex.def
+INPUT D:\New folder\tex\latex\ifoddpage\ifoddpage.sty
+INPUT D:\New folder\tex\latex\ifoddpage\ifoddpage.sty
+INPUT D:\New folder\tex\latex\ifoddpage\ifoddpage.sty
+INPUT D:\New folder\tex\latex\varwidth\varwidth.sty
+INPUT D:\New folder\tex\latex\varwidth\varwidth.sty
+INPUT D:\New folder\tex\latex\varwidth\varwidth.sty
+INPUT D:\New folder\tex\latex\base\inputenc.sty
+INPUT D:\New folder\tex\latex\base\inputenc.sty
+INPUT D:\New folder\tex\latex\base\textcomp.sty
+INPUT D:\New folder\tex\latex\base\textcomp.sty
+INPUT D:\New folder\tex\latex\base\fontenc.sty
+INPUT D:\New folder\tex\latex\base\fontenc.sty
+INPUT D:\New folder\fonts\tfm\jknappen\ec\ecrm1200.tfm
+INPUT D:\New folder\tex\latex\tools\bm.sty
+INPUT D:\New folder\tex\latex\tools\bm.sty
+INPUT D:\New folder\tex\latex\gensymb\gensymb.sty
+INPUT D:\New folder\tex\latex\gensymb\gensymb.sty
+INPUT D:\New folder\tex\latex\siunitx\siunitx.sty
+INPUT D:\New folder\tex\latex\siunitx\siunitx.sty
+INPUT D:\New folder\tex\latex\translations\translations.sty
+INPUT D:\New folder\tex\latex\translations\translations.sty
+INPUT D:\New folder\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT D:\New folder\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT D:\New folder\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\New folder\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\New folder\tex\latex\tools\array.sty
+INPUT D:\New folder\tex\latex\tools\array.sty
+INPUT D:\New folder\tex\latex\stellenbosch-2\stb-nomencl.sty
+INPUT D:\New folder\tex\latex\stellenbosch-2\stb-nomencl.sty
+INPUT D:\New folder\tex\latex\tools\calc.sty
+INPUT D:\New folder\tex\latex\tools\calc.sty
+INPUT D:\New folder\tex\latex\stellenbosch-2\stb-bib.sty
+INPUT D:\New folder\tex\latex\stellenbosch-2\stb-bib.sty
+INPUT D:\New folder\tex\latex\natbib\natbib.sty
+INPUT D:\New folder\tex\latex\natbib\natbib.sty
+INPUT D:\New folder\tex\latex\float\float.sty
+INPUT D:\New folder\tex\latex\float\float.sty
+INPUT D:\New folder\tex\latex\tools\longtable.sty
+INPUT D:\New folder\tex\latex\tools\longtable.sty
+INPUT D:\New folder\tex\latex\caption\caption.sty
+INPUT D:\New folder\tex\latex\caption\caption.sty
+INPUT D:\New folder\tex\latex\caption\caption3.sty
+INPUT D:\New folder\tex\latex\caption\caption3.sty
+INPUT D:\New folder\tex\latex\caption\ltcaption.sty
+INPUT D:\New folder\tex\latex\caption\ltcaption.sty
+INPUT D:\New folder\tex\latex\xcolor\xcolor.sty
+INPUT D:\New folder\tex\latex\xcolor\xcolor.sty
+INPUT D:\New folder\tex\latex\graphics-cfg\color.cfg
+INPUT D:\New folder\tex\latex\graphics-cfg\color.cfg
+INPUT D:\New folder\tex\latex\graphics-cfg\color.cfg
+INPUT D:\New folder\tex\latex\graphics\mathcolor.ltx
+INPUT D:\New folder\tex\latex\graphics\mathcolor.ltx
+INPUT D:\New folder\tex\latex\graphics\mathcolor.ltx
+INPUT D:\New folder\tex\latex\colortbl\colortbl.sty
+INPUT D:\New folder\tex\latex\colortbl\colortbl.sty
+INPUT D:\New folder\tex\latex\graphics\color.sty
+INPUT D:\New folder\tex\latex\pdfcomment\pdfcomment.sty
+INPUT D:\New folder\tex\latex\pdfcomment\pdfcomment.sty
+INPUT D:\New folder\tex\latex\datetime2\datetime2.sty
+INPUT D:\New folder\tex\latex\datetime2\datetime2.sty
+INPUT D:\New folder\tex\latex\tracklang\tracklang.sty
+INPUT D:\New folder\tex\latex\tracklang\tracklang.sty
+INPUT D:\New folder\tex\generic\tracklang\tracklang.tex
+INPUT D:\New folder\tex\generic\tracklang\tracklang.tex
+INPUT D:\New folder\tex\generic\tracklang\tracklang.tex
+INPUT D:\New folder\tex\generic\tracklang\tracklang.tex
+INPUT D:\New folder\tex\generic\tracklang\tracklang.tex
+INPUT D:\New folder\tex\latex\zref\zref-savepos.sty
+INPUT D:\New folder\tex\latex\zref\zref-savepos.sty
+INPUT D:\New folder\tex\latex\zref\zref-base.sty
+INPUT D:\New folder\tex\latex\zref\zref-base.sty
+INPUT D:\New folder\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT D:\New folder\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT D:\New folder\tex\generic\etexcmds\etexcmds.sty
+INPUT D:\New folder\tex\generic\etexcmds\etexcmds.sty
+INPUT D:\New folder\tex\latex\auxhook\auxhook.sty
+INPUT D:\New folder\tex\latex\auxhook\auxhook.sty
+INPUT D:\New folder\tex\latex\refcount\refcount.sty
+INPUT D:\New folder\tex\latex\refcount\refcount.sty
+INPUT D:\New folder\tex\latex\marginnote\marginnote.sty
+INPUT D:\New folder\tex\latex\marginnote\marginnote.sty
+INPUT D:\New folder\tex\generic\iftex\ifpdf.sty
+INPUT D:\New folder\tex\generic\iftex\ifpdf.sty
+INPUT D:\New folder\tex\generic\iftex\ifluatex.sty
+INPUT D:\New folder\tex\generic\iftex\ifluatex.sty
+INPUT D:\New folder\tex\latex\soulpos\soulpos.sty
+INPUT D:\New folder\tex\latex\soulpos\soulpos.sty
+INPUT D:\New folder\tex\latex\hyperref\hyperref.sty
+INPUT D:\New folder\tex\latex\hyperref\hyperref.sty
+INPUT D:\New folder\tex\generic\pdfescape\pdfescape.sty
+INPUT D:\New folder\tex\generic\pdfescape\pdfescape.sty
+INPUT D:\New folder\tex\latex\hycolor\hycolor.sty
+INPUT D:\New folder\tex\latex\hycolor\hycolor.sty
+INPUT D:\New folder\tex\latex\letltxmacro\letltxmacro.sty
+INPUT D:\New folder\tex\latex\letltxmacro\letltxmacro.sty
+INPUT D:\New folder\tex\latex\hyperref\nameref.sty
+INPUT D:\New folder\tex\latex\hyperref\nameref.sty
+INPUT D:\New folder\tex\generic\gettitlestring\gettitlestring.sty
+INPUT D:\New folder\tex\generic\gettitlestring\gettitlestring.sty
+INPUT D:\New folder\tex\latex\hyperref\pd1enc.def
+INPUT D:\New folder\tex\latex\hyperref\pd1enc.def
+INPUT D:\New folder\tex\latex\hyperref\pd1enc.def
+INPUT D:\New folder\tex\generic\intcalc\intcalc.sty
+INPUT D:\New folder\tex\generic\intcalc\intcalc.sty
+INPUT D:\New folder\tex\latex\hyperref\puenc.def
+INPUT D:\New folder\tex\latex\hyperref\puenc.def
+INPUT D:\New folder\tex\latex\hyperref\puenc.def
+INPUT D:\New folder\tex\generic\stringenc\stringenc.sty
+INPUT D:\New folder\tex\generic\stringenc\stringenc.sty
+INPUT D:\New folder\tex\latex\url\url.sty
+INPUT D:\New folder\tex\latex\url\url.sty
+INPUT D:\New folder\tex\generic\bitset\bitset.sty
+INPUT D:\New folder\tex\generic\bitset\bitset.sty
+INPUT D:\New folder\tex\generic\bigintcalc\bigintcalc.sty
+INPUT D:\New folder\tex\generic\bigintcalc\bigintcalc.sty
+INPUT D:\New folder\tex\generic\atbegshi\atbegshi.sty
+INPUT D:\New folder\tex\latex\base\atbegshi-ltx.sty
+INPUT D:\New folder\tex\latex\base\atbegshi-ltx.sty
+INPUT D:\New folder\tex\latex\hyperref\hpdftex.def
+INPUT D:\New folder\tex\latex\hyperref\hpdftex.def
+INPUT D:\New folder\tex\latex\hyperref\hpdftex.def
+INPUT D:\New folder\tex\latex\atveryend\atveryend.sty
+INPUT D:\New folder\tex\latex\base\atveryend-ltx.sty
+INPUT D:\New folder\tex\latex\base\atveryend-ltx.sty
+INPUT D:\New folder\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT D:\New folder\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT D:\New folder\tex\generic\uniquecounter\uniquecounter.sty
+INPUT D:\New folder\tex\generic\uniquecounter\uniquecounter.sty
+INPUT D:\New folder\tex\latex\pdfpages\pdfpages.sty
+INPUT D:\New folder\tex\latex\pdfpages\pdfpages.sty
+INPUT D:\New folder\tex\latex\eso-pic\eso-pic.sty
+INPUT D:\New folder\tex\latex\eso-pic\eso-pic.sty
+INPUT D:\New folder\tex\latex\pdfpages\pppdftex.def
+INPUT D:\New folder\tex\latex\pdfpages\pppdftex.def
+INPUT D:\New folder\tex\latex\pdfpages\pppdftex.def
+INPUT D:\New folder\tex\latex\todonotes\todonotes.sty
+INPUT D:\New folder\tex\latex\todonotes\todonotes.sty
+INPUT D:\New folder\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT D:\New folder\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT D:\New folder\tex\latex\pgf\basiclayer\pgf.sty
+INPUT D:\New folder\tex\latex\pgf\basiclayer\pgf.sty
+INPUT D:\New folder\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT D:\New folder\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT D:\New folder\tex\generic\pgf\utilities\pgfutil-common.tex
+INPUT D:\New folder\tex\generic\pgf\utilities\pgfutil-latex.def
+INPUT D:\New folder\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT D:\New folder\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT D:\New folder\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT D:\New folder\tex\generic\pgf\pgf.revision.tex
+INPUT D:\New folder\tex\generic\pgf\pgf.revision.tex
+INPUT D:\New folder\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT D:\New folder\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT D:\New folder\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT D:\New folder\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT D:\New folder\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT D:\New folder\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT D:\New folder\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT D:\New folder\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT D:\New folder\tex\generic\pgf\utilities\pgfkeyslibraryfiltered.code.tex
+INPUT D:\New folder\tex\generic\pgf\systemlayer\pgf.cfg
+INPUT D:\New folder\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT D:\New folder\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT D:\New folder\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+INPUT D:\New folder\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT D:\New folder\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT D:\New folder\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT D:\New folder\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT D:\New folder\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT D:\New folder\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT D:\New folder\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT D:\New folder\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT D:\New folder\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT D:\New folder\tex\generic\pgf\math\pgfmath.code.tex
+INPUT D:\New folder\tex\generic\pgf\math\pgfmathutil.code.tex
+INPUT D:\New folder\tex\generic\pgf\math\pgfmathparser.code.tex
+INPUT D:\New folder\tex\generic\pgf\math\pgfmathfunctions.code.tex
+INPUT D:\New folder\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex
+INPUT D:\New folder\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex
+INPUT D:\New folder\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
+INPUT D:\New folder\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex
+INPUT D:\New folder\tex\generic\pgf\math\pgfmathfunctions.base.code.tex
+INPUT D:\New folder\tex\generic\pgf\math\pgfmathfunctions.round.code.tex
+INPUT D:\New folder\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
+INPUT D:\New folder\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
+INPUT D:\New folder\tex\generic\pgf\math\pgfmathcalc.code.tex
+INPUT D:\New folder\tex\generic\pgf\math\pgfmathfloat.code.tex
+INPUT D:\New folder\tex\generic\pgf\math\pgfint.code.tex
+INPUT D:\New folder\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+INPUT D:\New folder\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+INPUT D:\New folder\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+INPUT D:\New folder\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+INPUT D:\New folder\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+INPUT D:\New folder\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+INPUT D:\New folder\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+INPUT D:\New folder\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+INPUT D:\New folder\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+INPUT D:\New folder\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+INPUT D:\New folder\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+INPUT D:\New folder\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+INPUT D:\New folder\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+INPUT D:\New folder\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+INPUT D:\New folder\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+INPUT D:\New folder\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+INPUT D:\New folder\tex\generic\pgf\basiclayer\pgfcorerdf.code.tex
+INPUT D:\New folder\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+INPUT D:\New folder\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+INPUT D:\New folder\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT D:\New folder\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT D:\New folder\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT D:\New folder\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT D:\New folder\tex\latex\pgf\utilities\pgffor.sty
+INPUT D:\New folder\tex\latex\pgf\utilities\pgffor.sty
+INPUT D:\New folder\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT D:\New folder\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT D:\New folder\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT D:\New folder\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT D:\New folder\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT D:\New folder\tex\latex\pgf\math\pgfmath.sty
+INPUT D:\New folder\tex\latex\pgf\math\pgfmath.sty
+INPUT D:\New folder\tex\generic\pgf\math\pgfmath.code.tex
+INPUT D:\New folder\tex\generic\pgf\math\pgfmath.code.tex
+INPUT D:\New folder\tex\generic\pgf\math\pgfmath.code.tex
+INPUT D:\New folder\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT D:\New folder\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT D:\New folder\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT D:\New folder\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT D:\New folder\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT D:\New folder\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT D:\New folder\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT D:\New folder\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT D:\New folder\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+INPUT D:\New folder\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT D:\New folder\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT D:\New folder\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
+INPUT D:\New folder\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
+INPUT D:\New folder\tex\latex\wasysym\wasysym.sty
+INPUT D:\New folder\tex\latex\wasysym\wasysym.sty
+INPUT D:\New folder\tex\latex\tools\tabularx.sty
+INPUT D:\New folder\tex\latex\tools\tabularx.sty
+INPUT D:\New folder\tex\latex\multirow\multirow.sty
+INPUT D:\New folder\tex\latex\multirow\multirow.sty
+INPUT D:\New folder\tex\latex\mdwtools\footnote.sty
+INPUT D:\New folder\tex\latex\mdwtools\footnote.sty
+INPUT D:\New folder\tex\latex\enumitem\enumitem.sty
+INPUT D:\New folder\tex\latex\enumitem\enumitem.sty
+INPUT D:\New folder\tex\latex\booktabs\booktabs.sty
+INPUT D:\New folder\tex\latex\booktabs\booktabs.sty
+INPUT D:\New folder\tex\latex\l3backend\l3backend-pdftex.def
+INPUT D:\New folder\tex\latex\l3backend\l3backend-pdftex.def
+INPUT .\Skripsie_Report.aux
+INPUT .\Skripsie_Report.aux
+INPUT Skripsie_Report.aux
+INPUT .\chaps-front\chap-plagiarism.aux
+INPUT .\chaps-front\chap-plagiarism.aux
+INPUT chaps-front\chap-plagiarism.aux
+INPUT .\chaps-front\chap-summary.aux
+INPUT .\chaps-front\chap-summary.aux
+INPUT chaps-front\chap-summary.aux
+INPUT .\chaps-front\chap-acknowledge.aux
+INPUT .\chaps-front\chap-acknowledge.aux
+INPUT chaps-front\chap-acknowledge.aux
+INPUT .\chaps-front\chap-symbols.aux
+INPUT .\chaps-front\chap-symbols.aux
+INPUT chaps-front\chap-symbols.aux
+INPUT .\chaps-main\chap-intro.aux
+INPUT .\chaps-main\chap-intro.aux
+INPUT chaps-main\chap-intro.aux
+INPUT .\chaps-main\chap-Matlab_Model.aux
+INPUT .\chaps-main\chap-Matlab_Model.aux
+INPUT chaps-main\chap-Matlab_Model.aux
+INPUT .\chaps-main\chap-Design.aux
+INPUT .\chaps-main\chap-Design.aux
+INPUT chaps-main\chap-Design.aux
+INPUT .\chaps-main\chap-Software.aux
+INPUT .\chaps-main\chap-Software.aux
+INPUT chaps-main\chap-Software.aux
+INPUT .\chaps-main\chap-Experiments.aux
+INPUT .\chaps-main\chap-Experiments.aux
+INPUT chaps-main\chap-Experiments.aux
+INPUT .\chaps-main\chap-Data_Analysis.aux
+INPUT .\chaps-main\chap-Data_Analysis.aux
+INPUT chaps-main\chap-Data_Analysis.aux
+INPUT .\chaps-main\chap-Report_Conclusion.aux
+INPUT .\chaps-main\chap-Report_Conclusion.aux
+INPUT chaps-main\chap-Report_Conclusion.aux
+INPUT .\chaps-append\chap-Appendix_Circuit.aux
+INPUT .\chaps-append\chap-Appendix_Circuit.aux
+INPUT chaps-append\chap-Appendix_Circuit.aux
+INPUT .\chaps-append\chap-Appendix_Drawings.aux
+INPUT .\chaps-append\chap-Appendix_Drawings.aux
+INPUT chaps-append\chap-Appendix_Drawings.aux
+OUTPUT Skripsie_Report.aux
+INPUT D:\New folder\tex\latex\stellenbosch-2\figs\stb-logo-vert.pdf
+INPUT D:\New folder\tex\latex\stellenbosch-2\figs\stb-logo-vert.pdf
+INPUT D:\New folder\tex\latex\stellenbosch-2\figs\stb-logo-vert.pdf
+OUTPUT Skripsie_Report.pdf
+INPUT D:\New folder\tex\latex\stellenbosch-2\figs\stb-logo-vert.pdf
+INPUT D:\New folder\tex\latex\stellenbosch-2\figs\stb-logo-vert.pdf
+INPUT D:\New folder\tex\context\base\mkii\supp-pdf.mkii
+INPUT D:\New folder\tex\context\base\mkii\supp-pdf.mkii
+INPUT D:\New folder\tex\context\base\mkii\supp-pdf.mkii
+INPUT D:\New folder\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT D:\New folder\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT D:\New folder\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT D:\New folder\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT D:\New folder\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT D:\New folder\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
+INPUT D:\New folder\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
+INPUT D:\New folder\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
+INPUT D:\New folder\tex\generic\soul\soulutf8.sty
+INPUT D:\New folder\tex\generic\soul\soulutf8.sty
+INPUT D:\New folder\tex\generic\soul\soul.sty
+INPUT D:\New folder\tex\generic\soul\soul.sty
+INPUT D:\New folder\tex\generic\soul\soul-ori.sty
+INPUT D:\New folder\tex\generic\soul\soul-ori.sty
+INPUT D:\New folder\fonts\tfm\jknappen\ec\ectt1000.tfm
+INPUT Skripsie_Report.upb
+INPUT .\Skripsie_Report.out
+INPUT .\Skripsie_Report.out
+INPUT Skripsie_Report.out
+INPUT Skripsie_Report.out
+INPUT .\Skripsie_Report.out
+INPUT .\Skripsie_Report.out
+OUTPUT Skripsie_Report.out
+INPUT D:\New folder\fonts\tfm\jknappen\ec\ecrm1000.tfm
+INPUT D:\New folder\fonts\tfm\jknappen\ec\tcrm1000.tfm
+INPUT D:\New folder\fonts\tfm\jknappen\ec\ecrm2074.tfm
+INPUT D:\New folder\fonts\tfm\jknappen\ec\ecbx2074.tfm
+INPUT D:\New folder\fonts\tfm\jknappen\ec\ecrm1440.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmr12.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmmi12.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmsy10.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmex10.tfm
+INPUT D:\New folder\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmbx12.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmbx10.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmbx7.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmmib10.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmmib10.tfm
+INPUT D:\New folder\fonts\tfm\public\amsfonts\cmextra\cmmib7.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmbsy10.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmbsy10.tfm
+INPUT D:\New folder\fonts\tfm\public\amsfonts\cmextra\cmbsy7.tfm
+INPUT D:\New folder\tex\latex\wasysym\uwasy.fd
+INPUT D:\New folder\tex\latex\wasysym\uwasy.fd
+INPUT D:\New folder\tex\latex\wasysym\uwasy.fd
+INPUT D:\New folder\fonts\tfm\public\wasy\wasy10.tfm
+INPUT D:\New folder\fonts\tfm\public\wasy\wasy10.tfm
+INPUT D:\New folder\fonts\tfm\public\wasy\wasy7.tfm
+INPUT D:\New folder\fonts\tfm\jknappen\ec\tcrm1440.tfm
+INPUT D:\New folder\fonts\tfm\jknappen\ec\tcrm0700.tfm
+INPUT D:\New folder\fonts\tfm\jknappen\ec\ecrm1728.tfm
+INPUT D:\New folder\tex\generic\stringenc\se-pdfdoc.def
+INPUT D:\New folder\tex\generic\stringenc\se-pdfdoc.def
+INPUT D:\New folder\tex\generic\stringenc\se-pdfdoc.def
+OUTPUT Skripsie_Report.upa
+INPUT C:\Users\Rayde Kruger\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT D:\New folder\fonts\enc\dvips\cm-super\cm-super-t1.enc
+INPUT D:\New folder\fonts\enc\dvips\cm-super\cm-super-ts1.enc
+INPUT .\chaps-front\chap-plagiarism.tex
+INPUT .\chaps-front\chap-plagiarism.tex
+OUTPUT chaps-front\chap-plagiarism.aux
+INPUT .\chaps-front\chap-plagiarism.tex
+INPUT .\chaps-front\chap-plagiarism.tex
+INPUT chaps-front\chap-plagiarism.tex
+INPUT D:\New folder\fonts\tfm\jknappen\ec\ecrm2488.tfm
+INPUT D:\New folder\fonts\tfm\jknappen\ec\ecbx2488.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmr8.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmr6.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmmi12.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmmi8.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmmi6.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmsy10.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmsy8.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmsy6.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmex10.tfm
+INPUT D:\New folder\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT D:\New folder\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmbx12.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmbx8.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmbx6.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmmib10.tfm
+INPUT D:\New folder\fonts\tfm\public\amsfonts\cmextra\cmmib8.tfm
+INPUT D:\New folder\fonts\tfm\public\amsfonts\cmextra\cmmib6.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmbsy10.tfm
+INPUT D:\New folder\fonts\tfm\public\amsfonts\cmextra\cmbsy8.tfm
+INPUT D:\New folder\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
+INPUT D:\New folder\fonts\tfm\public\wasy\wasy10.tfm
+INPUT D:\New folder\fonts\tfm\public\wasy\wasy8.tfm
+INPUT D:\New folder\fonts\tfm\public\wasy\wasy6.tfm
+INPUT D:\New folder\fonts\tfm\jknappen\ec\tcrm1200.tfm
+INPUT D:\New folder\fonts\tfm\jknappen\ec\tcrm0800.tfm
+INPUT D:\New folder\fonts\tfm\jknappen\ec\tcrm0600.tfm
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\Appendix Documents\2024_Skripsie_AI_Use.pdf
+INPUT .\chaps-front\chap-summary.tex
+INPUT .\chaps-front\chap-summary.tex
+OUTPUT chaps-front\chap-summary.aux
+INPUT .\chaps-front\chap-summary.tex
+INPUT .\chaps-front\chap-summary.tex
+INPUT chaps-front\chap-summary.tex
+INPUT D:\New folder\fonts\tfm\jknappen\ec\ecbx1200.tfm
+INPUT .\chaps-front\chap-acknowledge.tex
+INPUT .\chaps-front\chap-acknowledge.tex
+OUTPUT chaps-front\chap-acknowledge.aux
+INPUT .\chaps-front\chap-acknowledge.tex
+INPUT .\chaps-front\chap-acknowledge.tex
+INPUT chaps-front\chap-acknowledge.tex
+INPUT .\Skripsie_Report.toc
+INPUT .\Skripsie_Report.toc
+INPUT Skripsie_Report.toc
+OUTPUT Skripsie_Report.toc
+INPUT D:\New folder\fonts\tfm\jknappen\ec\ecsl1200.tfm
+INPUT .\Skripsie_Report.lot
+INPUT .\Skripsie_Report.lot
+INPUT Skripsie_Report.lot
+OUTPUT Skripsie_Report.lot
+INPUT .\Skripsie_Report.lof
+INPUT .\Skripsie_Report.lof
+INPUT Skripsie_Report.lof
+OUTPUT Skripsie_Report.lof
+INPUT .\chaps-front\chap-symbols.tex
+INPUT .\chaps-front\chap-symbols.tex
+OUTPUT chaps-front\chap-symbols.aux
+INPUT .\chaps-front\chap-symbols.tex
+INPUT .\chaps-front\chap-symbols.tex
+INPUT chaps-front\chap-symbols.tex
+INPUT D:\New folder\fonts\tfm\jknappen\ec\ecrm0800.tfm
+INPUT D:\New folder\fonts\tfm\jknappen\ec\ecrm0600.tfm
+INPUT .\chaps-main\chap-intro.tex
+INPUT .\chaps-main\chap-intro.tex
+OUTPUT chaps-main\chap-intro.aux
+INPUT .\chaps-main\chap-intro.tex
+INPUT .\chaps-main\chap-intro.tex
+INPUT chaps-main\chap-intro.tex
+INPUT D:\New folder\fonts\tfm\jknappen\ec\ecbx1728.tfm
+INPUT .\chaps-main\chap-Matlab_Model.tex
+INPUT .\chaps-main\chap-Matlab_Model.tex
+OUTPUT chaps-main\chap-Matlab_Model.aux
+INPUT .\chaps-main\chap-Matlab_Model.tex
+INPUT .\chaps-main\chap-Matlab_Model.tex
+INPUT chaps-main\chap-Matlab_Model.tex
+INPUT .\figs\Model\Rotor\Thrust_Vs_Radius.png
+INPUT .\figs\Model\Rotor\Thrust_Vs_Radius.png
+INPUT .\figs\Model\Rotor\Thrust_Vs_Radius.png
+INPUT .\figs\Model\Rotor\Thrust_Vs_Radius.png
+INPUT .\figs\Model\Rotor\Thrust_Vs_Radius.png
+INPUT .\figs\Model\Rotor\Thrust_Vs_Radius.png
+INPUT .\figs\Model\Rotor\Thrust_Vs_Radius.png
+INPUT D:\New folder\fonts\tfm\jknappen\ec\ecrm1095.tfm
+INPUT .\figs\Model\Rotor\Torque_Vs_Radius.png
+INPUT .\figs\Model\Rotor\Torque_Vs_Radius.png
+INPUT .\figs\Model\Rotor\Torque_Vs_Radius.png
+INPUT .\figs\Model\Rotor\Torque_Vs_Radius.png
+INPUT .\figs\Model\Rotor\Torque_Vs_Radius.png
+INPUT .\figs\Model\Rotor\Torque_Vs_Radius.png
+INPUT .\figs\Model\Rotor\Torque_Vs_Radius.png
+INPUT .\figs\Model\Rotor\Thrust_Vs_Rotor_Angular_Velocity.png
+INPUT .\figs\Model\Rotor\Thrust_Vs_Rotor_Angular_Velocity.png
+INPUT .\figs\Model\Rotor\Thrust_Vs_Rotor_Angular_Velocity.png
+INPUT .\figs\Model\Rotor\Thrust_Vs_Rotor_Angular_Velocity.png
+INPUT .\figs\Model\Rotor\Thrust_Vs_Rotor_Angular_Velocity.png
+INPUT .\figs\Model\Rotor\Thrust_Vs_Rotor_Angular_Velocity.png
+INPUT .\figs\Model\Rotor\Thrust_Vs_Rotor_Angular_Velocity.png
+INPUT .\figs\Model\Rotor\Torque_Vs_Rotor_Angular_Velocity.png
+INPUT .\figs\Model\Rotor\Torque_Vs_Rotor_Angular_Velocity.png
+INPUT .\figs\Model\Rotor\Torque_Vs_Rotor_Angular_Velocity.png
+INPUT .\figs\Model\Rotor\Torque_Vs_Rotor_Angular_Velocity.png
+INPUT .\figs\Model\Rotor\Torque_Vs_Rotor_Angular_Velocity.png
+INPUT .\figs\Model\Rotor\Torque_Vs_Rotor_Angular_Velocity.png
+INPUT .\figs\Model\Rotor\Torque_Vs_Rotor_Angular_Velocity.png
+INPUT .\figs\Model\Props\Prop_thrust_vs_speed.png
+INPUT .\figs\Model\Props\Prop_thrust_vs_speed.png
+INPUT .\figs\Model\Props\Prop_thrust_vs_speed.png
+INPUT .\figs\Model\Props\Prop_thrust_vs_speed.png
+INPUT .\figs\Model\Props\Prop_thrust_vs_speed.png
+INPUT .\figs\Model\Props\Prop_thrust_vs_speed.png
+INPUT .\figs\Model\Props\Prop_thrust_vs_speed.png
+INPUT .\figs\Model\Props\Prop_torque_vs_speed.png
+INPUT .\figs\Model\Props\Prop_torque_vs_speed.png
+INPUT .\figs\Model\Props\Prop_torque_vs_speed.png
+INPUT .\figs\Model\Props\Prop_torque_vs_speed.png
+INPUT .\figs\Model\Props\Prop_torque_vs_speed.png
+INPUT .\figs\Model\Props\Prop_torque_vs_speed.png
+INPUT .\figs\Model\Props\Prop_torque_vs_speed.png
+INPUT .\figs\Model\Props\P1_Coeffcient.png
+INPUT .\figs\Model\Props\P1_Coeffcient.png
+INPUT .\figs\Model\Props\P1_Coeffcient.png
+INPUT .\figs\Model\Props\P1_Coeffcient.png
+INPUT .\figs\Model\Props\P1_Coeffcient.png
+INPUT .\figs\Model\Props\P1_Coeffcient.png
+INPUT .\figs\Model\Props\P1_Coeffcient.png
+INPUT .\figs\Model\Props\P2_Coeffcient.png
+INPUT .\figs\Model\Props\P2_Coeffcient.png
+INPUT .\figs\Model\Props\P2_Coeffcient.png
+INPUT .\figs\Model\Props\P2_Coeffcient.png
+INPUT .\figs\Model\Props\P2_Coeffcient.png
+INPUT .\figs\Model\Props\P2_Coeffcient.png
+INPUT .\figs\Model\Props\P2_Coeffcient.png
+INPUT .\figs\Model\Props\P3_Coeffcient.png
+INPUT .\figs\Model\Props\P3_Coeffcient.png
+INPUT .\figs\Model\Props\P3_Coeffcient.png
+INPUT .\figs\Model\Props\P3_Coeffcient.png
+INPUT .\figs\Model\Props\P3_Coeffcient.png
+INPUT .\figs\Model\Props\P3_Coeffcient.png
+INPUT .\figs\Model\Props\P3_Coeffcient.png
+INPUT .\figs\Model\Rotor\Thrust_avaliable_vs_required.png
+INPUT .\figs\Model\Rotor\Thrust_avaliable_vs_required.png
+INPUT .\figs\Model\Rotor\Thrust_avaliable_vs_required.png
+INPUT .\figs\Model\Rotor\Thrust_avaliable_vs_required.png
+INPUT .\figs\Model\Rotor\Thrust_avaliable_vs_required.png
+INPUT .\figs\Model\Rotor\Thrust_avaliable_vs_required.png
+INPUT .\figs\Model\Rotor\Thrust_avaliable_vs_required.png
+INPUT .\figs\Model\Rotor\Optimisation_curve.png
+INPUT .\figs\Model\Rotor\Optimisation_curve.png
+INPUT .\figs\Model\Rotor\Optimisation_curve.png
+INPUT .\figs\Model\Rotor\Optimisation_curve.png
+INPUT .\figs\Model\Rotor\Optimisation_curve.png
+INPUT .\figs\Model\Rotor\Optimisation_curve.png
+INPUT .\figs\Model\Rotor\Optimisation_curve.png
+INPUT .\figs\Model\Pitch\Pitch_variation.jpg
+INPUT .\figs\Model\Pitch\Pitch_variation.jpg
+INPUT .\figs\Model\Pitch\Pitch_variation.jpg
+INPUT .\figs\Model\Pitch\Pitch_variation.jpg
+INPUT .\figs\Model\Pitch\Pitch_variation.jpg
+INPUT .\figs\Model\Pitch\Pitch_variation.jpg
+INPUT .\figs\Model\Pitch\Pitch_variation.jpg
+INPUT .\figs\Model\Pitch\Free_body_diagram_spring.jpg
+INPUT .\figs\Model\Pitch\Free_body_diagram_spring.jpg
+INPUT .\figs\Model\Pitch\Free_body_diagram_spring.jpg
+INPUT .\figs\Model\Pitch\Free_body_diagram_spring.jpg
+INPUT .\figs\Model\Pitch\Free_body_diagram_spring.jpg
+INPUT .\figs\Model\Pitch\Free_body_diagram_spring.jpg
+INPUT .\figs\Model\Pitch\Free_body_diagram_spring.jpg
+INPUT D:\New folder\fonts\tfm\jknappen\ec\ecbx1440.tfm
+INPUT .\figs\Model\Pitch\System_response _for _step_input.png
+INPUT .\figs\Model\Pitch\System_response _for _step_input.png
+INPUT .\figs\Model\Pitch\System_response _for _step_input.png
+INPUT .\figs\Model\Pitch\System_response _for _step_input.png
+INPUT .\figs\Model\Pitch\System_response _for _step_input.png
+INPUT .\figs\Model\Pitch\System_response _for _step_input.png
+INPUT .\figs\Model\Pitch\System_response _for _step_input.png
+INPUT .\figs\Model\Pitch\System_response _for _sinusoidal_input.png
+INPUT .\figs\Model\Pitch\System_response _for _sinusoidal_input.png
+INPUT .\figs\Model\Pitch\System_response _for _sinusoidal_input.png
+INPUT .\figs\Model\Pitch\System_response _for _sinusoidal_input.png
+INPUT .\figs\Model\Pitch\System_response _for _sinusoidal_input.png
+INPUT .\figs\Model\Pitch\System_response _for _sinusoidal_input.png
+INPUT .\figs\Model\Pitch\System_response _for _sinusoidal_input.png
+INPUT .\figs\Model\Pitch\Torque_stiffness_damping_surface.png
+INPUT .\figs\Model\Pitch\Torque_stiffness_damping_surface.png
+INPUT .\figs\Model\Pitch\Torque_stiffness_damping_surface.png
+INPUT .\figs\Model\Pitch\Torque_stiffness_damping_surface.png
+INPUT .\figs\Model\Pitch\Torque_stiffness_damping_surface.png
+INPUT .\figs\Model\Pitch\Torque_stiffness_damping_surface.png
+INPUT .\figs\Model\Pitch\Torque_stiffness_damping_surface.png
+INPUT .\chaps-main\chap-Design.tex
+INPUT .\chaps-main\chap-Design.tex
+OUTPUT chaps-main\chap-Design.aux
+INPUT .\chaps-main\chap-Design.tex
+INPUT .\chaps-main\chap-Design.tex
+INPUT chaps-main\chap-Design.tex
+INPUT .\figs\Design\Rotor\NACA_Profile.png
+INPUT .\figs\Design\Rotor\NACA_Profile.png
+INPUT .\figs\Design\Rotor\NACA_Profile.png
+INPUT .\figs\Design\Rotor\NACA_Profile.png
+INPUT .\figs\Design\Rotor\NACA_Profile.png
+INPUT .\figs\Design\Rotor\NACA_Profile.png
+INPUT .\figs\Design\Rotor\NACA_Profile.png
+INPUT .\figs\Design\Rotor\Rotor_Sectioned_Light.png
+INPUT .\figs\Design\Rotor\Rotor_Sectioned_Light.png
+INPUT .\figs\Design\Rotor\Rotor_Sectioned_Light.png
+INPUT .\figs\Design\Rotor\Rotor_Sectioned_Light.png
+INPUT .\figs\Design\Rotor\Rotor_Sectioned_Light.png
+INPUT .\figs\Design\Rotor\Rotor_Sectioned_Light.png
+INPUT .\figs\Design\Rotor\Rotor_Sectioned_Light.png
+INPUT .\figs\Design\Hub\Hub_Assembly_Concept_2_Labled.png
+INPUT .\figs\Design\Hub\Hub_Assembly_Concept_2_Labled.png
+INPUT .\figs\Design\Hub\Hub_Assembly_Concept_2_Labled.png
+INPUT .\figs\Design\Hub\Hub_Assembly_Concept_2_Labled.png
+INPUT .\figs\Design\Hub\Hub_Assembly_Concept_2_Labled.png
+INPUT .\figs\Design\Hub\Hub_Assembly_Concept_2_Labled.png
+INPUT .\figs\Design\Hub\Hub_Assembly_Concept_2_Labled.png
+INPUT .\figs\Design\Final Design\Electronic Systems.png
+INPUT .\figs\Design\Final Design\Electronic Systems.png
+INPUT .\figs\Design\Final Design\Electronic Systems.png
+INPUT .\figs\Design\Final Design\Electronic Systems.png
+INPUT .\figs\Design\Final Design\Electronic Systems.png
+INPUT .\figs\Design\Final Design\Electronic Systems.png
+INPUT .\figs\Design\Final Design\Electronic Systems.png
+INPUT .\figs\Design\Final Design\Annotated_Final_design.png
+INPUT .\figs\Design\Final Design\Annotated_Final_design.png
+INPUT .\figs\Design\Final Design\Annotated_Final_design.png
+INPUT .\figs\Design\Final Design\Annotated_Final_design.png
+INPUT .\figs\Design\Final Design\Annotated_Final_design.png
+INPUT .\figs\Design\Final Design\Annotated_Final_design.png
+INPUT .\figs\Design\Final Design\Annotated_Final_design.png
+INPUT .\chaps-main\chap-Software.tex
+INPUT .\chaps-main\chap-Software.tex
+OUTPUT chaps-main\chap-Software.aux
+INPUT .\chaps-main\chap-Software.tex
+INPUT .\chaps-main\chap-Software.tex
+INPUT chaps-main\chap-Software.tex
+INPUT .\figs\Software\Full_Code_Overview.png
+INPUT .\figs\Software\Full_Code_Overview.png
+INPUT .\figs\Software\Full_Code_Overview.png
+INPUT .\figs\Software\Full_Code_Overview.png
+INPUT .\figs\Software\Full_Code_Overview.png
+INPUT .\figs\Software\Full_Code_Overview.png
+INPUT .\figs\Software\Full_Code_Overview.png
+INPUT .\figs\Software\Hall_Effect_timing.png
+INPUT .\figs\Software\Hall_Effect_timing.png
+INPUT .\figs\Software\Hall_Effect_timing.png
+INPUT .\figs\Software\Hall_Effect_timing.png
+INPUT .\figs\Software\Hall_Effect_timing.png
+INPUT .\figs\Software\Hall_Effect_timing.png
+INPUT .\figs\Software\Hall_Effect_timing.png
+INPUT .\figs\Software\PID_Control.png
+INPUT .\figs\Software\PID_Control.png
+INPUT .\figs\Software\PID_Control.png
+INPUT .\figs\Software\PID_Control.png
+INPUT .\figs\Software\PID_Control.png
+INPUT .\figs\Software\PID_Control.png
+INPUT .\figs\Software\PID_Control.png
+INPUT .\chaps-main\chap-Experiments.tex
+INPUT .\chaps-main\chap-Experiments.tex
+OUTPUT chaps-main\chap-Experiments.aux
+INPUT .\chaps-main\chap-Experiments.tex
+INPUT .\chaps-main\chap-Experiments.tex
+INPUT chaps-main\chap-Experiments.tex
+INPUT .\figs\Experiments\Testing_Setup_Labeled.png
+INPUT .\figs\Experiments\Testing_Setup_Labeled.png
+INPUT .\figs\Experiments\Testing_Setup_Labeled.png
+INPUT .\figs\Experiments\Testing_Setup_Labeled.png
+INPUT .\figs\Experiments\Testing_Setup_Labeled.png
+INPUT .\figs\Experiments\Testing_Setup_Labeled.png
+INPUT .\figs\Experiments\Testing_Setup_Labeled.png
+INPUT .\chaps-main\chap-Data_Analysis.tex
+INPUT .\chaps-main\chap-Data_Analysis.tex
+OUTPUT chaps-main\chap-Data_Analysis.aux
+INPUT .\chaps-main\chap-Data_Analysis.tex
+INPUT .\chaps-main\chap-Data_Analysis.tex
+INPUT chaps-main\chap-Data_Analysis.tex
+INPUT .\figs\Data_Analysis\Pitch Graph-Tip Thrust-Experiment-2024-10-07_17-54-35.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Tip Thrust-Experiment-2024-10-07_17-54-35.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Tip Thrust-Experiment-2024-10-07_17-54-35.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Tip Thrust-Experiment-2024-10-07_17-54-35.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Tip Thrust-Experiment-2024-10-07_17-54-35.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Tip Thrust-Experiment-2024-10-07_17-54-35.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Tip Thrust-Experiment-2024-10-07_17-54-35.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Speed Test.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Speed Test.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Speed Test.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Speed Test.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Speed Test.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Speed Test.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Speed Test.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Pitch Sweep.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Pitch Sweep.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Pitch Sweep.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Pitch Sweep.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Pitch Sweep.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Pitch Sweep.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Pitch Sweep.png
+INPUT .\figs\Data_Analysis\FFT-TEST 0 60.2.png
+INPUT .\figs\Data_Analysis\FFT-TEST 0 60.2.png
+INPUT .\figs\Data_Analysis\FFT-TEST 0 60.2.png
+INPUT .\figs\Data_Analysis\FFT-TEST 0 60.2.png
+INPUT .\figs\Data_Analysis\FFT-TEST 0 60.2.png
+INPUT .\figs\Data_Analysis\FFT-TEST 0 60.2.png
+INPUT .\figs\Data_Analysis\FFT-TEST 0 60.2.png
+INPUT .\figs\Data_Analysis\FFT-Test 4.png
+INPUT .\figs\Data_Analysis\FFT-Test 4.png
+INPUT .\figs\Data_Analysis\FFT-Test 4.png
+INPUT .\figs\Data_Analysis\FFT-Test 4.png
+INPUT .\figs\Data_Analysis\FFT-Test 4.png
+INPUT .\figs\Data_Analysis\FFT-Test 4.png
+INPUT .\figs\Data_Analysis\FFT-Test 4.png
+INPUT .\figs\Data_Analysis\Unfiltered Loadcell Readings-Test 4.png
+INPUT .\figs\Data_Analysis\Unfiltered Loadcell Readings-Test 4.png
+INPUT .\figs\Data_Analysis\Unfiltered Loadcell Readings-Test 4.png
+INPUT .\figs\Data_Analysis\Unfiltered Loadcell Readings-Test 4.png
+INPUT .\figs\Data_Analysis\Unfiltered Loadcell Readings-Test 4.png
+INPUT .\figs\Data_Analysis\Unfiltered Loadcell Readings-Test 4.png
+INPUT .\figs\Data_Analysis\Unfiltered Loadcell Readings-Test 4.png
+INPUT .\figs\Data_Analysis\Lift Generated-Test 4.png
+INPUT .\figs\Data_Analysis\Lift Generated-Test 4.png
+INPUT .\figs\Data_Analysis\Lift Generated-Test 4.png
+INPUT .\figs\Data_Analysis\Lift Generated-Test 4.png
+INPUT .\figs\Data_Analysis\Lift Generated-Test 4.png
+INPUT .\figs\Data_Analysis\Lift Generated-Test 4.png
+INPUT .\figs\Data_Analysis\Lift Generated-Test 4.png
+INPUT .\figs\Data_Analysis\Lift, Pitch and Speed-Speed Sweep.png
+INPUT .\figs\Data_Analysis\Lift, Pitch and Speed-Speed Sweep.png
+INPUT .\figs\Data_Analysis\Lift, Pitch and Speed-Speed Sweep.png
+INPUT .\figs\Data_Analysis\Lift, Pitch and Speed-Speed Sweep.png
+INPUT .\figs\Data_Analysis\Lift, Pitch and Speed-Speed Sweep.png
+INPUT .\figs\Data_Analysis\Lift, Pitch and Speed-Speed Sweep.png
+INPUT .\figs\Data_Analysis\Lift, Pitch and Speed-Speed Sweep.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Forward Flight.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Forward Flight.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Forward Flight.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Forward Flight.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Forward Flight.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Forward Flight.png
+INPUT .\figs\Data_Analysis\Pitch Graph-Forward Flight.png
+INPUT .\figs\Data_Analysis\Lift Generated-Forward Flight.png
+INPUT .\figs\Data_Analysis\Lift Generated-Forward Flight.png
+INPUT .\figs\Data_Analysis\Lift Generated-Forward Flight.png
+INPUT .\figs\Data_Analysis\Lift Generated-Forward Flight.png
+INPUT .\figs\Data_Analysis\Lift Generated-Forward Flight.png
+INPUT .\figs\Data_Analysis\Lift Generated-Forward Flight.png
+INPUT .\figs\Data_Analysis\Lift Generated-Forward Flight.png
+INPUT .\figs\Data_Analysis\Lift Generated-Reverse Flight.png
+INPUT .\figs\Data_Analysis\Lift Generated-Reverse Flight.png
+INPUT .\figs\Data_Analysis\Lift Generated-Reverse Flight.png
+INPUT .\figs\Data_Analysis\Lift Generated-Reverse Flight.png
+INPUT .\figs\Data_Analysis\Lift Generated-Reverse Flight.png
+INPUT .\figs\Data_Analysis\Lift Generated-Reverse Flight.png
+INPUT .\figs\Data_Analysis\Lift Generated-Reverse Flight.png
+INPUT .\figs\Data_Analysis\Lift Generated-PWM 120.png
+INPUT .\figs\Data_Analysis\Lift Generated-PWM 120.png
+INPUT .\figs\Data_Analysis\Lift Generated-PWM 120.png
+INPUT .\figs\Data_Analysis\Lift Generated-PWM 120.png
+INPUT .\figs\Data_Analysis\Lift Generated-PWM 120.png
+INPUT .\figs\Data_Analysis\Lift Generated-PWM 120.png
+INPUT .\figs\Data_Analysis\Lift Generated-PWM 120.png
+INPUT .\chaps-main\chap-Report_Conclusion.tex
+INPUT .\chaps-main\chap-Report_Conclusion.tex
+OUTPUT chaps-main\chap-Report_Conclusion.aux
+INPUT .\chaps-main\chap-Report_Conclusion.tex
+INPUT .\chaps-main\chap-Report_Conclusion.tex
+INPUT chaps-main\chap-Report_Conclusion.tex
+INPUT .\Skripsie_Report.bbl
+INPUT .\Skripsie_Report.bbl
+INPUT Skripsie_Report.bbl
+INPUT D:\New folder\tex\latex\stellenbosch-2\stb-bib.eng
+INPUT D:\New folder\tex\latex\stellenbosch-2\stb-bib.eng
+INPUT D:\New folder\tex\latex\stellenbosch-2\stb-bib.eng
+INPUT D:\New folder\tex\latex\base\t1cmtt.fd
+INPUT D:\New folder\tex\latex\base\t1cmtt.fd
+INPUT D:\New folder\tex\latex\base\t1cmtt.fd
+INPUT D:\New folder\fonts\tfm\jknappen\ec\ectt1095.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmr10.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmmi10.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmsy10.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmex10.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmbx10.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmmib10.tfm
+INPUT D:\New folder\fonts\tfm\public\cm\cmbsy10.tfm
+INPUT D:\New folder\fonts\tfm\public\wasy\wasy10.tfm
+INPUT D:\New folder\fonts\tfm\jknappen\ec\tcrm1095.tfm
+INPUT D:\New folder\fonts\tfm\jknappen\ec\ecti1095.tfm
+INPUT .\chaps-append\chap-Appendix_Circuit.tex
+INPUT .\chaps-append\chap-Appendix_Circuit.tex
+OUTPUT chaps-append\chap-Appendix_Circuit.aux
+INPUT .\chaps-append\chap-Appendix_Circuit.tex
+INPUT .\chaps-append\chap-Appendix_Circuit.tex
+INPUT chaps-append\chap-Appendix_Circuit.tex
+INPUT D:\New folder\fonts\tfm\jknappen\ec\ecbx1095.tfm
+INPUT .\figs\Design\Final Design\Electronics\Circuit_Design.png
+INPUT .\figs\Design\Final Design\Electronics\Circuit_Design.png
+INPUT .\figs\Design\Final Design\Electronics\Circuit_Design.png
+INPUT .\figs\Design\Final Design\Electronics\Circuit_Design.png
+INPUT .\figs\Design\Final Design\Electronics\Circuit_Design.png
+INPUT .\figs\Design\Final Design\Electronics\Circuit_Design.png
+INPUT .\figs\Design\Final Design\Electronics\Circuit_Design.png
+INPUT .\chaps-append\chap-Appendix_Drawings.tex
+INPUT .\chaps-append\chap-Appendix_Drawings.tex
+OUTPUT chaps-append\chap-Appendix_Drawings.aux
+INPUT .\chaps-append\chap-Appendix_Drawings.tex
+INPUT .\chaps-append\chap-Appendix_Drawings.tex
+INPUT chaps-append\chap-Appendix_Drawings.tex
+INPUT .\figs\Design\Rotor\Calcs_3D_Hub_Quality.png
+INPUT .\figs\Design\Rotor\Calcs_3D_Hub_Quality.png
+INPUT .\figs\Design\Rotor\Calcs_3D_Hub_Quality.png
+INPUT .\figs\Design\Rotor\Calcs_3D_Hub_Quality.png
+INPUT .\figs\Design\Rotor\Calcs_3D_Hub_Quality.png
+INPUT .\figs\Design\Rotor\Calcs_3D_Hub_Quality.png
+INPUT .\figs\Design\Rotor\Calcs_3D_Hub_Quality.png
+INPUT .\figs\Design\Rotor\Calcs_Circlip.png
+INPUT .\figs\Design\Rotor\Calcs_Circlip.png
+INPUT .\figs\Design\Rotor\Calcs_Circlip.png
+INPUT .\figs\Design\Rotor\Calcs_Circlip.png
+INPUT .\figs\Design\Rotor\Calcs_Circlip.png
+INPUT .\figs\Design\Rotor\Calcs_Circlip.png
+INPUT .\figs\Design\Rotor\Calcs_Circlip.png
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT .\Appendix Documents\Exploded VIew and Assmebly.pdf
+INPUT Skripsie_Report.aux
+INPUT .\chaps-front\chap-plagiarism.aux
+INPUT .\chaps-front\chap-plagiarism.aux
+INPUT chaps-front\chap-plagiarism.aux
+INPUT .\chaps-front\chap-summary.aux
+INPUT .\chaps-front\chap-summary.aux
+INPUT chaps-front\chap-summary.aux
+INPUT .\chaps-front\chap-acknowledge.aux
+INPUT .\chaps-front\chap-acknowledge.aux
+INPUT chaps-front\chap-acknowledge.aux
+INPUT .\chaps-front\chap-symbols.aux
+INPUT .\chaps-front\chap-symbols.aux
+INPUT chaps-front\chap-symbols.aux
+INPUT .\chaps-main\chap-intro.aux
+INPUT .\chaps-main\chap-intro.aux
+INPUT chaps-main\chap-intro.aux
+INPUT .\chaps-main\chap-Matlab_Model.aux
+INPUT .\chaps-main\chap-Matlab_Model.aux
+INPUT chaps-main\chap-Matlab_Model.aux
+INPUT .\chaps-main\chap-Design.aux
+INPUT .\chaps-main\chap-Design.aux
+INPUT chaps-main\chap-Design.aux
+INPUT .\chaps-main\chap-Software.aux
+INPUT .\chaps-main\chap-Software.aux
+INPUT chaps-main\chap-Software.aux
+INPUT .\chaps-main\chap-Experiments.aux
+INPUT .\chaps-main\chap-Experiments.aux
+INPUT chaps-main\chap-Experiments.aux
+INPUT .\chaps-main\chap-Data_Analysis.aux
+INPUT .\chaps-main\chap-Data_Analysis.aux
+INPUT chaps-main\chap-Data_Analysis.aux
+INPUT .\chaps-main\chap-Report_Conclusion.aux
+INPUT .\chaps-main\chap-Report_Conclusion.aux
+INPUT chaps-main\chap-Report_Conclusion.aux
+INPUT .\chaps-append\chap-Appendix_Circuit.aux
+INPUT .\chaps-append\chap-Appendix_Circuit.aux
+INPUT chaps-append\chap-Appendix_Circuit.aux
+INPUT .\chaps-append\chap-Appendix_Drawings.aux
+INPUT .\chaps-append\chap-Appendix_Drawings.aux
+INPUT chaps-append\chap-Appendix_Drawings.aux
+INPUT .\Skripsie_Report.out
+INPUT .\Skripsie_Report.out
+INPUT D:\New folder\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT D:\New folder\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT D:\New folder\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT D:\New folder\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT D:\New folder\fonts\type1\public\amsfonts\cm\cmmi6.pfb
+INPUT D:\New folder\fonts\type1\public\amsfonts\cm\cmmi6.pfb
+INPUT D:\New folder\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT D:\New folder\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT D:\New folder\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT D:\New folder\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT D:\New folder\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT D:\New folder\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT D:\New folder\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT D:\New folder\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT D:\New folder\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT D:\New folder\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT D:\New folder\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT D:\New folder\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfbx1095.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfbx1095.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfbx1200.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfbx1200.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfbx1440.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfbx1440.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfbx1728.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfbx1728.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfbx2074.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfbx2074.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfbx2488.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfbx2488.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfrm0600.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfrm0600.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfrm0800.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfrm0800.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfrm1000.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfrm1000.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfrm1095.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfrm1095.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfrm1200.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfrm1200.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfrm1440.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfrm1440.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfrm1728.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfrm1728.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfsl1200.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfsl1200.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfti1095.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sfti1095.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sftt1095.pfb
+INPUT D:\New folder\fonts\type1\public\cm-super\sftt1095.pfb

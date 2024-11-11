@@ -1,0 +1,99 @@
+\chapter{Experimentation}
+\label{sec: Experiment}
+    This chapter explains the experimental process created to measure overall lift, directional thrust produced and efficiency of the proof of concept created. It will explain the aim, equipment used and set-up.
+    \section{Aim}
+        The aim of these experiments is to validate the mathematical model, determine if directional thrust can be achieved with TORB control and to calculate the thrust efficiency of the aircraft.
+        % The aim of these experiments are to answer the research questions previously proposed, namely:
+        % \begin{enumerate}
+        %     \item How accurate is the mathematical model?
+        %     \item Can the aircraft be controlled using TORB alone?
+        %     \item What is the efficiency of the aircraft?
+        % \end{enumerate}
+    \section{Equipment}
+        To measure the amount of lift created by the aircraft, the test bench, seen in Figure~\ref{fig: testing_setup}, was built using four 5~kg load cells. One load cell is place at each corner to allow measurement of directional thrust. These load cells are each connected to a HX711 amplifier which is a 24-bit ADC which also amplifies the load cell's output and converts it to a digital reading. The data lines carry this reading to the STM32 Nucleo F411  microcontroller. This microcontroller is calibrated to convert the digital reading into weight. The microcontroller is also connected to the NRF24L01+ which receives the target speed, current speed, target pitch and current pitches from the aircraft. \\
+            % \begin{figure}[h]
+            %     \centering
+            %     \includegraphics*[width =0.8\textwidth]{figs/Experiments/Test_Bench_Labeled.png}
+            %     \caption{Test bench}
+            %     \label{fig: test_bench}
+            % \end{figure}
+        The pitch and speed has data is sampled at 100~Hz to prevent aliasing from occurring at higher rotational frequencies. Since the lift is expected to be a constant, a lower sampling rate is used to improve the accuracy of the readings. These readings are transmitted via UART to the computer's terminal. 
+        %This data is displayed and captured using a GUI created by ChatGPT to allow for real-time monitoring. A camera will be used to record the response of the system for later analysis. \\
+        Figure~\ref{fig: testing_setup} shows the full testing setup.
+            \begin{figure}[h]
+                \centering
+                \includegraphics*[width = 0.6\textwidth]{figs/Experiments/Testing_Setup_Labeled.png}
+                \caption{Testing setup}
+                \label{fig: testing_setup}
+            \end{figure}
+    \section{Procedure}
+        \subsection{Test Descriptions}
+            Four different experiments will be performed to determine the response of the system. These are the locked rotor test, pitch, and speed sweep and directional flight test.
+                \subsubsection{Locked Rotor Test}
+                    In this test, the rotor will be restrained so it cannot rotate. The purpose of this test is to determine the parameters of the PID control system. The Ziegler-Nichols tuning method \citep{ControlSystem} will be used to obtain an initial starting point for the PID and the parameters will be tuned during to the proceeding tests. During this test, a video of the rotor response will be captured to compare the results of the potentiometer's ability to determine the pitch compared to the actual pitch change.
+                \subsubsection{Pitch Sweep}
+                    Once the PID has been tuned, its performance will be tested by setting the angular velocity and changing the pitch from 0\(^\circ\) to 30\(^\circ\) by increasing the pitch by 10\(^\circ\) every 5~s. This will test the systems speed control system as well as the pitch control system while the system is operating.
+                \subsubsection{Speed Sweep}
+                    Similar to the previous test, this test will be preformed by changing the target angular velocity from 40~rpm to 200~rpm. This will show the relationship between angular velocity and lift generated as well as the natural frequency of the system.
+                \subsubsection{Directional Flight Test}
+                    This test will set the desired direction of the aircraft to determine whether the aircraft can create directional lift. It will test if the aircraft can create forward and reverse thrust.
+        % \subsection{Experimental  Procedure}
+        %     \subsubsection{Static Locked Rotor Test}
+        %         The locked rotor test is a static test which restrains the movement of the rotors. The set-up and testing procedure is as follows:
+        %     \begin{enumerate}[label=Step \arabic*:, align=left, left=0pt]
+        %         \item Restrain the rotor to ensure that it does not spin when the TORB motors are active.
+        %         \item Set up the camera.
+        %         \item Power on the aircraft.
+        %         \item Connect to the aircraft via USB to establish communication between the computer and the aircraft.
+        %         \item Connect the TORB motors to power and ensure they are receiving the correct PWM signal. This is indicated by the tones made from the motor.
+        %         \item Set the desired speed and PID values.
+        %         \item Start recording and then start the test program.
+        %         \item Analyze the results and repeat steps 6 to 7 until satisfactory results. 
+        %     \end{enumerate}
+        %     \subsubsection{Dynamic Testing}
+        %         The set-up and testing procedure applies to the directional flight test, pitch, and speed sweep. Each of these are predefined test programs to ensure repeatability of the tests. This helps ensure that the only change will be the testing variable. 
+        %         \begin{enumerate}[label=Step \arabic*:, align=left, left=0pt]
+        %             \item Ensure there are no obstructions in the rotors' path. If the path is clear, power on the aircraft.
+        %             \item Establish data transfer from the computer to the aircraft via USB and ensure the data is being sent wirelessly.
+        %             \item Connect the Nucleo F411 testing bench microcontroller to the computer and ensure the data is correctly being received from the aircraft. 
+        %             \item Connect the TORB motors to power and ensure they are receiving the correct PWM signal.
+        %             \item Baseline the test bench such that the initial readings from the load cells are 0~g. This ensures just the lift of the aircraft to be measured.
+        %             \item Set the desired pitch, speed, mode, and PID values according to the test that will be performed.\label{step: Set_values}
+        %             \item Start recording data.
+        %             \item Perform a final check of the rotor and TORB motors' path. If all safety checks have been passed the test program can be started.\label{step: start_test}
+        %             \item Repeat Step 6 to 8 until all tests have been run.  
+        %         \end{enumerate} 
+
+    % This section describes the testing procedure and the results obtained from the test. The control system of the system will be tested as well as the overall lift produced by the aircraft and wheter directional lift can be obtained.
+    % \section{Rotor Pitch}
+    %     To test control of the rotor's pitch, a test sequence was written to ensure conditions are identical. Once testing started, the target pitch was set to 10\(^\circ\), after five seconds it was increased to 20\(^\circ\) for five seconds and then set to 30\(^\circ\) for another five seconds and then switches off.
+    %         \begin{figure} [h]               
+    %             \centering
+    %             \includegraphics*[width = 0.45\textwidth]{figs/Experiments/P_Signal.png}
+    %             \caption{Pitch response with proportional control alone}
+    %             \label{fig: p_results}
+    %         \end{figure}
+    %         Figure~\ref{fig: p_results} shows the response when using purely proportional control. As can be seen this results in a large overshoot and a large steady state error. To try to reduce the steady state error, integral control was added to the controller, shown in Figure~\ref{fig: pi_results}. While this improved the results, there was still a large offset between the target pitch and the measured pitch. To further improve the steady state error, the integral control was further increase. This however caused excessive oscillations to occur, shown in Figure~\ref{fig: pi_oscillations} 
+            
+    %         \begin{figure}[h]
+    %             \centering
+    %             \begin{minipage}{0.45\textwidth}
+    %                 \centering
+    %                 \includegraphics*[width = \textwidth]{figs/Experiments/PI_Signal.png}
+    %                 \caption{Pitch response with proportional and integral control}
+    %                 \label{fig: pi_results}
+    %             \end{minipage}\hfill
+    %             \begin{minipage}{0.45\textwidth}
+    %                 \centering
+    %                 \includegraphics*[width = \textwidth]{figs/Experiments/PI_Signal_Oscillation.png}
+    %                 \caption{Oscillations due to a large integral control value} 
+    %                 \label{fig: pi_oscillations}
+    %             \end{minipage}
+    %         \end{figure} 
+    %         To try to reduce the oscillations a small value of derivative control was added, however, this value may have been effective by excessive noise as it caused the pitch to pitch down and then spike, shown in Figure~\ref{fig: pid_results}. It should be noted that this was the final test performed, and the results could have also been due to integral windup, which occurs when the integral proportion of the control signal slowly grows larger.
+    %         \begin{figure}
+    %             \centering
+    %             \includegraphics*[width = 0.45\textwidth]{figs/Experiments/PID_Signal.png}
+    %             \caption{Pitch response with proportional and integral control}
+    %             \label{fig: pid_results}
+    %         \end{figure}

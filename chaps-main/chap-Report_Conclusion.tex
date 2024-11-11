@@ -1,0 +1,18 @@
+\chapter{Future Development and Conclusion}
+\label{sec: conclusion}
+\section{Future Development}
+    The results obtained show the feasibility of the concept of using TORB to control the pitch of the rotors and warrants further development. The area which should be looked at is the control system and the elements surrounding it. Having a more accurate sensor to detect the pitch of the rotor would ensure that the correct pitch is being achieved by the control system. A more advanced control system would ensure a more stable and accurate control is achieved for higher angular velocities. Using the mathematical model, which has been validated, control systems such as lead/lag compensators or state space should be investigated.\\
+    Finally, if the system were to become airborne, the power source would need to be replaced with batteries. The aircraft would also need to have a stabilization system, which would require a gyroscope and its own control system.
+
+\section{Conclusion}
+    The primary objective for this project was to design a tip-thrust rotary-wing aircraft which can control the pitch of the rotor using the tip-thrust. This was done to try to reduce failure points and reduce complexities these aircraft.\\
+
+    A MATLAB mathematical model of the system was created to adjust the physical parameters of the aircraft and to determine the speed of the rotor and thrust produced. This model also showed that placing the motors at the tip of the rotor would not be the most efficient, but should rather be place 32.5\% along the rotor. Using this knowledge, the rotor, thrust on rotor blades, hub and all the electronic components were designed.\\
+
+    The control of the aircraft was achieved using the STM32 Discovery board which uses PID controllers to determine the speed of the brushless motors. One of the PID controllers controlled the angular velocity while the others were focused on each rotor pitch. These controllers used potentiometers to get the error between the target and actual pitch and a hall effect sensor to determine the angular velocity of the aircraft to obtain the error. \\
+
+    The Potentiometers had a limited sensitivity for small adjustments, but overall had satisfactory performance. The hall effect sensor on the other hand was seen to be an accurate representation of the angular velocity of the system.  Comparing the filtered data to the mathematical model showed that, the model had an average mean square error of 0.65, implying that the model fits the data well. \\
+    At lower angular velocities, the aircraft demonstrated its ability to create directional thrust controlled purely with the TORB motors. While testing, the PID control system revealed its instability, causing overshoots and oscillations. A more advanced control system should be looked into, which should increase the systems' stability. Despite this the aircraft demonstrated that it can imitate both collective and cyclic action of the swashplate while being 190\% more efficient than using purely the TORB motors.\\
+    
+    Going forward, a more advanced control system should be implemented to achieve the directional thrust at higher velocities. Using the mathematical model, which has now been validated, could be used to implement lead/lag control or state-space control.
+    

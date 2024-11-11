@@ -1,0 +1,49 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Thrust predicted over the length of the rotor}}{3}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Torque predicted over the length of the rotor}}{3}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Rotor thrust vs angular velocity}}{4}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Rotor torque vs angular velocity}}{4}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Propeller thrust versus speed graph}}{5}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Propeller torque versus speed graph}}{5}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Coefficient P1}}{6}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Coefficient P2}}{6}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Coefficient P3}}{6}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Thrust available and required for tip-thrust positions}}{7}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Optimization curve}}{7}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Pitch change sinusoidally}}{8}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Free body diagram of tip thrust }}{8}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces System response to a step input}}{8}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces System response to a sinusoidal input}}{9}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Torque surface graph}}{10}{figure.caption.16}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces NACA profiles}}{11}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Sectioned view one rotor}}{12}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Sectioned hub view}}{12}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Circuit block diagram}}{13}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Annotated final design}}{14}{figure.caption.21}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Main function code flow chart}}{15}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Timing diagram for forward flight}}{16}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces PID controller diagram for 1 rotor}}{17}{figure.caption.24}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Testing setup}}{19}{figure.caption.25}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Pitch from sensor vs. actual pitch}}{22}{figure.caption.26}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Angular velocity from sensor vs. actual angular velocity}}{22}{figure.caption.26}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Pitch sweep}}{22}{figure.caption.28}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces FFT at 60 rpm}}{23}{figure.caption.29}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Natural frequency of the system}}{23}{figure.caption.29}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Unfiltered load cell data}}{24}{figure.caption.30}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Filtered load cell data}}{24}{figure.caption.30}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Predicted vs. actual lift produced}}{25}{figure.caption.31}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces A section of the pitch response for forward flight mode}}{26}{figure.caption.32}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Forward directional lift}}{26}{figure.caption.33}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Reverse directional lift}}{26}{figure.caption.33}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Input vs. output thrust}}{27}{figure.caption.34}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Circuit Diagram}}{32}{figure.caption.36}%
+\addvspace {10\p@ }

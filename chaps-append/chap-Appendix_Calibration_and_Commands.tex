@@ -1,0 +1,78 @@
+\chapter{Software Calibrations and Commands}
+\label{sec: Appendix_software}
+\vspace*{-2mm}
+\section{Load Cell Calibration}
+    The code used was based off the library from MicroPeta\citep{loadcellProgram}. To calibrate the load cells, the tare variable needs to be set. This is the load cells reading when there is nothing on the load cell. This value for load cell 1 was 333~778, as indicated by Figure~\ref{fig: Uncalibrated} and should be set to the variable "tare\_LC\_1". 
+    \vspace*{-2mm}
+    \begin{figure}[H]
+        \centering
+        \includegraphics*[width =\textwidth]{Appendix Documents/Calibration1.png}
+        \caption{Uncalibrated}
+        \label{fig: Uncalibrated}
+    \end{figure}
+    \vspace*{-3mm}
+    Once the load cell has been zeroed,  a known weight should be placed onto of the load cell. For this calibration 500~g was used, which produced a load cell value of 8 034, shown in Figure~\ref{fig: known_weight}. The variables "knownOriginal\_LC\_1" should be set to 500 000~mg and "knownHX711\_LOCK\_1" to 8034. This sets the gradient for the load cell.
+    \vspace*{-2mm}
+    \begin{figure}[h]
+        \centering
+        \includegraphics*[width =\textwidth]{Appendix Documents/Calibration2.png}
+        \caption{Setting a known weight}
+        \label{fig: known_weight}
+    \end{figure}
+    
+    Finally, the load cell should be checked with a know weight of a different mass to ensure calibration was successful. Figure~\ref{fig: testing_load_cell} shows a value of 2~010~020~mg, and is therefore operating as intended.
+    \vspace*{-2mm}
+    \begin{figure}[h]
+        \centering
+        \includegraphics*[width =\textwidth]{Appendix Documents/Calibration3.png}
+        \caption{Testing Load cell with a 2 kg weight}
+        \label{fig: testing_load_cell}
+    \end{figure}
+
+    
+    \section{Commands}
+    \vspace*{-5mm}
+    \begin{table}[H]
+        \centering
+        \small
+        \caption{Table of commands and their functions}
+        \label{tab: cmd_table}
+        \begin{tabularx}{\textwidth}{|X|X|}
+        \hline
+        \textbf{Commands} & \textbf{Function} \\ \hline
+        \textbf{\&\_START\_*} & Starts the system \\ \hline
+        \textbf{STOP} & Stops the system \\ \hline
+        \textbf{\&\_CAL\_PITCH\_1\_*} & Starts calibration for rotor 1 \\ \hline
+        \textbf{\&\_CAL\_PITCH\_2\_*} & Starts calibration for rotor 2 \\ \hline
+        \textbf{\&\_SET\_SPEED\_}speed \(^1\)\textbf{\_*}& Sets the target angular velocity of the aircraft \\ \hline
+        \textbf{\&\_SET\_PITCH\_}pitch\textbf{\_*} & Sets the target default pitch of the aircraft \\ \hline
+        \textbf{\&\_SET\_PID\_}p\textbf{\_}i\textbf{\_}d\textbf{\_*} & Sets the P, I, and D values for the controller \\ \hline
+        \textbf{\&\_SET\_DIR\_}direction\textbf{\_*} & Sets the direction of the aircraft by changing direction to: \\ 
+        & `0': Hover \\
+        & `1': Forward \\
+        & `2': Backward \\
+        & `3': Left \\
+        & `4': Right \\ \hline
+        \textbf{\&\_SHW\_PITCH\_*} & Displays the pitch in a user-friendly format \\ \hline
+        \textbf{\&\_SHW\_RPM\_*} & Displays the angular velocity in a user-friendly format \\ \hline
+        \textbf{\&\_SHW\_DATA\_*} & Displays data that gets sent for analysis \\ \hline
+        \textbf{\&\_SHW\_PWM\_*} & Shows the PWM of each motor \\ \hline
+        \textbf{\&\_DBG\_MODE\_}rotor 1:top motor\textbf{\_ }rotor 1:bottom motor\textbf{\_}rotor 2:top motor\textbf{\_}rotor 2:bottom motor\textbf{\_*} 
+        & A debugging option to control each motor without the need to start the system. This is used for checking individual motors. \\ \hline
+    \end{tabularx}
+    \(^1\)\small All lowercase words indicate that the desired value replaces them in the command.
+    \end{table}
+
+\section{Tracker}
+    Tracker is a video analysis and modeling tool. It can be used to track a point mass's spatial location and its time differentials of this in both Cartesian  and polar coordinates. This allows the tracking of the \(x,\theta,\dot{x},\dot{\theta},\ddot{x},\ddot{\theta}\) to be measured from a video.  These point masses are place along the video, either manually or using the auto tracking feature.
+    \subsection{Metrics}
+        \begin{enumerate}
+            \item \textbf{Resolution}\\
+                The software analyses the video uploaded to it, as such, the resolution of software will be the resolution of the video, however it is when placing the points, the user can zoom in for sub-pixel accuracy \citep{TrackerHelp}. 
+            \item \textbf{Sensitivity}\\
+                While there is a feature to auto track a point in the video, the sensitivity is how consistent the user is with placing the point masses. The video frame rate can affect this it would change the step size, thereby making each point cause a larger or smaller change. The frame rate was 30 FPS for the experiment, which appeared to be sensitive enough to detect mall changes in the video over shorter time.
+            \item \textbf{Accuracy}\\
+                The accuracy will depend on the accuracy of the user, as previously mentioned it has the potential to have sub-pixel resolution, and with good video quality and frame rate, high accuracy can be achieved.
+            \item \textbf{Calibration}\\
+                A calibration stick can be applied where a known distance is measured, which ensures that perspective has little impact on the data outputted. The center of origin can also be tracked to ensure that the data points remain fixed relative to where the user sets the origin to.
+        \end{enumerate}

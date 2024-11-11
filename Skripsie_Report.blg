@@ -1,0 +1,78 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Skripsie_Report.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+The style file: stb-bib-eng-a.bst
+Reallocating 'name_of_file' (item size: 1) to 32 items.
+A level-1 auxiliary file: chaps-front/chap-plagiarism.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: chaps-front/chap-summary.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: chaps-front/chap-acknowledge.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: chaps-front/chap-symbols.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: chaps-main/chap-intro.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: chaps-main/chap-Matlab_Model.aux
+Reallocating 'name_of_file' (item size: 1) to 27 items.
+A level-1 auxiliary file: chaps-main/chap-Design.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: chaps-main/chap-Software.aux
+Reallocating 'name_of_file' (item size: 1) to 32 items.
+A level-1 auxiliary file: chaps-main/chap-Experiments.aux
+Reallocating 'name_of_file' (item size: 1) to 34 items.
+A level-1 auxiliary file: chaps-main/chap-Data_Analysis.aux
+Reallocating 'name_of_file' (item size: 1) to 38 items.
+A level-1 auxiliary file: chaps-main/chap-Report_Conclusion.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+Reallocating 'name_of_file' (item size: 1) to 39 items.
+A level-1 auxiliary file: chaps-append/chap-Appendix_Circuit.aux
+Reallocating 'name_of_file' (item size: 1) to 40 items.
+A level-1 auxiliary file: chaps-append/chap-Appendix_Drawings.aux
+Database file #1: bib/bib-libriray.bib
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--empty note in nrf24l01Program
+You've used 6 entries,
+            3324 wiz_defined-function locations,
+            700 strings with 6467 characters,
+and the built_in function-call counts, 3581 in all, are:
+= -- 276
+> -- 79
+< -- 10
++ -- 30
+- -- 24
+* -- 289
+:= -- 500
+add.period$ -- 18
+call.type$ -- 6
+change.case$ -- 41
+chr.to.int$ -- 15
+cite$ -- 7
+duplicate$ -- 331
+empty$ -- 341
+format.name$ -- 54
+if$ -- 716
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 46
+newline$ -- 54
+num.names$ -- 24
+pop$ -- 116
+preamble$ -- 1
+purify$ -- 32
+quote$ -- 0
+skip$ -- 111
+stack$ -- 0
+substring$ -- 148
+swap$ -- 129
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 48
+warning$ -- 1
+while$ -- 34
+width$ -- 0
+write$ -- 97
+(There was 1 warning)

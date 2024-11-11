@@ -1,0 +1,1621 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.10.22)  11 NOV 2024 11:23
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/Rayde Kruger/OneDrive/Desktop/University/PublicationSkripsie/Final_Report_LaTeX/Skripsie_Report.tex"
+(c:/Users/Rayde Kruger/OneDrive/Desktop/University/PublicationSkripsie/Final_Report_LaTeX/Skripsie_Report.tex
+LaTeX2e <2023-11-01>
+L3 programming layer <2024-01-04>
+(D:\New folder\tex/latex/base\book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+(D:\New folder\tex/latex/base\bk12.clo
+File: bk12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@chapter=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (D:\New folder\tex/latex/stellenbosch-2\stb-titlepage.sty
+Package: stb-titlepage 2023/07/22 v1.1 Stellenbosch Title Page Package (DNJ ELS)
+ (D:\New folder\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count196
+) (D:\New folder\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (D:\New folder\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (D:\New folder\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (D:\New folder\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (D:\New folder\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (D:\New folder\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (D:\New folder\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (D:\New folder\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count197
+\Gm@cntv=\count198
+\c@Gm@tempcnt=\count199
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks18
+ (D:\New folder\tex/latex/geometry\geometry.cfg))
+\STB@xpos=\skip50
+\STB@ypos=\skip51
+\STB@logobox=\box51
+Package stb-titlepage Info: Golden ratio type block on input line 206.
+) (D:\New folder\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(D:\New folder\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (D:\New folder\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen149
+)) (D:\New folder\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen150
+) (D:\New folder\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count266
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count267
+\leftroot@=\count268
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count269
+\DOTSCASE@=\count270
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen151
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count271
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count272
+\dotsspace@=\muskip16
+\c@parentequation=\count273
+\dspbrk@lvl=\count274
+\tag@help=\toks20
+\row@=\count275
+\column@=\count276
+\maxfields@=\count277
+\andhelp@=\toks21
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
+\@envbody=\toks22
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (D:\New folder\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (D:\New folder\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (D:\New folder\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+ (D:\New folder\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (D:\New folder\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (D:\New folder\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (D:\New folder\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+)))
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)) (D:\New folder\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+ (D:\New folder\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (D:\New folder\tex/generic/xkeyval\xkeyval.tex (D:\New folder\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks24
+\XKV@tempa@toks=\toks25
+)
+\XKV@depth=\count278
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (D:\New folder\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (D:\New folder\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (D:\New folder\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+) (D:\New folder\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box54
+)
+\tc@llx=\dimen160
+\tc@lly=\dimen161
+\tc@urx=\dimen162
+\tc@ury=\dimen163
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (D:\New folder\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen164
+\adjbox@Height=\dimen165
+\adjbox@Depth=\dimen166
+\adjbox@Totalheight=\dimen167
+\adjbox@pwidth=\dimen168
+\adjbox@pheight=\dimen169
+\adjbox@pdepth=\dimen170
+\adjbox@ptotalheight=\dimen171
+ (D:\New folder\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count279
+) (D:\New folder\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box55
+\sift@deathcycles=\count280
+\@vwid@loff=\dimen172
+\@vwid@roff=\dimen173
+)) (D:\New folder\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
+) (D:\New folder\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (D:\New folder\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (D:\New folder\tex/latex/tools\bm.sty
+Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+) (D:\New folder\tex/latex/gensymb\gensymb.sty
+Package: gensymb 2022/10/17 v1.0.2 (KJH)
+) (D:\New folder\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2023-11-14 v3.3.9 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count281
+\l__siunitx_number_exponent_fixed_int=\count282
+\l__siunitx_number_min_decimal_int=\count283
+\l__siunitx_number_min_integer_int=\count284
+\l__siunitx_number_round_precision_int=\count285
+\l__siunitx_number_lower_threshold_int=\count286
+\l__siunitx_number_upper_threshold_int=\count287
+\l__siunitx_number_group_first_int=\count288
+\l__siunitx_number_group_size_int=\count289
+\l__siunitx_number_group_minimum_int=\count290
+\l__siunitx_angle_tmp_dim=\dimen174
+\l__siunitx_angle_marker_box=\box56
+\l__siunitx_angle_unit_box=\box57
+\l__siunitx_compound_count_int=\count291
+ (D:\New folder\tex/latex/translations\translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+ (D:\New folder\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (D:\New folder\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+\l__siunitx_table_tmp_box=\box58
+\l__siunitx_table_tmp_dim=\dimen175
+\l__siunitx_table_column_width_dim=\dimen176
+\l__siunitx_table_integer_box=\box59
+\l__siunitx_table_decimal_box=\box60
+\l__siunitx_table_uncert_box=\box61
+\l__siunitx_table_before_box=\box62
+\l__siunitx_table_after_box=\box63
+\l__siunitx_table_before_dim=\dimen177
+\l__siunitx_table_carry_dim=\dimen178
+\l__siunitx_unit_tmp_int=\count292
+\l__siunitx_unit_position_int=\count293
+\l__siunitx_unit_total_int=\count294
+ (D:\New folder\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen179
+\ar@mcellbox=\box64
+\extrarowheight=\dimen180
+\NC@list=\toks28
+\extratabsurround=\skip55
+\backup@length=\skip56
+\ar@cellbox=\box65
+))
+
+Package siunitx Info: Option "detect-all" has been deprecated in this release.
+(siunitx)             
+(siunitx)             Use "mode = match, propagate-math-font = true,
+(siunitx)             reset-math-version = false, reset-text-family = false,
+(siunitx)             reset-text-series = false, reset-text-shape = false,
+(siunitx)             text-family-to-math = true, text-series-to-math = true"
+(siunitx)             as a replacement.
+
+
+Package siunitx Info: Option "detect-family" has been deprecated in this
+(siunitx)             release.
+(siunitx)             
+(siunitx)             Use "reset-text-family = false, text-family-to-math =
+(siunitx)             true" as a replacement.
+
+
+Package siunitx Info: Option "number-unit-product" has been deprecated in this
+(siunitx)             release.
+(siunitx)             
+(siunitx)             Use "quantity-product = \," as a replacement.
+
+
+Package siunitx Info: Option "separate-uncertainty" has been deprecated in
+(siunitx)             this release.
+(siunitx)             
+(siunitx)             Use "uncertainty-mode = separate" as a replacement.
+
+ (D:\New folder\tex/latex/stellenbosch-2\stb-nomencl.sty
+Package: stb-nomencl 2023/07/25 v1.1 Stellenbosch Thesis Nomenclature (DNJ ELS)
+ (D:\New folder\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count295
+\calc@Bcount=\count296
+\calc@Adimen=\dimen181
+\calc@Bdimen=\dimen182
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count297
+\calc@Cskip=\skip59
+)
+\STBN@tdima=\skip60
+\STBN@NomGrpSep=\skip61
+\NomGrpSep=\skip62
+\NomItmSep=\skip63
+\NomItmMrg=\skip64
+\NomLblSep=\skip65
+\UnitLabelWdth=\skip66
+) (D:\New folder\tex/latex/stellenbosch-2\stb-bib.sty
+Package: stb-bib 2023/01/16 1.0 (DNJ Els)
+ (D:\New folder\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip67
+\bibsep=\skip68
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count298
+)) (D:\New folder\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count299
+\float@exts=\toks29
+\float@box=\box66
+\@float@everytoks=\toks30
+\@floatcapt=\box67
+) (D:\New folder\tex/latex/tools\longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip69
+\LTright=\skip70
+\LTpre=\skip71
+\LTpost=\skip72
+\LTchunksize=\count300
+\LTcapwidth=\dimen183
+\LT@head=\box68
+\LT@firsthead=\box69
+\LT@foot=\box70
+\LT@lastfoot=\box71
+\LT@gbox=\box72
+\LT@cols=\count301
+\LT@rows=\count302
+\c@LT@tables=\count303
+\c@LT@chunks=\count304
+\LT@p@ftn=\toks31
+) (D:\New folder\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (D:\New folder\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen184
+\captionmargin=\dimen185
+\caption@leftmargin=\dimen186
+\caption@rightmargin=\dimen187
+\caption@width=\dimen188
+\caption@indent=\dimen189
+\caption@parindent=\dimen190
+\caption@hangindent=\dimen191
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count305
+\c@continuedfloat=\count306
+Package caption Info: float package is loaded.
+Package caption Info: longtable package is loaded.
+ (D:\New folder\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)) (D:\New folder\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (D:\New folder\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (D:\New folder\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (D:\New folder\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+\everycr=\toks32
+\minrowclearance=\skip73
+\rownum=\count307
+) (D:\New folder\tex/latex/pdfcomment\pdfcomment.sty
+Package: pdfcomment 2018/11/01 pdfcomment.sty v2.4a - Josef Kleber (C) 2008-2012, 2015-2016, 2018
+\c@pc@count@i=\count308
+\c@pc@count@ii=\count309
+\c@pc@count@iii=\count310
+\c@pc@count@iv=\count311
+\pc@mathannot@box=\box73
+\pc@nullbox=\box74
+\pc@dima=\skip74
+\pc@dimb=\skip75
+\pc@Sposx=\skip76
+\pc@Sposy=\skip77
+\pc@Eposx=\skip78
+\pc@Eposy=\skip79
+\pc@column=\skip80
+\pc@box@width=\skip81
+\pc@box@height=\skip82
+\pc@box@depth=\skip83
+ (D:\New folder\tex/latex/datetime2\datetime2.sty
+Package: datetime2 2021/03/21 v1.5.7 (NLCT) date and time formats
+ (D:\New folder\tex/latex/tracklang\tracklang.sty
+Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
+ (D:\New folder\tex/generic/tracklang\tracklang.tex))) (D:\New folder\tex/latex/zref\zref-savepos.sty
+Package: zref-savepos 2023-09-14 v2.35 Module savepos for zref (HO)
+ (D:\New folder\tex/latex/zref\zref-base.sty
+Package: zref-base 2023-09-14 v2.35 Module base for zref (HO)
+ (D:\New folder\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (D:\New folder\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+) (D:\New folder\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+Package zref Info: New property list: savepos on input line 79.
+Package zref Info: New property: posx on input line 81.
+Package zref Info: New property: posy on input line 82.
+)
+\c@zref@unique=\count312
+ (D:\New folder\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (D:\New folder\tex/latex/marginnote\marginnote.sty
+Package: marginnote 2018/08/09 1.4b non floating margin notes for LaTeX
+\c@mn@abspage=\count313
+) (D:\New folder\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+) (D:\New folder\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (D:\New folder\tex/latex/soulpos\soulpos.sty
+Package: soulpos 2021/10/15 v1.2 Fancy underlining
+\ulp@subcnt=\count314
+\ulp@cnt=\count315
+\ulp@out=\write3
+\ulp@in=\read2
+\ulwidth=\dimen192
+) (D:\New folder\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
+ (D:\New folder\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (D:\New folder\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (D:\New folder\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (D:\New folder\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (D:\New folder\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count316
+)
+\@linkdim=\dimen193
+\Hy@linkcounter=\count317
+\Hy@pagecounter=\count318
+ (D:\New folder\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (D:\New folder\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count319
+ (D:\New folder\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4064.
+ (D:\New folder\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4181.
+Package hyperref Info: Link nesting OFF on input line 4186.
+Package hyperref Info: Hyper index ON on input line 4189.
+Package hyperref Info: Plain pages OFF on input line 4196.
+Package hyperref Info: Backreferencing OFF on input line 4201.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4448.
+\c@Hy@tempcnt=\count320
+ (D:\New folder\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4786.
+\XeTeXLinkMargin=\dimen194
+ (D:\New folder\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (D:\New folder\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count321
+\Field@Width=\dimen195
+\Fld@charsize=\dimen196
+Package hyperref Info: Hyper figures OFF on input line 6065.
+Package hyperref Info: Link nesting OFF on input line 6070.
+Package hyperref Info: Hyper index ON on input line 6073.
+Package hyperref Info: backreferencing OFF on input line 6080.
+Package hyperref Info: Link coloring OFF on input line 6085.
+Package hyperref Info: Link coloring with OCG OFF on input line 6090.
+Package hyperref Info: PDF/A mode OFF on input line 6095.
+ (D:\New folder\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count322
+\c@Item=\count323
+\c@Hfootnote=\count324
+)
+Package hyperref Info: Driver: hpdftex.
+ (D:\New folder\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
+ (D:\New folder\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count325
+\c@bookmark@seq@number=\count326
+ (D:\New folder\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (D:\New folder\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip84
+)
+Package zref Info: New property list: pdfcomment on input line 2735.
+Package zref Info: New property: PCPDFOBJID on input line 2736.
+) (D:\New folder\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
+ (D:\New folder\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen197
+\ESO@tempdimb=\dimen198
+)
+\AM@pagewidth=\dimen199
+\AM@pageheight=\dimen256
+\AM@fboxrule=\dimen257
+ (D:\New folder\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count327
+\AM@pagebox=\box75
+\AM@global@opts=\toks33
+\AM@pagecnt=\count328
+\AM@toc@title=\toks34
+\AM@lof@heading=\toks35
+\c@AM@survey=\count329
+\AM@templatesizebox=\box76
+) (D:\New folder\tex/latex/todonotes\todonotes.sty
+Package: todonotes 2024/01/05 v1.1.7 Todonotes source and documentation.
+Package: todonotes 2024/01/05
+ (D:\New folder\tex/latex/pgf/frontendlayer\tikz.sty (D:\New folder\tex/latex/pgf/basiclayer\pgf.sty (D:\New folder\tex/latex/pgf/utilities\pgfrcs.sty (D:\New folder\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks36
+\pgfutil@tempdima=\dimen258
+\pgfutil@tempdimb=\dimen259
+) (D:\New folder\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box77
+) (D:\New folder\tex/generic/pgf/utilities\pgfrcs.code.tex (D:\New folder\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (D:\New folder\tex/latex/pgf/basiclayer\pgfcore.sty (D:\New folder\tex/latex/pgf/systemlayer\pgfsys.sty (D:\New folder\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (D:\New folder\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks37
+\pgfkeys@temptoks=\toks38
+ (D:\New folder\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks39
+))
+\pgf@x=\dimen260
+\pgf@y=\dimen261
+\pgf@xa=\dimen262
+\pgf@ya=\dimen263
+\pgf@xb=\dimen264
+\pgf@yb=\dimen265
+\pgf@xc=\dimen266
+\pgf@yc=\dimen267
+\pgf@xd=\dimen268
+\pgf@yd=\dimen269
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count330
+\c@pgf@countb=\count331
+\c@pgf@countc=\count332
+\c@pgf@countd=\count333
+\t@pgf@toka=\toks40
+\t@pgf@tokb=\toks41
+\t@pgf@tokc=\toks42
+\pgf@sys@id@count=\count334
+ (D:\New folder\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (D:\New folder\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (D:\New folder\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (D:\New folder\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count335
+\pgfsyssoftpath@bigbuffer@items=\count336
+) (D:\New folder\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (D:\New folder\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (D:\New folder\tex/generic/pgf/math\pgfmath.code.tex (D:\New folder\tex/generic/pgf/math\pgfmathutil.code.tex) (D:\New folder\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen270
+\pgfmath@count=\count337
+\pgfmath@box=\box78
+\pgfmath@toks=\toks43
+\pgfmath@stack@operand=\toks44
+\pgfmath@stack@operation=\toks45
+) (D:\New folder\tex/generic/pgf/math\pgfmathfunctions.code.tex) (D:\New folder\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (D:\New folder\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (D:\New folder\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (D:\New folder\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (D:\New folder\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (D:\New folder\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (D:\New folder\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (D:\New folder\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (D:\New folder\tex/generic/pgf/math\pgfmathcalc.code.tex) (D:\New folder\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count338
+)) (D:\New folder\tex/generic/pgf/math\pgfint.code.tex) (D:\New folder\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen271
+\pgf@picmaxx=\dimen272
+\pgf@picminy=\dimen273
+\pgf@picmaxy=\dimen274
+\pgf@pathminx=\dimen275
+\pgf@pathmaxx=\dimen276
+\pgf@pathminy=\dimen277
+\pgf@pathmaxy=\dimen278
+\pgf@xx=\dimen279
+\pgf@xy=\dimen280
+\pgf@yx=\dimen281
+\pgf@yy=\dimen282
+\pgf@zx=\dimen283
+\pgf@zy=\dimen284
+) (D:\New folder\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen285
+\pgf@path@lasty=\dimen286
+) (D:\New folder\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen287
+\pgf@shorten@start@additional=\dimen288
+) (D:\New folder\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box79
+\pgf@hbox=\box80
+\pgf@layerbox@main=\box81
+\pgf@picture@serial@count=\count339
+) (D:\New folder\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen289
+) (D:\New folder\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen290
+\pgf@pt@y=\dimen291
+\pgf@pt@temp=\dimen292
+) (D:\New folder\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\New folder\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\New folder\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\New folder\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen293
+) (D:\New folder\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen294
+\pgf@sys@shading@range@num=\count340
+\pgf@shadingcount=\count341
+) (D:\New folder\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\New folder\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box82
+) (D:\New folder\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\New folder\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\New folder\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\New folder\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (D:\New folder\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box83
+) (D:\New folder\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\New folder\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen295
+\pgf@nodesepend=\dimen296
+) (D:\New folder\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (D:\New folder\tex/latex/pgf/utilities\pgffor.sty (D:\New folder\tex/latex/pgf/utilities\pgfkeys.sty (D:\New folder\tex/generic/pgf/utilities\pgfkeys.code.tex)) (D:\New folder\tex/latex/pgf/math\pgfmath.sty (D:\New folder\tex/generic/pgf/math\pgfmath.code.tex)) (D:\New folder\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen297
+\pgffor@skip=\dimen298
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
+)) (D:\New folder\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (D:\New folder\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count342
+\pgfplotmarksize=\dimen299
+)
+\tikz@lastx=\dimen300
+\tikz@lasty=\dimen301
+\tikz@lastxsaved=\dimen302
+\tikz@lastysaved=\dimen303
+\tikz@lastmovetox=\dimen304
+\tikz@lastmovetoy=\dimen305
+\tikzleveldistance=\dimen306
+\tikzsiblingdistance=\dimen307
+\tikz@figbox=\box84
+\tikz@figbox@bg=\box85
+\tikz@tempbox=\box86
+\tikz@tempbox@bg=\box87
+\tikztreelevel=\count343
+\tikznumberofchildren=\count344
+\tikznumberofcurrentchild=\count345
+\tikz@fig@count=\count346
+ (D:\New folder\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count347
+\pgfmatrixcurrentcolumn=\count348
+\pgf@matrix@numberofcolumns=\count349
+)
+\tikz@expandcount=\count350
+ (D:\New folder\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (D:\New folder\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+\c@@todonotes@numberoftodonotes=\count351
+) (D:\New folder\tex/latex/wasysym\wasysym.sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+) (D:\New folder\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen308
+\TX@old@table=\dimen309
+\TX@old@col=\dimen310
+\TX@target=\dimen311
+\TX@delta=\dimen312
+\TX@cols=\count352
+\TX@ftn=\toks48
+)
+
+LaTeX Warning: Package "xcolor" has already been loaded: ignoring load-time
+(LaTeX)        option "xcdraw".
+
+(D:\New folder\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip85
+\multirow@cntb=\count353
+\multirow@dima=\skip86
+\bigstrutjot=\dimen313
+) (D:\New folder\tex/latex/mdwtools\footnote.sty
+Package: footnote 1997/01/28 1.13 Save footnotes around boxes
+\fn@notes=\box88
+\fn@width=\dimen314
+) (D:\New folder\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip87
+\enit@outerparindent=\dimen315
+\enit@toks=\toks49
+\enit@inbox=\box89
+\enit@count@id=\count354
+\enitdp@description=\count355
+) (D:\New folder\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen316
+\lightrulewidth=\dimen317
+\cmidrulewidth=\dimen318
+\belowrulesep=\dimen319
+\belowbottomsep=\dimen320
+\aboverulesep=\dimen321
+\abovetopsep=\dimen322
+\cmidrulesep=\dimen323
+\cmidrulekern=\dimen324
+\defaultaddspace=\dimen325
+\@cmidla=\count356
+\@cmidlb=\count357
+\@aboverulesep=\dimen326
+\@belowrulesep=\dimen327
+\@thisruleclass=\count358
+\@lastruleclass=\count359
+\@thisrulewidth=\dimen328
+)
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 128.
+ (D:\New folder\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count360
+\l__pdf_internal_box=\box90
+) (Skripsie_Report.aux (chaps-front/chap-plagiarism.aux) (chaps-front/chap-summary.aux) (chaps-front/chap-acknowledge.aux) (chaps-front/chap-symbols.aux) (chaps-main/chap-intro.aux) (chaps-main/chap-Matlab_Model.aux) (chaps-main/chap-Design.aux) (chaps-main/chap-Software.aux) (chaps-main/chap-Experiments.aux) (chaps-main/chap-Data_Analysis.aux) (chaps-main/chap-Report_Conclusion.aux) (chaps-append/chap-Appendix_Circuit.aux) (chaps-append/chap-Appendix_Drawings.aux))
+\openout1 = `Skripsie_Report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* hratio: 1:1
+* vratio: 2:3
+* modes: twoside 
+* h-part:(L,W,R)=(99.574pt, 398.35985pt, 99.57402pt)
+* v-part:(T,H,B)=(80.20486pt, 644.53462pt, 120.30736pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=398.35985pt
+* \textheight=644.53462pt
+* \oddsidemargin=27.30402pt
+* \evensidemargin=27.30403pt
+* \topmargin=-23.93892pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+
+pdfTeX warning: pdflatex (file D:/New folder/tex/latex/stellenbosch-2/figs/stb-logo-vert.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<stb-logo-vert.pdf, id=4, 436.3492pt x 466.17764pt>
+File: stb-logo-vert.pdf Graphic file (type pdf)
+<use stb-logo-vert.pdf>
+Package pdftex.def Info: stb-logo-vert.pdf  used on input line 128.
+(pdftex.def)             Requested size: 174.53658pt x 186.46774pt.
+(D:\New folder\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count361
+\scratchdimen=\dimen329
+\scratchbox=\box91
+\nofMPsegments=\count362
+\nofMParguments=\count363
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count364
+\MPscratchDim=\dimen330
+\MPnumerator=\count365
+\makeMPintoPDFobject=\count366
+\everyMPtoPDFconversion=\toks51
+) (D:\New folder\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (D:\New folder\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+\symgns@font=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 128.
+Package gensymb Info: Math companion symbols declared on input line 128.
+LaTeX Info: Redefining \degree on input line 128.
+LaTeX Info: Redefining \celsius on input line 128.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 128.
+LaTeX Info: Redefining \ohm on input line 128.
+Package gensymb Info: Using \textohm for \ohm on input line 128.
+Package gensymb Info: Using \textmu for \micro on input line 128.
+ (D:\New folder\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 128.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package soulpos Info: Loading soulutf8 on input line 128.
+ (D:\New folder\tex/generic/soul\soulutf8.sty
+Package: soulutf8 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
+
+
+Package soulutf8 Warning: This package is obsolete,
+(soulutf8)                use the soul package directly. 
+(soulutf8)                 on input line 29.
+
+) (D:\New folder\tex/generic/soul\soul.sty
+Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
+ (D:\New folder\tex/generic/soul\soul-ori.sty
+Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
+\SOUL@word=\toks52
+\SOUL@lasttoken=\toks53
+\SOUL@syllable=\toks54
+\SOUL@cmds=\toks55
+\SOUL@buffer=\toks56
+\SOUL@token=\toks57
+\SOUL@syllgoal=\dimen331
+\SOUL@syllwidth=\dimen332
+\SOUL@charkern=\dimen333
+\SOUL@hyphkern=\dimen334
+\SOUL@dimen=\dimen335
+\SOUL@dimeni=\dimen336
+\SOUL@minus=\count367
+\SOUL@comma=\count368
+\SOUL@apo=\count369
+\SOUL@grave=\count370
+\SOUL@spaceskip=\skip88
+\SOUL@ttwidth=\dimen337
+\SOUL@uldp=\dimen338
+\SOUL@ulht=\dimen339
+))
+Package hyperref Info: Link coloring OFF on input line 128.
+ (Skripsie_Report.out) (Skripsie_Report.out)
+\@outlinefile=\write5
+\openout5 = `Skripsie_Report.out'.
+
+
+
+Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 128.
+
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 132.
+(D:\New folder\tex/latex/wasysym\uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+) (D:\New folder\tex/generic/stringenc\se-pdfdoc.def
+File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
+) [1
+
+\openout3 = `Skripsie_Report.upa'.
+
+
+
+{C:/Users/Rayde Kruger/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{D:/New folder/fonts/enc/dvips/cm-super/cm-super-t1.enc}{D:/New folder/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <D:/New folder/tex/latex/stellenbosch-2/figs/stb-logo-vert.pdf>]
+\openout2 = `chaps-front/chap-plagiarism.aux'.
+
+ (chaps-front/chap-plagiarism.tex) [2
+
+
+]
+<Appendix Documents/2024_Skripsie_AI_Use.pdf, id=195, 597.50829pt x 845.0471pt>
+File: Appendix Documents/2024_Skripsie_AI_Use.pdf Graphic file (type pdf)
+<use Appendix Documents/2024_Skripsie_AI_Use.pdf>
+Package pdftex.def Info: Appendix Documents/2024_Skripsie_AI_Use.pdf  used on input line 134.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: Appendix Documents/2024_Skripsie_AI_Use.pdf Graphic file (type pdf)
+<use Appendix Documents/2024_Skripsie_AI_Use.pdf>
+Package pdftex.def Info: Appendix Documents/2024_Skripsie_AI_Use.pdf  used on input line 134.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<Appendix Documents/2024_Skripsie_AI_Use.pdf, id=198, page=1, 597.50829pt x 845.0471pt>
+File: Appendix Documents/2024_Skripsie_AI_Use.pdf Graphic file (type pdf)
+<use Appendix Documents/2024_Skripsie_AI_Use.pdf, page 1>
+Package pdftex.def Info: Appendix Documents/2024_Skripsie_AI_Use.pdf , page1 used on input line 134.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: Appendix Documents/2024_Skripsie_AI_Use.pdf Graphic file (type pdf)
+<use Appendix Documents/2024_Skripsie_AI_Use.pdf, page 1>
+Package pdftex.def Info: Appendix Documents/2024_Skripsie_AI_Use.pdf , page1 used on input line 134.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Appendix Documents/2024_Skripsie_AI_Use.pdf Graphic file (type pdf)
+<use Appendix Documents/2024_Skripsie_AI_Use.pdf, page 1>
+Package pdftex.def Info: Appendix Documents/2024_Skripsie_AI_Use.pdf , page1 used on input line 134.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Appendix Documents/2024_Skripsie_AI_Use.pdf Graphic file (type pdf)
+<use Appendix Documents/2024_Skripsie_AI_Use.pdf, page 1>
+Package pdftex.def Info: Appendix Documents/2024_Skripsie_AI_Use.pdf , page1 used on input line 134.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Appendix Documents/2024_Skripsie_AI_Use.pdf Graphic file (type pdf)
+<use Appendix Documents/2024_Skripsie_AI_Use.pdf, page 1>
+Package pdftex.def Info: Appendix Documents/2024_Skripsie_AI_Use.pdf , page1 used on input line 134.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [3
+
+
+ <./Appendix Documents/2024_Skripsie_AI_Use.pdf>]
+<Appendix Documents/2024_Skripsie_AI_Use.pdf, id=215, page=2, 597.50829pt x 845.0471pt>
+File: Appendix Documents/2024_Skripsie_AI_Use.pdf Graphic file (type pdf)
+<use Appendix Documents/2024_Skripsie_AI_Use.pdf, page 2>
+Package pdftex.def Info: Appendix Documents/2024_Skripsie_AI_Use.pdf , page2 used on input line 134.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Appendix Documents/2024_Skripsie_AI_Use.pdf Graphic file (type pdf)
+<use Appendix Documents/2024_Skripsie_AI_Use.pdf, page 2>
+Package pdftex.def Info: Appendix Documents/2024_Skripsie_AI_Use.pdf , page2 used on input line 134.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Appendix Documents/2024_Skripsie_AI_Use.pdf Graphic file (type pdf)
+<use Appendix Documents/2024_Skripsie_AI_Use.pdf, page 2>
+Package pdftex.def Info: Appendix Documents/2024_Skripsie_AI_Use.pdf , page2 used on input line 134.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [4 <./Appendix Documents/2024_Skripsie_AI_Use.pdf>]
+<Appendix Documents/2024_Skripsie_AI_Use.pdf, id=220, page=3, 597.50829pt x 845.0471pt>
+File: Appendix Documents/2024_Skripsie_AI_Use.pdf Graphic file (type pdf)
+<use Appendix Documents/2024_Skripsie_AI_Use.pdf, page 3>
+Package pdftex.def Info: Appendix Documents/2024_Skripsie_AI_Use.pdf , page3 used on input line 134.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Appendix Documents/2024_Skripsie_AI_Use.pdf Graphic file (type pdf)
+<use Appendix Documents/2024_Skripsie_AI_Use.pdf, page 3>
+Package pdftex.def Info: Appendix Documents/2024_Skripsie_AI_Use.pdf , page3 used on input line 134.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Appendix Documents/2024_Skripsie_AI_Use.pdf Graphic file (type pdf)
+<use Appendix Documents/2024_Skripsie_AI_Use.pdf, page 3>
+Package pdftex.def Info: Appendix Documents/2024_Skripsie_AI_Use.pdf , page3 used on input line 134.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [5 <./Appendix Documents/2024_Skripsie_AI_Use.pdf>]
+<Appendix Documents/2024_Skripsie_AI_Use.pdf, id=225, page=4, 597.50829pt x 845.0471pt>
+File: Appendix Documents/2024_Skripsie_AI_Use.pdf Graphic file (type pdf)
+<use Appendix Documents/2024_Skripsie_AI_Use.pdf, page 4>
+Package pdftex.def Info: Appendix Documents/2024_Skripsie_AI_Use.pdf , page4 used on input line 134.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Appendix Documents/2024_Skripsie_AI_Use.pdf Graphic file (type pdf)
+<use Appendix Documents/2024_Skripsie_AI_Use.pdf, page 4>
+Package pdftex.def Info: Appendix Documents/2024_Skripsie_AI_Use.pdf , page4 used on input line 134.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Appendix Documents/2024_Skripsie_AI_Use.pdf Graphic file (type pdf)
+<use Appendix Documents/2024_Skripsie_AI_Use.pdf, page 4>
+Package pdftex.def Info: Appendix Documents/2024_Skripsie_AI_Use.pdf , page4 used on input line 134.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [6 <./Appendix Documents/2024_Skripsie_AI_Use.pdf>]
+\openout2 = `chaps-front/chap-summary.aux'.
+
+ (chaps-front/chap-summary.tex) [7
+
+
+]
+\openout2 = `chaps-front/chap-acknowledge.aux'.
+
+ (chaps-front/chap-acknowledge.tex) [8
+
+
+
+
+] (Skripsie_Report.toc [9
+
+
+
+])
+\tf@toc=\write6
+\openout6 = `Skripsie_Report.toc'.
+
+ [10] (Skripsie_Report.lot)
+\tf@lot=\write7
+\openout7 = `Skripsie_Report.lot'.
+
+ [11
+
+] (Skripsie_Report.lof [12
+
+])
+\tf@lof=\write8
+\openout8 = `Skripsie_Report.lof'.
+
+ [13]
+\openout2 = `chaps-front/chap-symbols.aux'.
+
+ (chaps-front/chap-symbols.tex
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+[14
+
+
+]) [15] [16
+
+
+
+]
+\openout2 = `chaps-main/chap-intro.aux'.
+
+ (chaps-main/chap-intro.tex
+Chapter 1.
+) [1
+
+
+]
+\openout2 = `chaps-main/chap-Matlab_Model.aux'.
+
+ (chaps-main/chap-Matlab_Model.tex
+Chapter 2.
+[2
+
+
+
+
+]
+<figs/Model/Rotor/Thrust_Vs_Radius.png, id=420, 371.4678pt x 299.6796pt>
+File: figs/Model/Rotor/Thrust_Vs_Radius.png Graphic file (type png)
+<use figs/Model/Rotor/Thrust_Vs_Radius.png>
+Package pdftex.def Info: figs/Model/Rotor/Thrust_Vs_Radius.png  used on input line 32.
+(pdftex.def)             Requested size: 179.26071pt x 144.62192pt.
+<figs/Model/Rotor/Torque_Vs_Radius.png, id=421, 376.7676pt x 299.6796pt>
+File: figs/Model/Rotor/Torque_Vs_Radius.png Graphic file (type png)
+<use figs/Model/Rotor/Torque_Vs_Radius.png>
+Package pdftex.def Info: figs/Model/Rotor/Torque_Vs_Radius.png  used on input line 38.
+(pdftex.def)             Requested size: 179.26071pt x 142.58249pt.
+ [3 <./figs/Model/Rotor/Thrust_Vs_Radius.png (PNG copy)> <./figs/Model/Rotor/Torque_Vs_Radius.png (PNG copy)>]
+Overfull \hbox (29.08054pt too wide) detected at line 64
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--67
+
+ []
+
+<figs/Model/Rotor/Thrust_Vs_Rotor_Angular_Velocity.png, id=436, 369.5406pt x 299.6796pt>
+File: figs/Model/Rotor/Thrust_Vs_Rotor_Angular_Velocity.png Graphic file (type png)
+<use figs/Model/Rotor/Thrust_Vs_Rotor_Angular_Velocity.png>
+Package pdftex.def Info: figs/Model/Rotor/Thrust_Vs_Rotor_Angular_Velocity.png  used on input line 84.
+(pdftex.def)             Requested size: 143.4091pt x 116.2984pt.
+<figs/Model/Rotor/Torque_Vs_Rotor_Angular_Velocity.png, id=437, 364.2408pt x 299.6796pt>
+File: figs/Model/Rotor/Torque_Vs_Rotor_Angular_Velocity.png Graphic file (type png)
+<use figs/Model/Rotor/Torque_Vs_Rotor_Angular_Velocity.png>
+Package pdftex.def Info: figs/Model/Rotor/Torque_Vs_Rotor_Angular_Velocity.png  used on input line 90.
+(pdftex.def)             Requested size: 143.4091pt x 117.99031pt.
+[4 <./figs/Model/Rotor/Thrust_Vs_Rotor_Angular_Velocity.png (PNG copy)> <./figs/Model/Rotor/Torque_Vs_Rotor_Angular_Velocity.png (PNG copy)>]
+<figs/Model/Props/Prop_thrust_vs_speed.png, id=448, 471.26062pt x 386.19281pt>
+File: figs/Model/Props/Prop_thrust_vs_speed.png Graphic file (type png)
+<use figs/Model/Props/Prop_thrust_vs_speed.png>
+Package pdftex.def Info: figs/Model/Props/Prop_thrust_vs_speed.png  used on input line 106.
+(pdftex.def)             Requested size: 179.26071pt x 146.9021pt.
+<figs/Model/Props/Prop_torque_vs_speed.png, id=449, 487.8225pt x 386.94562pt>
+File: figs/Model/Props/Prop_torque_vs_speed.png Graphic file (type png)
+<use figs/Model/Props/Prop_torque_vs_speed.png>
+Package pdftex.def Info: figs/Model/Props/Prop_torque_vs_speed.png  used on input line 112.
+(pdftex.def)             Requested size: 179.26071pt x 142.19342pt.
+<figs/Model/Props/P1_Coeffcient.png, id=453, 367.1316pt x 303.534pt>
+File: figs/Model/Props/P1_Coeffcient.png Graphic file (type png)
+<use figs/Model/Props/P1_Coeffcient.png>
+Package pdftex.def Info: figs/Model/Props/P1_Coeffcient.png  used on input line 123.
+(pdftex.def)             Requested size: 123.49057pt x 102.09787pt.
+<figs/Model/Props/P2_Coeffcient.png, id=454, 362.3136pt x 303.534pt>
+File: figs/Model/Props/P2_Coeffcient.png Graphic file (type png)
+<use figs/Model/Props/P2_Coeffcient.png>
+Package pdftex.def Info: figs/Model/Props/P2_Coeffcient.png  used on input line 129.
+(pdftex.def)             Requested size: 123.49057pt x 103.45493pt.
+<figs/Model/Props/P3_Coeffcient.png, id=455, 367.6134pt x 303.534pt>
+File: figs/Model/Props/P3_Coeffcient.png Graphic file (type png)
+<use figs/Model/Props/P3_Coeffcient.png>
+Package pdftex.def Info: figs/Model/Props/P3_Coeffcient.png  used on input line 135.
+(pdftex.def)             Requested size: 126.20396pt x 104.20523pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (7.16084pt too wide) detected at line 147
+[]
+ []
+
+[5 <./figs/Model/Props/Prop_thrust_vs_speed.png (PNG copy)> <./figs/Model/Props/Prop_torque_vs_speed.png (PNG copy)>]
+<figs/Model/Rotor/Thrust_avaliable_vs_required.png, id=461, 388.8126pt x 297.7524pt>
+File: figs/Model/Rotor/Thrust_avaliable_vs_required.png Graphic file (type png)
+<use figs/Model/Rotor/Thrust_avaliable_vs_required.png>
+Package pdftex.def Info: figs/Model/Rotor/Thrust_avaliable_vs_required.png  used on input line 157.
+(pdftex.def)             Requested size: 179.26071pt x 137.28125pt.
+<figs/Model/Rotor/Optimisation_curve.png, id=463, 363.759pt x 297.7524pt>
+File: figs/Model/Rotor/Optimisation_curve.png Graphic file (type png)
+<use figs/Model/Rotor/Optimisation_curve.png>
+Package pdftex.def Info: figs/Model/Rotor/Optimisation_curve.png  used on input line 163.
+(pdftex.def)             Requested size: 179.26071pt x 146.73137pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+
+ []
+
+[6 <./figs/Model/Props/P1_Coeffcient.png (PNG copy)> <./figs/Model/Props/P2_Coeffcient.png (PNG copy)> <./figs/Model/Props/P3_Coeffcient.png (PNG copy)>]
+<figs/Model/Pitch/Pitch_variation.jpg, id=472, 1239.63126pt x 976.64874pt>
+File: figs/Model/Pitch/Pitch_variation.jpg Graphic file (type jpg)
+<use figs/Model/Pitch/Pitch_variation.jpg>
+Package pdftex.def Info: figs/Model/Pitch/Pitch_variation.jpg  used on input line 194.
+(pdftex.def)             Requested size: 161.33354pt x 127.1029pt.
+<figs/Model/Pitch/Free_body_diagram_spring.jpg, id=474, 1011.78pt x 1443.3925pt>
+File: figs/Model/Pitch/Free_body_diagram_spring.jpg Graphic file (type jpg)
+<use figs/Model/Pitch/Free_body_diagram_spring.jpg>
+Package pdftex.def Info: figs/Model/Pitch/Free_body_diagram_spring.jpg  used on input line 200.
+(pdftex.def)             Requested size: 89.63036pt x 127.85146pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./figs/Model/Rotor/Thrust_avaliable_vs_required.png (PNG copy)> <./figs/Model/Rotor/Optimisation_curve.png (PNG copy)>]
+Overfull \hbox (2.39598pt too wide) detected at line 222
+[]
+ []
+
+<figs/Model/Pitch/System_response _for _step_input.png, id=487, 523.9575pt x 221.32687pt>
+File: figs/Model/Pitch/System_response _for _step_input.png Graphic file (type png)
+<use figs/Model/Pitch/System_response _for _step_input.png>
+Package pdftex.def Info: figs/Model/Pitch/System_response _for _step_input.png  used on input line 227.
+(pdftex.def)             Requested size: 258.93146pt x 109.37982pt.
+[8 <./figs/Model/Pitch/Pitch_variation.jpg> <./figs/Model/Pitch/Free_body_diagram_spring.jpg> <./figs/Model/Pitch/System_response _for _step_input.png (PNG copy)>]
+<figs/Model/Pitch/System_response _for _sinusoidal_input.png, id=502, 490.08093pt x 219.82124pt>
+File: figs/Model/Pitch/System_response _for _sinusoidal_input.png Graphic file (type png)
+<use figs/Model/Pitch/System_response _for _sinusoidal_input.png>
+Package pdftex.def Info: figs/Model/Pitch/System_response _for _sinusoidal_input.png  used on input line 247.
+(pdftex.def)             Requested size: 258.93146pt x 116.14244pt.
+<figs/Model/Pitch/Torque_stiffness_damping_surface.png, id=505, 483.30562pt x 359.84438pt>
+File: figs/Model/Pitch/Torque_stiffness_damping_surface.png Graphic file (type png)
+<use figs/Model/Pitch/Torque_stiffness_damping_surface.png>
+Package pdftex.def Info: figs/Model/Pitch/Torque_stiffness_damping_surface.png  used on input line 254.
+(pdftex.def)             Requested size: 159.3415pt x 118.63919pt.
+ [9 <./figs/Model/Pitch/System_response _for _sinusoidal_input.png (PNG copy)>]) [10 <./figs/Model/Pitch/Torque_stiffness_damping_surface.png (PNG copy)>]
+\openout2 = `chaps-main/chap-Design.aux'.
+
+ (chaps-main/chap-Design.tex
+Chapter 3.
+<figs/Design/Rotor/NACA_Profile.png, id=521, 1008.01593pt x 166.37157pt>
+File: figs/Design/Rotor/NACA_Profile.png Graphic file (type png)
+<use figs/Design/Rotor/NACA_Profile.png>
+Package pdftex.def Info: figs/Design/Rotor/NACA_Profile.png  used on input line 8.
+(pdftex.def)             Requested size: 398.35985pt x 65.74777pt.
+<figs/Design/Rotor/Rotor_Sectioned_Light.png, id=524, 1090.0725pt x 496.85625pt>
+File: figs/Design/Rotor/Rotor_Sectioned_Light.png Graphic file (type png)
+<use figs/Design/Rotor/Rotor_Sectioned_Light.png>
+Package pdftex.def Info: figs/Design/Rotor/Rotor_Sectioned_Light.png  used on input line 16.
+(pdftex.def)             Requested size: 398.35985pt x 181.5671pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11
+
+
+
+
+ <./figs/Design/Rotor/NACA_Profile.png>]
+<figs/Design/Hub/Hub_Assembly_Concept_2_Labled.png, id=533, 582.67688pt x 552.56438pt>
+File: figs/Design/Hub/Hub_Assembly_Concept_2_Labled.png Graphic file (type png)
+<use figs/Design/Hub/Hub_Assembly_Concept_2_Labled.png>
+Package pdftex.def Info: figs/Design/Hub/Hub_Assembly_Concept_2_Labled.png  used on input line 95.
+(pdftex.def)             Requested size: 179.26071pt x 169.99474pt.
+ [12 <./figs/Design/Rotor/Rotor_Sectioned_Light.png> <./figs/Design/Hub/Hub_Assembly_Concept_2_Labled.png>]
+<figs/Design/Final Design/Electronic Systems.png, id=542, 878.53218pt x 502.12593pt>
+File: figs/Design/Final Design/Electronic Systems.png Graphic file (type png)
+<use figs/Design/Final Design/Electronic Systems.png>
+Package pdftex.def Info: figs/Design/Final Design/Electronic Systems.png  used on input line 133.
+(pdftex.def)             Requested size: 318.68909pt x 182.15198pt.
+ [13 <./figs/Design/Final Design/Electronic Systems.png>]
+<figs/Design/Final Design/Annotated_Final_design.png, id=554, 1169.87062pt x 594.72188pt>
+File: figs/Design/Final Design/Annotated_Final_design.png Graphic file (type png)
+<use figs/Design/Final Design/Annotated_Final_design.png>
+Package pdftex.def Info: figs/Design/Final Design/Annotated_Final_design.png  used on input line 150.
+(pdftex.def)             Requested size: 318.68909pt x 162.01085pt.
+) [14 <./figs/Design/Final Design/Annotated_Final_design.png>]
+\openout2 = `chaps-main/chap-Software.aux'.
+
+ (chaps-main/chap-Software.tex
+Chapter 4.
+<figs/Software/Full_Code_Overview.png, id=563, 935.74594pt x 624.83438pt>
+File: figs/Software/Full_Code_Overview.png Graphic file (type png)
+<use figs/Software/Full_Code_Overview.png>
+Package pdftex.def Info: figs/Software/Full_Code_Overview.png  used on input line 6.
+(pdftex.def)             Requested size: 398.35985pt x 266.00397pt.
+[15
+
+
+
+
+ <./figs/Software/Full_Code_Overview.png>]
+<figs/Software/Hall_Effect_timing.png, id=573, 948.54375pt x 374.14781pt>
+File: figs/Software/Hall_Effect_timing.png Graphic file (type png)
+<use figs/Software/Hall_Effect_timing.png>
+Package pdftex.def Info: figs/Software/Hall_Effect_timing.png  used on input line 26.
+(pdftex.def)             Requested size: 398.35985pt x 157.12958pt.
+
+Overfull \hbox (216.61841pt too wide) detected at line 46
+[]
+ []
+
+[16 <./figs/Software/Hall_Effect_timing.png>]
+<figs/Software/PID_Control.png, id=583, 1145.78062pt x 381.67593pt>
+File: figs/Software/PID_Control.png Graphic file (type png)
+<use figs/Software/PID_Control.png>
+Package pdftex.def Info: figs/Software/PID_Control.png  used on input line 63.
+(pdftex.def)             Requested size: 398.35985pt x 132.69751pt.
+) [17 <./figs/Software/PID_Control.png>]
+\openout2 = `chaps-main/chap-Experiments.aux'.
+
+ (chaps-main/chap-Experiments.tex
+Chapter 5.
+<figs/Experiments/Testing_Setup_Labeled.png, id=595, 830.35219pt x 550.30594pt>
+File: figs/Experiments/Testing_Setup_Labeled.png Graphic file (type png)
+<use figs/Experiments/Testing_Setup_Labeled.png>
+Package pdftex.def Info: figs/Experiments/Testing_Setup_Labeled.png  used on input line 25.
+(pdftex.def)             Requested size: 239.01833pt x 158.40065pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[18
+
+
+
+
+] [19 <./figs/Experiments/Testing_Setup_Labeled.png>]) [20]
+\openout2 = `chaps-main/chap-Data_Analysis.aux'.
+
+ (chaps-main/chap-Data_Analysis.tex
+Chapter 6.
+<figs/Data_Analysis/Pitch Graph-Tip Thrust-Experiment-2024-10-07_17-54-35.png, id=622, 526.8483pt x 376.5267pt>
+File: figs/Data_Analysis/Pitch Graph-Tip Thrust-Experiment-2024-10-07_17-54-35.png Graphic file (type png)
+<use figs/Data_Analysis/Pitch Graph-Tip Thrust-Experiment-2024-10-07_17-54-35.png>
+Package pdftex.def Info: figs/Data_Analysis/Pitch Graph-Tip Thrust-Experiment-2024-10-07_17-54-35.png  used on input line 27.
+(pdftex.def)             Requested size: 179.26071pt x 128.1093pt.
+<figs/Data_Analysis/Pitch Graph-Speed Test.png, id=624, 526.8483pt x 376.5267pt>
+File: figs/Data_Analysis/Pitch Graph-Speed Test.png Graphic file (type png)
+<use figs/Data_Analysis/Pitch Graph-Speed Test.png>
+Package pdftex.def Info: figs/Data_Analysis/Pitch Graph-Speed Test.png  used on input line 33.
+(pdftex.def)             Requested size: 179.26071pt x 128.1093pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/Data_Analysis/Pitch Graph-Pitch Sweep.png, id=629, 1129.3392pt x 376.5267pt>
+File: figs/Data_Analysis/Pitch Graph-Pitch Sweep.png Graphic file (type png)
+<use figs/Data_Analysis/Pitch Graph-Pitch Sweep.png>
+Package pdftex.def Info: figs/Data_Analysis/Pitch Graph-Pitch Sweep.png  used on input line 58.
+(pdftex.def)             Requested size: 398.35985pt x 132.81473pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21
+
+
+
+
+]
+<figs/Data_Analysis/FFT-TEST 0 60.2.png, id=640, 451.6875pt x 376.5267pt>
+File: figs/Data_Analysis/FFT-TEST 0 60.2.png Graphic file (type png)
+<use figs/Data_Analysis/FFT-TEST 0 60.2.png>
+Package pdftex.def Info: figs/Data_Analysis/FFT-TEST 0 60.2.png  used on input line 76.
+(pdftex.def)             Requested size: 197.18787pt x 164.37955pt.
+
+Overfull \hbox (17.92715pt too wide) in paragraph at lines 76--77
+ [][] 
+ []
+
+<figs/Data_Analysis/FFT-Test 4.png, id=642, 451.6875pt x 376.5267pt>
+File: figs/Data_Analysis/FFT-Test 4.png Graphic file (type png)
+<use figs/Data_Analysis/FFT-Test 4.png>
+Package pdftex.def Info: figs/Data_Analysis/FFT-Test 4.png  used on input line 82.
+(pdftex.def)             Requested size: 197.18787pt x 164.37955pt.
+
+Overfull \hbox (17.92715pt too wide) in paragraph at lines 82--83
+ [][] 
+ []
+
+[22 <./figs/Data_Analysis/Pitch Graph-Tip Thrust-Experiment-2024-10-07_17-54-35.png (PNG copy)> <./figs/Data_Analysis/Pitch Graph-Speed Test.png (PNG copy)> <./figs/Data_Analysis/Pitch Graph-Pitch Sweep.png (PNG copy)>]
+<figs/Data_Analysis/Unfiltered Loadcell Readings-Test 4.png, id=653, 445.4241pt x 376.5267pt>
+File: figs/Data_Analysis/Unfiltered Loadcell Readings-Test 4.png Graphic file (type png)
+<use figs/Data_Analysis/Unfiltered Loadcell Readings-Test 4.png>
+Package pdftex.def Info: figs/Data_Analysis/Unfiltered Loadcell Readings-Test 4.png  used on input line 93.
+(pdftex.def)             Requested size: 197.18787pt x 166.68343pt.
+
+Overfull \hbox (17.92715pt too wide) in paragraph at lines 93--94
+ [][] 
+ []
+
+<figs/Data_Analysis/Lift Generated-Test 4.png, id=655, 451.2057pt x 376.5267pt>
+File: figs/Data_Analysis/Lift Generated-Test 4.png Graphic file (type png)
+<use figs/Data_Analysis/Lift Generated-Test 4.png>
+Package pdftex.def Info: figs/Data_Analysis/Lift Generated-Test 4.png  used on input line 99.
+(pdftex.def)             Requested size: 197.18787pt x 164.54617pt.
+
+Overfull \hbox (17.92715pt too wide) in paragraph at lines 99--100
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
+
+ []
+
+[23 <./figs/Data_Analysis/FFT-TEST 0 60.2.png (PNG copy)> <./figs/Data_Analysis/FFT-Test 4.png (PNG copy)>] [24 <./figs/Data_Analysis/Unfiltered Loadcell Readings-Test 4.png> <./figs/Data_Analysis/Lift Generated-Test 4.png>]
+<figs/Data_Analysis/Lift, Pitch and Speed-Speed Sweep.png, id=682, 677.6517pt x 376.5267pt>
+File: figs/Data_Analysis/Lift, Pitch and Speed-Speed Sweep.png Graphic file (type png)
+<use figs/Data_Analysis/Lift, Pitch and Speed-Speed Sweep.png>
+Package pdftex.def Info: figs/Data_Analysis/Lift, Pitch and Speed-Speed Sweep.png  used on input line 132.
+(pdftex.def)             Requested size: 398.35985pt x 221.35022pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--138
+
+ []
+
+<figs/Data_Analysis/Pitch Graph-Forward Flight.png, id=685, 1129.3392pt x 376.5267pt>
+File: figs/Data_Analysis/Pitch Graph-Forward Flight.png Graphic file (type png)
+<use figs/Data_Analysis/Pitch Graph-Forward Flight.png>
+Package pdftex.def Info: figs/Data_Analysis/Pitch Graph-Forward Flight.png  used on input line 142.
+(pdftex.def)             Requested size: 398.35985pt x 132.81473pt.
+[25 <./figs/Data_Analysis/Lift, Pitch and Speed-Speed Sweep.png (PNG copy)>]
+<figs/Data_Analysis/Lift Generated-Forward Flight.png, id=696, 572.3784pt x 376.5267pt>
+File: figs/Data_Analysis/Lift Generated-Forward Flight.png Graphic file (type png)
+<use figs/Data_Analysis/Lift Generated-Forward Flight.png>
+Package pdftex.def Info: figs/Data_Analysis/Lift Generated-Forward Flight.png  used on input line 152.
+(pdftex.def)             Requested size: 195.1985pt x 128.40231pt.
+<figs/Data_Analysis/Lift Generated-Reverse Flight.png, id=698, 573.8238pt x 366.4089pt>
+File: figs/Data_Analysis/Lift Generated-Reverse Flight.png Graphic file (type png)
+<use figs/Data_Analysis/Lift Generated-Reverse Flight.png>
+Package pdftex.def Info: figs/Data_Analysis/Lift Generated-Reverse Flight.png  used on input line 158.
+(pdftex.def)             Requested size: 195.1985pt x 124.63887pt.
+ [26 <./figs/Data_Analysis/Pitch Graph-Forward Flight.png (PNG copy)> <./figs/Data_Analysis/Lift Generated-Forward Flight.png> <./figs/Data_Analysis/Lift Generated-Reverse Flight.png>]
+<figs/Data_Analysis/Lift Generated-PWM 120.png, id=710, 677.6517pt x 376.5267pt>
+File: figs/Data_Analysis/Lift Generated-PWM 120.png Graphic file (type png)
+<use figs/Data_Analysis/Lift Generated-PWM 120.png>
+Package pdftex.def Info: figs/Data_Analysis/Lift Generated-PWM 120.png  used on input line 167.
+(pdftex.def)             Requested size: 398.35985pt x 221.35022pt.
+) [27 <./figs/Data_Analysis/Lift Generated-PWM 120.png (PNG copy)>]
+\openout2 = `chaps-main/chap-Report_Conclusion.aux'.
+
+ (chaps-main/chap-Report_Conclusion.tex
+Chapter 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+[28
+
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+
+ []
+
+) [29] (Skripsie_Report.bbl
+Chapter 8.
+(D:\New folder\tex/latex/stellenbosch-2\stb-bib.eng)
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 27.
+ (D:\New folder\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 24--28
+\T1/cmr/m/n/10.95 Available at: []$\T1/cmtt/m/n/10.95 https : / / www . aerodynamics4students . com / propulsion /
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 31--37
+\T1/cmr/m/n/10.95 Available at: []$\T1/cmtt/m/n/10.95 https : / / www-[]accessengineeringlibrary-[]com . ez . sun . ac . za /
+ []
+
+) [30
+
+
+
+]
+\openout2 = `chaps-append/chap-Appendix_Circuit.aux'.
+
+ (chaps-append/chap-Appendix_Circuit.tex
+Appendix A.
+[31
+
+
+]
+<figs/Design/Final Design/Electronics/Circuit_Design.png, id=744, 1355.8153pt x 769.37437pt>
+File: figs/Design/Final Design/Electronics/Circuit_Design.png Graphic file (type png)
+<use figs/Design/Final Design/Electronics/Circuit_Design.png>
+Package pdftex.def Info: figs/Design/Final Design/Electronics/Circuit_Design.png  used on input line 35.
+(pdftex.def)             Requested size: 580.07722pt x 329.18097pt.
+ [32
+
+ <./figs/Design/Final Design/Electronics/Circuit_Design.png>])
+\openout2 = `chaps-append/chap-Appendix_Drawings.aux'.
+
+ (chaps-append/chap-Appendix_Drawings.tex
+Appendix B.
+<figs/Design/Rotor/Calcs_3D_Hub_Quality.png, id=752, 623.32875pt x 585.68813pt>
+File: figs/Design/Rotor/Calcs_3D_Hub_Quality.png Graphic file (type png)
+<use figs/Design/Rotor/Calcs_3D_Hub_Quality.png>
+Package pdftex.def Info: figs/Design/Rotor/Calcs_3D_Hub_Quality.png  used on input line 5.
+(pdftex.def)             Requested size: 398.35985pt x 374.31184pt.
+<figs/Design/Rotor/Calcs_Circlip.png, id=753, 514.17094pt x 552.56438pt>
+File: figs/Design/Rotor/Calcs_Circlip.png Graphic file (type png)
+<use figs/Design/Rotor/Calcs_Circlip.png>
+Package pdftex.def Info: figs/Design/Rotor/Calcs_Circlip.png  used on input line 11.
+(pdftex.def)             Requested size: 398.35985pt x 428.11491pt.
+[33
+
+
+
+
+
+ <./figs/Design/Rotor/Calcs_3D_Hub_Quality.png>] [34 <./figs/Design/Rotor/Calcs_Circlip.png>]
+
+pdfTeX warning: pdflatex (file ./Appendix Documents/Exploded VIew and Assmebly.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Appendix Documents/Exploded VIew and Assmebly.pdf, id=767, 817.0525pt x 569.12625pt>
+File: Appendix Documents/Exploded VIew and Assmebly.pdf Graphic file (type pdf)
+<use Appendix Documents/Exploded VIew and Assmebly.pdf>
+Package pdftex.def Info: Appendix Documents/Exploded VIew and Assmebly.pdf  used on input line 20.
+(pdftex.def)             Requested size: 817.05052pt x 569.12486pt.
+
+
+pdfTeX warning: pdflatex (file ./Appendix Documents/Exploded VIew and Assmebly.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+File: Appendix Documents/Exploded VIew and Assmebly.pdf Graphic file (type pdf)
+<use Appendix Documents/Exploded VIew and Assmebly.pdf>
+Package pdftex.def Info: Appendix Documents/Exploded VIew and Assmebly.pdf  used on input line 20.
+(pdftex.def)             Requested size: 817.05052pt x 569.12486pt.
+
+
+pdfTeX warning: pdflatex (file ./Appendix Documents/Exploded VIew and Assmebly.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./Appendix Documents/Exploded VIew and Assmebly.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Appendix Documents/Exploded VIew and Assmebly.pdf, id=770, page=1, 817.0525pt x 569.12625pt>
+File: Appendix Documents/Exploded VIew and Assmebly.pdf Graphic file (type pdf)
+<use Appendix Documents/Exploded VIew and Assmebly.pdf, page 1>
+Package pdftex.def Info: Appendix Documents/Exploded VIew and Assmebly.pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 817.05052pt x 569.12486pt.
+File: Appendix Documents/Exploded VIew and Assmebly.pdf Graphic file (type pdf)
+<use Appendix Documents/Exploded VIew and Assmebly.pdf, page 1>
+Package pdftex.def Info: Appendix Documents/Exploded VIew and Assmebly.pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 817.05052pt x 569.12486pt.
+File: Appendix Documents/Exploded VIew and Assmebly.pdf Graphic file (type pdf)
+<use Appendix Documents/Exploded VIew and Assmebly.pdf, page 1>
+Package pdftex.def Info: Appendix Documents/Exploded VIew and Assmebly.pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 817.05052pt x 569.12486pt.
+File: Appendix Documents/Exploded VIew and Assmebly.pdf Graphic file (type pdf)
+<use Appendix Documents/Exploded VIew and Assmebly.pdf, page 1>
+Package pdftex.def Info: Appendix Documents/Exploded VIew and Assmebly.pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 817.05052pt x 569.12486pt.
+File: Appendix Documents/Exploded VIew and Assmebly.pdf Graphic file (type pdf)
+<use Appendix Documents/Exploded VIew and Assmebly.pdf, page 1>
+Package pdftex.def Info: Appendix Documents/Exploded VIew and Assmebly.pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 817.05052pt x 569.12486pt.
+[35
+
+ <./Appendix Documents/Exploded VIew and Assmebly.pdf>]
+
+pdfTeX warning: pdflatex (file ./Appendix Documents/Exploded VIew and Assmebly.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Appendix Documents/Exploded VIew and Assmebly.pdf, id=803, page=2, 817.0525pt x 569.12625pt>
+File: Appendix Documents/Exploded VIew and Assmebly.pdf Graphic file (type pdf)
+<use Appendix Documents/Exploded VIew and Assmebly.pdf, page 2>
+Package pdftex.def Info: Appendix Documents/Exploded VIew and Assmebly.pdf , page2 used on input line 20.
+(pdftex.def)             Requested size: 817.05052pt x 569.12486pt.
+File: Appendix Documents/Exploded VIew and Assmebly.pdf Graphic file (type pdf)
+<use Appendix Documents/Exploded VIew and Assmebly.pdf, page 2>
+Package pdftex.def Info: Appendix Documents/Exploded VIew and Assmebly.pdf , page2 used on input line 20.
+(pdftex.def)             Requested size: 817.05052pt x 569.12486pt.
+File: Appendix Documents/Exploded VIew and Assmebly.pdf Graphic file (type pdf)
+<use Appendix Documents/Exploded VIew and Assmebly.pdf, page 2>
+Package pdftex.def Info: Appendix Documents/Exploded VIew and Assmebly.pdf , page2 used on input line 20.
+(pdftex.def)             Requested size: 817.05052pt x 569.12486pt.
+[36 <./Appendix Documents/Exploded VIew and Assmebly.pdf>]
+
+pdfTeX warning: pdflatex (file ./Appendix Documents/Exploded VIew and Assmebly.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Appendix Documents/Exploded VIew and Assmebly.pdf, id=808, page=3, 817.0525pt x 569.12625pt>
+File: Appendix Documents/Exploded VIew and Assmebly.pdf Graphic file (type pdf)
+<use Appendix Documents/Exploded VIew and Assmebly.pdf, page 3>
+Package pdftex.def Info: Appendix Documents/Exploded VIew and Assmebly.pdf , page3 used on input line 20.
+(pdftex.def)             Requested size: 817.05052pt x 569.12486pt.
+File: Appendix Documents/Exploded VIew and Assmebly.pdf Graphic file (type pdf)
+<use Appendix Documents/Exploded VIew and Assmebly.pdf, page 3>
+Package pdftex.def Info: Appendix Documents/Exploded VIew and Assmebly.pdf , page3 used on input line 20.
+(pdftex.def)             Requested size: 817.05052pt x 569.12486pt.
+File: Appendix Documents/Exploded VIew and Assmebly.pdf Graphic file (type pdf)
+<use Appendix Documents/Exploded VIew and Assmebly.pdf, page 3>
+Package pdftex.def Info: Appendix Documents/Exploded VIew and Assmebly.pdf , page3 used on input line 20.
+(pdftex.def)             Requested size: 817.05052pt x 569.12486pt.
+[37 <./Appendix Documents/Exploded VIew and Assmebly.pdf>]) (Skripsie_Report.aux (chaps-front/chap-plagiarism.aux) (chaps-front/chap-summary.aux) (chaps-front/chap-acknowledge.aux) (chaps-front/chap-symbols.aux) (chaps-main/chap-intro.aux) (chaps-main/chap-Matlab_Model.aux) (chaps-main/chap-Design.aux) (chaps-main/chap-Software.aux) (chaps-main/chap-Experiments.aux) (chaps-main/chap-Data_Analysis.aux) (chaps-main/chap-Report_Conclusion.aux) (chaps-append/chap-Appendix_Circuit.aux) (chaps-append/chap-Appendix_Drawings.aux))
+ ***********
+LaTeX2e <2023-11-01>
+L3 programming layer <2024-01-04>
+ ***********
+Package rerunfilecheck Info: File `Skripsie_Report.out' has not changed.
+(rerunfilecheck)             Checksum: 092418E3017595F49D417A6BE64E22B4;2601.
+ ) 
+Here is how much of TeX's memory you used:
+ 34989 strings out of 474486
+ 727907 string characters out of 5758236
+ 1940528 words of memory out of 5000000
+ 56433 multiletter control sequences out of 15000+600000
+ 588044 words of font info for 111 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 99i,19n,117p,1701b,1109s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<D:/New folder/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/New folder/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/New folder/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/New folder/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/New folder/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/New folder/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/New folder/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/New folder/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/New folder/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/New folder/fonts/type1/public/cm-super/sfbx1095.pfb><D:/New folder/fonts/type1/public/cm-super/sfbx1200.pfb><D:/New folder/fonts/type1/public/cm-super/sfbx1440.pfb><D:/New folder/fonts/type1/public/cm-super/sfbx1728.pfb><D:/New folder/fonts/type1/public/cm-super/sfbx2074.pfb><D:/New folder/fonts/type1/public/cm-super/sfbx2488.pfb><D:/New folder/fonts/type1/public/cm-super/sfrm0600.pfb><D:/New folder/fonts/type1/public/cm-super/sfrm0800.pfb><D:/New folder/fonts/type1/public/cm-super/sfrm1000.pfb><D:/New folder/fonts/type1/public/cm-super/sfrm1095.pfb><D:/New folder/fonts/type1/public/cm-super/sfrm1200.pfb><D:/New folder/fonts/type1/public/cm-super/sfrm1440.pfb><D:/New folder/fonts/type1/public/cm-super/sfrm1728.pfb><D:/New folder/fonts/type1/public/cm-super/sfsl1200.pfb><D:/New folder/fonts/type1/public/cm-super/sfti1095.pfb><D:/New folder/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on Skripsie_Report.pdf (53 pages, 6213833 bytes).
+PDF statistics:
+ 960 PDF objects out of 1000 (max. 8388607)
+ 158 named destinations out of 1000 (max. 500000)
+ 769 words of extra memory for PDF output out of 10000 (max. 10000000)
+

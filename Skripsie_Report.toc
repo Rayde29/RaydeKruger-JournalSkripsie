@@ -1,0 +1,43 @@
+\contentsline {chapter}{List of symbols}{xiv}{chapter*.7}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Modelling the System on MATLAB}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Modelling the Rotor}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Modelling the Propellers}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Optimization of Tip Thrust Positions}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Combined Model}{7}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Pitch Model}{7}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Step Input}{8}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Sinusoidal Input}{9}{subsection.2.5.2}%
+\contentsline {chapter}{\numberline {3}Design}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Rotor}{11}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Rotor Hub}{12}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Electronics}{13}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Final Design}{14}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Software}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}System Interaction}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Position and Speed Detection}{16}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Control System}{17}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Experimentation}{18}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Aim}{18}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Equipment}{18}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Procedure}{19}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Test Descriptions}{19}{subsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.1.1}Locked Rotor Test}{19}{subsubsection.5.3.1.1}%
+\contentsline {subsubsection}{\numberline {5.3.1.2}Pitch Sweep}{19}{subsubsection.5.3.1.2}%
+\contentsline {subsubsection}{\numberline {5.3.1.3}Speed Sweep}{19}{subsubsection.5.3.1.3}%
+\contentsline {subsubsection}{\numberline {5.3.1.4}Directional Flight Test}{20}{subsubsection.5.3.1.4}%
+\contentsline {chapter}{\numberline {6}Data Analysis, Results and Discussion}{21}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Sensor Validation and PID Performance}{21}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Data Processing}{23}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Results and Discussion}{25}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Comparison to Mathematical Model}{25}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Directional Flight}{26}{subsection.6.3.2}%
+\contentsline {chapter}{\numberline {7}Future Development and Conclusion}{28}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Future Development}{28}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Conclusion}{28}{section.7.2}%
+\contentsline {chapter}{\numberline {8}List of references}{30}{chapter.8}%
+\contentsline {chapter}{\numberline {A}Microcontroller Circuit}{31}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Pin Out Table}{31}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Full Circut Diagram}{32}{section.A.2}%
+\contentsline {chapter}{\numberline {B}Mechanical Drawings and Design}{33}{appendix.B}%

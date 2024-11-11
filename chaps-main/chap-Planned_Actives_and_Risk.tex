@@ -1,0 +1,37 @@
+\chapter{Planned Activities and Risks}
+\section{Planned activities}
+    This section aims to outline the activities that will be done to ultimately achieve the aim of the project. These activities will be listed in the order of which they will be done. 
+    \subsection{Decide on the type of propulsion}
+        As has already been mentioned in Section~\ref{sec:Current_design} the common propulsion method used in most tip-propelled aircraft uses compressed air as the working fluid in either a hot or cold cycle. As mentioned in the project's scope, this will not be considered, however using compressed air could be a potential means of propulsion. The other option is to mount electric motors to the tip and make use of propellers to provide the required thrust. The advantages and disadvantages of each will need to be investigated before a final decision can be made. 
+    \subsection{Transfer of potential energy to the rotor tips}
+        No matter which means of propulsion is chosen, potential energy, in the form of compressed air or electrical energy, needs to be transported to the tips of the rotor. The fact that the rotor is constantly rotating provides a complicated problem that would need to be overcome to create a system in which each tip can have a user-defined amount of thrust at any time. 
+    \subsection{Pitch control}
+        The method for how the pitch of the blades needs to be decided. Tests can be performed to see how the chosen propulsion method can influence the pitch of the rotor. Aspects such as feathering and flapping of the rotor need to be taken into account to decide on how the pitch of the rotor can be controlled to achieve directional thrust.
+    \subsection{Pitch control system}
+        As the pitch will be a parameter that can be influenced by the user, a control system will be required to achieve stability and directional thrust. The types of control systems should be investigated here. Determine whether the system can be used with just a PID controller, whether it needs a lag/lead compensator or if state space is a possibility. If possible a mathematical model should be derived for the prototype to aid with the creation of these control systems.
+    \subsection{Pitch and rotor position sensing}
+        The system needs to be able to detect the position of the rotor to supply the control system with the correct information, this will be needed to implement directional control as the pitch for directional control needs to vary depending on the position of the rotor's revolution. This will need to be fast and accurate as the rotation will need to be high enough to produce lift and the exact position needs to be known so that directional thrust can be in any direction. 
+    \subsection{Computations}
+        A method for implementing the system controls and receiving the sensor data needs to be decided one. A method for the way the controller receives user inputs and implements the control system needs to be decided on as this could influence the choice of controller. Options like an ESP32 or a Raspberry Pi would be better if the system is required to be wireless, alternatively, a PLC would more reliable and lighter if it did not need to be wireless.
+    \subsection{Rotor and aircraft design}
+        As mentioned in the scope, an in-depth rotor design is not required, but research into basic rotor design should be done. A rotor should be designed using all the parameters decided from the above activities to ensure it can produce enough lift and that the method of pitch control can be implemented. The interface of the rotor to the rest of the system should also be considered. The rest of the aircraft will be built around the rotor which incorporates the tip thrust and all the components required to implement the control system.
+    \subsection{Build the tip propelled rotary aircraft}\label{sec:build}
+        The design should be complete and can be constructed. The design should be constructed using the resources in the mechanical department. 
+    \subsection{Test the directional thrust}
+        The finished design can be placed on the testing rig. The system will be tested by instructing it to move in different directions. The data will be recorded for analysis. 
+    \subsection{Evaluation and repetition}\label{sec:Evaluation}
+        Using the data retrieved from the previous activity, the aim of the project can be evaluated. This process can be used to gain information about the system and using this information activities \ref{sec:build} (building) to \ref*{sec:Evaluation} (evaluation) can be repeated to optimize the design until the control system, directional thrust, and pitch control has become satisfactory.
+    \subsection{Report writing}
+        Once the final prototype has been designed, built and tested, the report can be finalized. This will be continuously worked on and updated throughout the planned activities and will be the last activity of the project.  
+    \section{Risks}
+        \subsection{Safety}
+            This project deals with fast-spinning props and live electricity. Caution must be taken when the prototype is switched on and whenever the wires are being handheld. To minimize this risk, when working with the prototype the power source should be disconnected, this will prevent accidental activations as well as electrocution.
+        \subsection{Technical Risks}
+            These risks pertain to the risk of equipment or component failure. If equipment malfunction or component failure occurs this could cause harm to either the user or the prototype. To minimize this risk, thorough testing of the equipment and components should be done to ensure they are operating how to be expected. Another potential technical risk is whether the thrust and control system would be able to be operated with enough accuracy and speed to allow for directional thrust. This risk can be reduced through the proper design of the system and the correct selection of components. 
+        \subsection{Financial Risks}
+            Financial risks include going over budget or standing more than expected. This risk can be minimized through proper budget planning to ensure an accurate budget has been created. Minimizing the technical risk, as mentioned previously, will prevent components or equipment from needing to be replaced.\\
+        \subsection{Scheduling risk}
+            There is a limited amount of time to complete this project and as such there is a very tight schedule. Unexpected delays could have catastrophic effects on the project and could potentially cause it to become incomplete. To prevent this from occurring, a detailed plan should be devised, and the student should follow it as closely as possible.  
+        \subsection{Resources risk}
+            This risk relates closely to the previous risk, scheduling risk, as a delay in resources can cause a delay in the entire project. Ordering components or sending designs to be created at the workshop should be done in far enough advance such that if there are any unexpected delays, it will not crucially affect the project's schedule. It can also be reduced by choosing components that are readily available and easy to obtain.\\
+

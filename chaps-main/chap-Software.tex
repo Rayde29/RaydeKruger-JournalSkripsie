@@ -1,0 +1,67 @@
+\chapter{Software}
+\label{sec: Software}
+    \section{System Interaction}
+        \begin{figure} [h]               
+            \centering
+            \includegraphics*[width = \textwidth]{figs/Software/Full_Code_Overview.png}
+            \caption{Main function code flow chart}
+            \label{fig: full_code_flow}
+        \end{figure} 
+        Figure~\ref{fig: full_code_flow} shows a high level overview of the main function which shows how the subsystems integrate into the main system. During start up of the main loop, it initializes the interrupts, PWM and analog to digital converter (ADC). The program then enters the main loop where it checks if data has been received and whether the system must start. If the system has been started, it reads the inputs and uses these inputs to determine the speed of the motors to obtain the required pitch and angular velocity. The input and output values are then sent back, and the loop repeats itself. Before the system should be started, the system should be calibrated to ensure the potentiometers are accurately measuring the pitch. The ADC of the microcontroller was used to measure the potentiometer's voltage, and converted into pitch using two equations, from -45\(^\circ\) to 0\(^\circ\) and 0\(^\circ\) to 45\(^\circ\) to increase the accuracy.
+
+        
+        % The full cod can be found in the \href{https://github.com/Rayde29/24723061-Kruger-ProjectFile.git}{\textit{Project~File}}.
+
+        % \section{Command Match}
+        %     This function determines what command has been sent by the user to the microcontroller. Table~\ref{tab: cmd_table} in Appendix~\ref{sec: Appendix_software} shows each command and their function. Overall the stop/start command sets the start command to either true or false to determine the state of the system. Similarly, the show commands determine what data it outputs to the user. The set command allows the user to alter the values, such as target speed, pitch or the desired direction, without the user altering the code. Finally, the calibrate function calibrates the pitch of the rotor. This function helps ensure an accurate angle is given when it reads the ADC value. The procedure is done for each rotor. It asks the user to set the rotor to -45\(^\circ\), then to 0\(^\circ\) and 45\(^\circ\). This process is illustrated in Figure~\ref{fig: cal_sequence}. This sequence finds the voltages associated with these positions and are used to calculate the pitch in another function.
+        %     \begin{figure} [h]               
+        %         \centering
+        %         \includegraphics*[width = \textwidth]{figs/Software/Calibration.png}
+        %         \caption{Calibration sequence}
+        %         \label{fig: cal_sequence}
+        %     \end{figure} 
+        \section{Position and Speed Detection}
+        \begin{figure} [h]               
+            \centering
+            \includegraphics*[width = \textwidth]{figs/Software/Hall_Effect_timing.png}
+            \caption{Timing diagram for forward flight}
+            \label{fig: hall_effect_timing}
+        \end{figure} 
+
+            To determine the speed and position of the rotor two Hall effect Sensors were used. This Hall effect Sensor is connected to a microcontroller pin which has been configured as an external interrupt which is triggered on a falling edge. When the microcontroller detects the Hall effect's output signal go from high to low, it interrupts the code  to set a flag. This indicates to the microcontroller to run the code to determine the angular velocity in the next iteration of code. The speed is determined by measuring the time in between these impulses, shown in Figure~\ref{fig: hall_effect_timing} as `Revolution time', which is measured in milliseconds.
+            \begin{align*}
+                \omega_{rotor} &= \frac{1}{\text{Revolution time}} \cdot 1000 \cdot 60 \quad \text{[rpm]}
+            \end{align*}
+            Similarly, when the position hall effect's signal goes from high to low, a flag gets set. This causes the `position' variable to be incremented by 45\(^\circ\), as each magnet is placed 45\(^\circ\) from each other. This variable will continue to increment until the speed flag is set, which resets the position variable to zero, as illustrated in Figure~\ref{fig: hall_effect_timing}. The position variable is used to adjust the target pitch of the to obtain the sinusoidal pitch change that is required for directional flight.
+            \begin{align*}
+                \theta_{target} = \Delta \theta_{rotor} \cdot \sin(\text{position} + \text{Directional Offset}) + \theta_{\text{Set Pitch}}
+            \end{align*}
+            \begin{minipage}{0.45\textwidth}
+                \vspace*{-8mm}
+                \begin{align*}
+                    \text{where} \quad
+                    -&\Delta\theta_{rotor} \text{ is the desired maximum that the pitch should change} \\
+                    -&\text{Directional Offset is used to change where the maximum and} \\ & \text{minimum thrust is produced to induced different directional thrust}\\
+                    -&\theta_{\text{Set Pitch}} \text{ is the default pitch which it oscillates around}
+                \end{align*}
+                \end{minipage}
+                \\The target pitch for each rotor will have an offset of 180\(^\circ\) to obtain the desired affect.
+            % \section{Rotor Pitch}
+            % Using the microcontroller's ADC, the voltage drop of the potentiometer can be determined. From the voltage drop and the calibration that was done, the pitch can be determined. It was found that the potentiometer was not perfectly linear between the -45\(^\circ\) and 45\(^\circ\). To help correct this the 0\(^\circ\) value was determined. The piecewise function, seen in Eq.~\ref{eq: ADC_conversion}, is used to determine the pitch. If the values were less than the voltage associated with the 0\(^\circ\), then the linear interpolation between 0 and -45\(^\circ\) was used, and if it were greater, the interpolation between 0\(^\circ\) and 45\(^\circ\) would be used.
+            % \begin{equation}
+            %     \theta_{rotor}=
+            %     \begin{cases}
+            %         - \left(45 - \frac{ \text{ADC}_{current} - \text{ADC}_{-45^\circ} }{ \text{ADC}_{0^\circ}- \text{ADC}_{-45^\circ}} \right) \times 45, & \text{if } \text{ADC}_{current} < \text{ADC}_{0^\circ}  \\
+            %         \left(\frac{ \text{ADC}_{current} -  \text{ADC}_{0^\circ} }{ \text{ADC}_{45^\circ}-  \text{ADC}_{0^\circ}}\right) \times 45, & \text{if } \text{ADC}_{current} \geq  \text{ADC}_{0^\circ}  
+            %     \end{cases}
+            %     \label{eq: ADC_conversion}
+            % \end{equation}
+
+            \section{Control System}
+            \begin{figure} [h]               
+                \centering
+                \includegraphics*[width = \textwidth]{figs/Software/PID_Control.png}
+                \caption{PID controller diagram for 1 rotor}
+                \label{fig: pid_diagram}
+            \end{figure}
+            Figure~\ref{fig: pid_diagram} shows the control system that is used to control the pitch and angular velocity for the aircraft. As illustrated, two PID controllers are used, one for angular velocity and one for the rotor pitch. Figure~\ref{fig: pid_diagram} shows the controller for one rotor. The first PID controller uses the current angular velocity and the target angular velocity to determine the PWM signal that needs to be maintained. This signal is then split between the two motors. To control the pitch, an additional PID controller is used, this determines by how much the top and bottom motors should be differed to obtain the moment to reach the required pitch. 

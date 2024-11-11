@@ -1,0 +1,177 @@
+\chapter{Data Analysis, Results and Discussion}
+\label{sec: data_Analysis}
+    \section{Sensor Validation and PID Performance}
+        The control system relies on the pitch which gets detected by each potentiometer and the speed and position detected by the hall effect sensors. These values were validated by comparing the results recorded by the sensor to the results measured after importing a video to Tracker \citep{Tracker}.
+        
+        Figure~\ref{fig: compared_pitch} shows the pitch measured by the sensor versus the angle measured through Tracker. The results show that the potentiometer has a good estimate of the angle, however, it is not always reliable with smaller changes, potentially due to a loose interface. Although the potentiometer is not perfect, the accuracy gives an acceptable approximation for the proof of concept and, when calibrated correctly, proved to achieve satisfactory outputs. Figure~\ref{fig: compared_speed} shows the angular velocity measured using the hall effect sensor versus the angular velocity measured using tracker. This shows that the sensor is closely matches to the actual speed, but it has a low resolution as it is updated once per revolution. This is acceptable as the angular velocity needs to reach and maintain a steady state and will not need a high resolution to achieve its function. 
+        % \begin{figure}[h]
+        %     \centering
+        %     \begin{minipage}{0.45\textwidth}
+        %         \centering
+        %         \includegraphics*[width = \textwidth]{figs/Data_Analysis/Tracker_Pitch.png}
+        %         \caption{Pitch tracking from Tracker}
+        %         \label{fig: tracker_pitch}
+        %     \end{minipage}\hfill
+        %     \begin{minipage}{0.45\textwidth}
+        %         \centering
+        %         \includegraphics*[width = 0.92\textwidth]{figs/Data_Analysis/Tracker_Speed.png}
+        %         \caption{Angular velocity tracking from Tracker} 
+        %         \label{fig: tracker_speed}
+        %     \end{minipage}
+        % \end{figure} 
+
+        \begin{figure}[h]
+            \centering
+            \begin{minipage}{0.45\textwidth}
+                \centering
+                \includegraphics*[width =\textwidth]{figs/Data_Analysis/Pitch Graph-Tip Thrust-Experiment-2024-10-07_17-54-35.png}
+                \caption{Pitch from sensor vs. actual pitch}
+                \label{fig: compared_pitch}
+            \end{minipage}\hfill
+            \begin{minipage}{0.45\textwidth}
+                \centering
+                \includegraphics*[width =\textwidth]{figs/Data_Analysis/Pitch Graph-Speed Test.png}
+                \caption{Angular velocity from sensor vs. actual angular velocity} 
+                \label{fig: compared_speed}
+            \end{minipage}
+        \end{figure} 
+      
+        After validating the input data, the PID parameters could be tuned. To get the initial parameters, the Ziegler-Nichols method was used for the pitch.Using this the theoretical values for the PID were achieved. These values were further tuned until a satisfactory performance was obtained. The PID values for the speed was found through trial and error, giving the values in Table~\ref{tab: PID_Values}.
+        \begin{table}[h]
+            \centering
+            \caption{PID values}
+            \label{tab: PID_Values}
+            \begin{tabular}{|l|l|l|l|}
+            \hline
+            \rowcolor[HTML]{EFEFEF} 
+            \textbf{Control}                     & \textbf{P} & \textbf{I} & \textbf{D} \\ \hline
+            \textbf{Theoretical PID for Rotor 1} & 1.05       & 1.4        & 0.164      \\ \hline
+            \textbf{Actual PID for Rotor 1}      & 1.05       & 1.5        & 0.2        \\ \hline
+            \textbf{Theoretical PID for Rotor 2} & 4.8        & 6.4        & 0.75       \\ \hline
+            \textbf{Actual PID for Rotor 2}      & 4          & 5          & 1          \\ \hline
+            \textbf{PID for Angular Velocity}    & 2          & 0.5        & 0.01       \\ \hline
+            \end{tabular}
+            \end{table}
+        The performance of the rotors PID response at 120~rpm can be seen in Figure~\ref{fig: pitch_sweep}. Rotor two manages to follow the trend of the target pitch, however has some  steady state error. Rotor one is unstable and inconsistent. While it can follow the general trend, it is seen in the beginning that the system overshoots and oscillates when it has an error of 10\(^\circ\), however, later, in the same scenario, it remains constant. This could be due to the static resistance that is present in the potentiometer, which decreases as soon as this static friction gets overcome. Alternatively it could be due to the interaction of some aerodynamic forces as the control system was tuned using a static rotor, which does not have these forces. While the PID was tested and tuned during normal operation it was seen that the PID values that were ideal for one rotor speed, would be insufficient for another. The PID values which worked best across a range of angular velocities and flight modes was used, which are seen in Table~\ref{tab: PID_Values}.
+        \begin{figure}[h]
+            \centering
+            \includegraphics*[width = 1\textwidth]{figs/Data_Analysis/Pitch Graph-Pitch Sweep.png}
+            \caption{Pitch sweep}
+            \label{fig: pitch_sweep}
+        \end{figure}
+    \section{Data Processing}
+        The data retrieved from the load cells need to be processed. Any outliers need to be removed as this would often be from an incorrect reading and the signal and gets converted from grams to Newtons. It was noticed that the readings had oscillations within them. A Fast Fourier Transform (FFT) was performed to determine the frequencies that these oscillations occur. As the sampling frequency for the load cell were 2.27~Hz, the Nyquist frequency would be 1.37~Hz. This implies that most of the rotor's rotational frequencies would experience aliasing and appear as a lower frequency. 
+        % \begin{figure}[H]
+        %     \centering
+        %     \includegraphics*[width = 0.6\textwidth]{figs/Data_Analysis/Aliasing_Freq.png}
+        %     \caption{Folding frequencies \citep{Folding_Diagram_for_Aliasing_Calculations}}
+        %     \label{fig: aliasing_freq}
+        % \end{figure}
+        The resulting FFT can be seen in Figure~\ref{fig: fft_60}, which shows a single sided FFT with frequencies present in the load cell data at 60~rpm. As shown the peak aligns with  the aliasing frequencies that corresponds to the rotational frequencies. It can be implied that the rotational frequencies are responsible for these oscillations. A speed sweep was performed to determine the natural frequency of the system. Figure~\ref{fig: fft_nat_freq} shows that the only noticeable peak was around 0.01~Hz. This could relate to the rotational frequency of 135~rpm, or represents the lift produced. Further tests at a higher sampling frequencies would be needed to draw further conclusions.\\
+        % that there is a large peak at frequency that corresponds with a rotational speed of 135~rpm, 2.25~Hz.\\
+        \begin{figure}[h]
+            \centering
+            \begin{minipage}{0.45\textwidth}
+                \centering
+                \includegraphics*[width =1.1\textwidth]{figs/Data_Analysis/FFT-TEST 0 60.2.png}
+                \caption{FFT at 60 rpm}
+                \label{fig: fft_60}
+            \end{minipage}\hfill
+            \begin{minipage}{0.45\textwidth}
+                \centering
+                \includegraphics*[width =1.1\textwidth]{figs/Data_Analysis/FFT-Test 4.png}
+                \caption{Natural frequency of the system} 
+                \label{fig: fft_nat_freq}
+            \end{minipage}
+        \end{figure} 
+        
+        The decision to remove these higher frequencies was made. This was done with a Butterworth filter. This ensures that only the lift generated from the aircraft is shown without the interference of the physical system. The unfiltered and filtered data can be seen in Figure~\ref{fig: Unfiltered_Loadcell} and Figure~\ref{fig: Filtered_loadcell}, respectively.\\
+        \begin{figure}[h] 
+            \centering
+            \begin{minipage}{0.45\textwidth}
+                \centering
+                \includegraphics*[width =1.1\textwidth]{figs/Data_Analysis/Unfiltered Loadcell Readings-Test 4.png}
+                \caption{Unfiltered load cell data}
+                \label{fig: Unfiltered_Loadcell}
+            \end{minipage}\hfill 
+            \begin{minipage}{0.45\textwidth}
+                \centering
+                \includegraphics*[width =1.1\textwidth]{figs/Data_Analysis/Lift Generated-Test 4.png}
+                \caption{Filtered load cell data} 
+                \label{fig: Filtered_loadcell}
+            \end{minipage}
+        \end{figure} 
+
+        Certain test required further data processing. Below illustrates the additional processing for certain tests
+        \begin{enumerate}
+            \item \textbf{Mathematical Model Comparison}\\
+                To Analyze the accuracy of the mathematical model, the thrust predicted by Eq.~\ref{eq: fitted_thrust} was plotted using the measured angular velocity as the input to determine how closely the model matches the lift produced. The average rotor pitch was used as an indication of the overall pitch of the system and should be 20\(^\circ\) to be comparable to Eq.~\ref{eq: fitted_thrust}.\\
+            \item \textbf{Directional Thrust}\\
+                The “front” of the aircraft is the midpoint between load cell 3 and 2. To determine whether directional thrust has been achieved, the difference between the thrust at the front and back will be examined. 
+                \begin{align}
+                    \Delta T = (\text{Load Cell 1} + \text{Load Cell 4}) - (\text{Load Cell 1} + \text{Load Cell 4})
+                \end{align}
+                This will produce a positive value for forward thrust and a negative value for reverse thrust. Due to gyroscopic procession, although the increased or decreased lift are at the midpoints of load cell 3 and 4 and load cell 1 and 2, this force will act at the midpoint of load cell 2 and 3 and at the midpoint of 1 and 4.
+            \item \textbf{Efficiency}\\
+                The PWM value of the TORB motors will be used to determine the thrust produced by the motors. This will be scaled according to the maximum thrust produced according to datasheet, which is 0.3 kg. The PWM value which corresponds with 0~thrust is 35 and maximum thrust is at 60.
+                \begin{align}
+                    T_{Prop} = \sum_{}^{} \frac{\text{PWM Signal}_\text{motor} - \text{Min PWM}}{ \text{Max PWM} -  \text{Min PWM}}\times  \text{Max Thrust}\times 9.8      \label{eq: pwm_thrust_con}
+                \end{align}
+                This will estimate the amount of thrust produced by each TORB motor using the PWM signal. This, accompanied by the lift produced, the overall efficiency of the aircraft can be found as \(\frac{\text{Output Thrust}}{\text{Input Thrust}}\).
+        \end{enumerate} 
+
+        \section{Results and Discussion}
+        \subsection{Comparison to Mathematical Model}
+            Figure~\ref{fig: lift_produced} shows the relationship between the pitch, the angular velocity and the amount of lift produced. This also shows what the mathematical predicts the lift to be, this value and the actual lift has been scaled by 100.  Initially, the model underpredicted the amount of thrust produced. To correct this, the thrust contributed by the TORB motors were added, resulting in the final formula to calculate the thrust produced for a pitch of 20\(^\circ\) as shown in Eq.~\ref{eq: full_thrust}
+            \begin{align}
+                T =\omega_{rotor}^2\left(0.01805+\frac{0.002216}{0.2625}\sin(20)\right) \label{eq: full_thrust}
+            \end{align}
+            After this correction has been added, Figure~\ref{fig: lift_produced} shows that the model has a good estimate of the amount of lift produced until it reaches the higher angular velocities. Figure~\ref{fig: Unfiltered_Loadcell} shows that the oscillations become larger and more unstable at higher angular velocities. The issue could be solved by balancing the rotor to keep these oscillations to a minimum, or by increasing the rigidity of the base to prevent the oscillations becoming larger. Due to these larger oscillations, the testing was kept to lower angular velocities.
+            \begin{figure}[h]
+                \centering
+                \includegraphics*[width = \textwidth]{figs/Data_Analysis/Lift, Pitch and Speed-Speed Sweep.png}
+                \caption{Predicted vs. actual lift produced}
+                \label{fig: lift_produced}
+            \end{figure}\\
+            The average Root Mean Squared Error of all three test was 0.6529. This is 9.8\% of the maximum thrust produced, which is an indication that the model is a good fit. Further investigation needs to be done to determine the cause for the deviation at higher angular velocities.
+            \\
+        \subsection{Directional Flight}
+            Figure~\ref{fig: forward_pitch} shows the pitch for forward flight at 60~rpm. Rotor one is lagging slightly behind the control signal with rotor two being offset by 180\(^\circ\) as it is physically 180\(^\circ\) apart. While there is a large overshoot, the system performs how it is required to achieve directional thrust, mimicking the cyclic action of the swashplate. The graph for the reverse flight mode, not shown, shows the same large oscillations and slight lag, but again achieves the same effect of the cyclic action.\\
+            \begin{figure}[h]
+                \centering
+                \includegraphics*[width =\textwidth]{figs/Data_Analysis/Pitch Graph-Forward Flight.png}
+                \caption{A section of the pitch response for forward flight mode}
+                \label{fig: forward_pitch}
+            \end{figure}  
+
+            The resulting lift produced from the change in pitch observed in Figure~\ref{fig: forward_pitch} can be seen in Figure~\ref{fig: forward_lift}. As \(\Delta\)Thrust is positive this means that an upward force is being produced at load cell 1 and 4 while a downward force is being produced at load cell 2 and 3. This would tilt the aircraft forward, causing it to move forward. A similar phenomenon can be seen in Figure~\ref{fig: reverse_lift}, except the flight mode has been set to reverse. These graphs show that at lower angular velocities, directional thrust can be achieved using just differential TORB. \\
+            \begin{figure}[h] 
+                \centering
+                \begin{minipage}{0.49\textwidth}
+                    \centering
+                    \includegraphics*[width =\textwidth]{figs/Data_Analysis/Lift Generated-Forward Flight.png}
+                    \caption{Forward directional lift}
+                    \label{fig: forward_lift}
+                \end{minipage}\hfill
+                \begin{minipage}{0.49\textwidth}
+                    \centering
+                    \includegraphics*[width =\textwidth]{figs/Data_Analysis/Lift Generated-Reverse Flight.png}
+                    \caption{Reverse directional lift} 
+                    \label{fig: reverse_lift}
+                \end{minipage}
+            \end{figure} 
+        Figure~\ref{fig: efficiency} shows the amount of lift that was generated by the aircraft compared to the total amount of thrust by the TORB motors. This resulted in an estimated thrust efficiency of 190\% as the TORB motors is estimated to generate an average of 2.2~N of total thrust and the aircraft produced an average of  4.2~N of thrust. As previously mentioned, some TORB thrust assists in generating lift. Accounting for this, the aircraft generates 3.45~N of thrust purely from the rotors. This greatly increases the aircraft's ability to hover, allowing it to remain in the air longer than conventional drones for the same power usage.
+
+            \begin{figure}[H]
+                \centering
+                \includegraphics*[width =\textwidth]{figs/Data_Analysis/Lift Generated-PWM 120.png}
+                \caption{Input vs. output thrust}
+                \label{fig: efficiency}
+            \end{figure} 
+
+        % \begin{figure}[h]
+        %     \centering
+        %     \includegraphics*[width = \textwidth]{figs/Data_Analysis/Pitch Graph-Reverse Flight.png}
+        %     \caption{Predicted vs. actual lift produced}
+        %     \label{fig: reverse_pitch}
+        % \end{figure}

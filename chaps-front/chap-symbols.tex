@@ -3,29 +3,51 @@
 
 \begin{Nomencl}[1cm]
 \NomGroup{Constants}%-----------------------------------------------
-    \item[$L_0 = $] \qty{300}{mm}
+    \item[$\rho = $] air density \qty{1.225}{kg/m\(^3\)}
 
 \NomGroup{Variables}%-----------------------------------------------
-    \item[$\mathit{Re}_\mathrm{\,D}$]
-                       \UnitLine{Reynolds number (diameter)}{~}
-    \item[$x$]         \UnitLine{Coordinate                }{m}
-    \item[$\ddot{x}$]  \UnitLine{Acceleration              }{m/s^2}\\
-    
-    \item[$\theta$]    \UnitLine{Rotation angle            }{rad}
-    \item[$\tau$]      \UnitLine{Moment                    }{N.m}
+    \item[$C_L$]                \UnitLine{Coefficient of lift}{~}
+    \item[$C_{L_0}$]            \UnitLine{Lift coefficient offset}{~}
+    \item[$C_{L_\alpha}$]       \UnitLine{Lift coefficient gradient}{~}
+    \item[$C_D$]                \UnitLine{Coefficient of drag}{~}
+    \item[\(V_0\)]              \UnitLine{Axial component of air flow velocity}{m/s} 
+    \item[\(V_0\)]              \UnitLine{Axial component of air flow velocity at disk}{m/s} 
+    \item[\(V_1\)]              \UnitLine{Resultant flow velocity}{m/s} 
+    \item[\(V_2\)]              \UnitLine{Radial component of air flow velocity}{m/s} 
+    \item[\(V_\infty\)]         \UnitLine{Free-stream velocity}{m/s}
+    \item[\(V_{\omega}\)]       \UnitLine{Far wake velocity}{m/s}        
+    \item[$\alpha$]             \UnitLine{Angle of attack}{Deg}
+    \item[\(\theta\)]           \UnitLine{Pitch}{rad}
+    \item[\(\phi\)]             \UnitLine{Angle made from thrust and lift}{Deg}      
+    \item[\(R\)]                \UnitLine{Blade length}{m}    
+    \item[\(c\)]                \UnitLine{Blade chord}{m}
+    \item[\(T\)]                \UnitLine{Thrust}{N}
+    \item[\(Q\)]                \UnitLine{Torque}{N.m}
+    \item[\(L\)]                \UnitLine{Drag}{N}
+    \item[\(b\)]                \UnitLine{Tip loss coefficient}{~}
+    \item[\(C_T\)]              \UnitLine{Thrust coefficient}{~}
+    \item[\(B\)]                \UnitLine{Number of blades}{~}
+    \item[\(\omega\)]           \UnitLine{Angular velocity}{rads/s}
+    \item[\(A\)]                \UnitLine{Area}{m^2}
+    \item[\(\zeta \)]           \UnitLine{Damping ratio}{~}
+    \item[\(I\)]                \UnitLine{Current}{A}\\
 
-\NomGroup{Vectors and Tensors}%-------------------------------------
-    \item[$\overrightarrow{\bm{v}}$] Physical vector, see equation ...
-
+% \NomGroup{Vectors and Tensors}%-------------------------------------
+%     \item[$\overrightarrow{\bm{v}}$] Physical vector, see equation ...
 \NomGroup{Subscripts}%----------------------------------------------
-    \item[$\mathrm{a}$] Adiabatic
-    \item[$a$]          Coordinate
+    \item[$rotor$]          Rotor
+    \item[$Prop$]           Propeller
+    \item[$motor$]          Tip-thrust/TORB brushless motors
+    \item[$n$]              Natural frequency  
 
 \end{Nomencl}
 
 \begin{Nomencl}[1cm]
-\NomGroup{Abreviations}%-----------------------------------------------
-    \item[DEM] Discrete Element Method
-    \item[FEA] Finite Element Analysis
-
+\NomGroup{Abbreviations}%-----------------------------------------------
+    \item[AOA] Angle of Attack
+    \item[ESC] Electronic Speed Controller
+    \item[FFT] Fast Fourier transform
+    \item[PWM] Pulse Width Modulation
+    \item[TORB] Thrust On Rotor Blade
+    \item[VTOL] Vertical Take-off and Landing
 \end{Nomencl}

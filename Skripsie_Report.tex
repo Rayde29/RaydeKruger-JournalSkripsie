@@ -1,0 +1,180 @@
+% !TeX encoding = UTF-8
+% !TeX program  = xelatex
+
+\documentclass[12pt,a4paper,openany]{book} 
+\usepackage[typeblock=golden]{stb-titlepage}        
+
+%==== Math setup =====================================================
+\usepackage{amsmath}%............................. Advanced math (before fonts)
+%\usepackage{amssymb}%............................ AMS Symbol fonts
+
+%==== Font setup =====================================================
+\usepackage{iftex}
+\usepackage{pdflscape}
+\usepackage[export]{adjustbox} 
+\ifxetex
+    \usepackage{fontspec}
+    \usepackage[math-style=TeX,
+                bold-style=TeX,
+               ]{unicode-math}
+    \setmainfont{Cambria}%........................ Unicode fonts  (Win)                
+    \setsansfont[Scale=MatchLowercase]{Calibri}
+    \setmonofont[Scale=MatchLowercase]{Consolas}
+    \setmathfont{Cambria Math}
+    \defaultfontfeatures{Ligatures=TeX}
+    \let\bm\symbfit
+\else
+    \usepackage[utf8]{inputenc}%.................. Unicode file format
+    \usepackage{textcomp}%........................ Additional text symbols
+    \usepackage[T1]{fontenc}%..................... Type 1 outline fonts
+    \usepackage{bm}%.............................. Bold math fonts
+\fi
+\normalfont
+
+%==== Units and numbers ==============================================
+\usepackage{gensymb}
+\usepackage{siunitx}%............................. Unit, number and angle output
+    \sisetup{detect-all = true, detect-family = true}
+    \sisetup{output-decimal-marker = {.} ,
+             group-separator = {\,},
+             number-unit-product = {\,},
+             inter-unit-product = \mathord{\cdot},
+             exponent-product = \mathord{\times},
+             separate-uncertainty = true}
+         
+%==== Ref's, Bib's and Nomencl =======================================
+\usepackage{stb-nomencl}%......................... List of symbols 
+\usepackage{stb-nomencl}
+
+
+    \renewcommand*{\UnitLabel}[1]{~[\,\unit{#1}\,]}
+\usepackage{stb-bib}%............................. Bibliography (natbib internally)
+    \bibliographystyle{stb-bib-eng-a}
+    \renewcommand\bibfont{\small}
+    \renewcommand\bibsection{\chapter{\bibname}}
+
+%==== Tables + Graphics + Color =====================================
+\usepackage{array, float}%............................... Extended table defs 
+    \setlength{\extrarowheight}{2pt}
+\usepackage{longtable}%........................... Tables can break over pages
+\usepackage{graphicx}%............................ Included graphics
+\usepackage[font=small]{caption}%................. Customize captions  
+\usepackage[table]{xcolor}%....................... Color setup + colortbl 
+    
+%==== Extra defs for template ========================================
+\makeatletter
+%---- TOC entries and case
+    \renewcommand\contentsname{Table of contents}
+    \renewcommand\listfigurename{List of figures}
+    \renewcommand\listtablename{List of tables}
+    \renewcommand\bibname{List of references}
+    \renewcommand\tableofcontents{\chapter*{\contentsname}\@starttoc{toc}}
+    \renewcommand\listoffigures{\chapter*{\listfigurename}\@starttoc{lof}}
+    \renewcommand\listoftables{\chapter*{\listtablename}\@starttoc{lot}}
+
+%---- Plagiarism signatures
+    \newcommand\tstrut[1][4ex]{\rule{0pt}{#1}}
+    \newcommand\tdots[1][5cm]{\makebox[#1]{\dotfill}}
+
+%---- Summary head line
+    \newcommand\sumheading{%
+        \rowcolor[gray]{.9}%
+        \centering\arraybackslash%
+        \bfseries\normalsize}
+
+%==== User Defs ======================================================
+%
+% Please insert user defined commands here
+% and NOT in the document itself!
+%
+%
+\usepackage{float}
+\usepackage{pdfcomment}
+\usepackage{pdfpages}
+\usepackage{todonotes} 
+\usepackage{wasysym} 
+\usepackage{tabularx}
+\usepackage{colortbl}
+\usepackage[table,xcdraw]{xcolor} 
+\usepackage{multirow} 
+\usepackage{footnote}
+\usepackage{adjustbox}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{pdflscape} % Use pdflscape for rotating the content properly
+
+
+\makeatother
+\parindent 0px
+\usepackage{multirow}
+
+%==== Title Page =====================================================
+\title{\textbf{Mechatronics Skripsie Report: Tip-thrust Rotary-wing Aircraft}\\[2ex]
+       \large Mechatronic Project 478\\Final Report\\[2ex]}                   
+\author{\Large Author: Rayde Krüger\\ 
+        \large 24723061 \\[5ex]
+        \Large Supervisor: Dr. A Gill}                
+\address{Department of Mechanical and Mechatronic Engineering\\
+        Stellenbosch University \\
+        Private Bag X1, Matieland 7602, South Africa.}
+\date{\today}                             
+\Copyright{2023}{Stellenbosch University.\\ All rights reserved.}
+
+%==== Main Document ==================================================
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{2}
+\raggedbottom
+\begin{document}   
+
+\frontmatter%---------------------------------------------------------                    
+\maketitle 
+\hypersetup{hidelinks}
+\include{chaps-front/chap-plagiarism}
+\includepdf[pages=-]{Appendix Documents/2024_Skripsie_AI_Use}
+\include{chaps-front/chap-summary}
+% \include{chaps-front/chap-ECSA_Req}
+\include{chaps-front/chap-acknowledge}
+\tableofcontents
+\listoftables
+\listoffigures
+\include{chaps-front/chap-symbols}
+\mainmatter%----------------------------------------------------------
+\numberwithin{figure}{chapter}
+\numberwithin{table}{chapter}
+\include{chaps-main/chap-intro}
+% \include{chaps-main/chap-scope}
+% \include{chaps-main/chap-literature_Review}
+% \include{chaps-main/chap-Planned_Actives_and_Risk}
+% \include{chaps-main/chap-End_of_projet,Budget}
+\include{chaps-main/chap-Matlab_Model}
+\include{chaps-main/chap-Design}
+\include{chaps-main/chap-Software}
+\include{chaps-main/chap-Experiments}
+\include{chaps-main/chap-Data_Analysis}
+\include{chaps-main/chap-Report_Conclusion}
+
+
+
+% \include{chaps-main/chap-ECSA_Requirements_and_Project_Plan}
+% \include{chaps-main/chap-Research_Question}
+%\include{chaps-main/chap-literature}
+%\include{chaps-main/chap-content-A}
+%\include{chaps-main/chap-conclusion}
+\bibliography{bib/bib-libriray.bib}
+
+\appendix%------------------------------------------------------------
+% \include{chaps-append/chap-maths}
+% \include{chaps-append/chap-experiment}
+% \include{chaps-append/chap-Appendix_A}
+% \include{chaps-append/chap-Appendix_B}
+% \include{chaps-append/chap-Appendix_Calibration_and_Commands}
+\include{chaps-append/chap-Appendix_Circuit}
+% \include{chaps-append/chap-Appendix_Saftey}
+\include{chaps-append/chap-Appendix_Drawings}
+
+
+\backmatter%----------------------------------------------------------
+
+\end{document}   
+

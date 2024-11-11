@@ -1,0 +1,39 @@
+\chapter{Microcontroller Circuit}
+\label{sec: Microcontroller_circuit}
+\section{Pin Out Table}
+\begin{table}[H]
+    \centering
+    \small
+    \caption{Pin out table}
+    \begin{tabular}{|c|c|l|}
+    \hline
+    \rowcolor[HTML]{EFEFEF} 
+    {\color[HTML]{333333} \textbf{Port}} & {\color[HTML]{333333} \textbf{Pin}} & \multicolumn{1}{c|}{\cellcolor[HTML]{EFEFEF}{\color[HTML]{333333} \textbf{Function}}} \\ \hline
+    PA                                   & 0                                   & Rotor Pitch 1                                                                         \\ \hline
+    PA                                   & 1                                   & Rotor Pitch 2                                                                         \\ \hline
+    PA                                   & 3                                   & SPI 1 Chip Enable                                                                     \\ \hline
+    PA                                   & 4                                   & SP1   Chip Select 2                                                                   \\ \hline
+    PA                                   & 5                                   & SPI 1 SCK                                                                             \\ \hline
+    PA                                   & 6                                   & SPI   1 MISO                                                                          \\ \hline
+    PA                                   & 7                                   & SPI 1 MOSI                                                                            \\ \hline
+    PB                                   & 0                                   & Tim3\_ch 3 - PWM- Top Motor, Rotor   1                                                \\ \hline
+    PB                                   & 1                                   & Tim3\_ch 4 - PWM- Bottom Motor,  Rotor 1                                              \\ \hline
+    PB                                   & 3                                   & Green   LED for Warning                                                               \\ \hline
+    PB                                   & 4                                   & Red LED for warning                                                                   \\ \hline
+    PB                                   & 5                                   & Tim3\_ch 2 - PWM- Bottom Motor,   Rotor 2                                             \\ \hline
+    PC                                   & 1                                   & Position Hall Effect Sensor                                                           \\ \hline
+    PC                                   & 2                                   & Revolution Hall Effect Sensor                                                         \\ \hline
+    PC                                   & 6                                   & Tim3\_ch 1 - PWM Top Motor, Rotor 2                                                   \\ \hline
+    PE                                   & 1                                   & Red LED for warning                                                                   \\ \hline
+    \end{tabular}
+    \end{table}
+\normalsize
+\begin{landscape}
+    \section{Full Circut Diagram}
+    \begin{figure} [H]               
+        \centering
+        \includegraphics*[width = 0.9 \linewidth]{figs/Design/Final Design/Electronics/Circuit_Design.png}
+        \caption{Circuit Diagram}
+        \label{fig: circuit_diagram}
+    \end{figure} 
+\end{landscape}

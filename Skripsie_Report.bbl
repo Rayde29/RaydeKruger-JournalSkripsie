@@ -1,0 +1,61 @@
+\begin{thebibliography}{6}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\providecommand{\selectlanguage}[1]{\relax}
+\edef\AFRstr{\string afrikaans}
+\ifx\AFRstr\languagename
+   \input{stb-bib.afr}%
+ \else
+   \input{stb-bib.eng}%
+\fi
+\newcommand{\Capitalize}[1]{\uppercase{#1}}
+\newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{{Aerodynamics for
+  Students}}(2024)}]{blade_element_theory_2024}
+\bibnamefont{{Aerodynamics for Students}} (2024).
+\newblock Blade element theory for propellers.
+\newblock Accessed: 25 July 2024.
+\newline\bblurlpre\url{https://www.aerodynamics4students.com/propulsion/blade-element-propeller-theory.php}
+
+\bibitem[{\citenamefont{Anderson} \protect\BIBand{}
+  \citenamefont{Eberhardt}(2010)}]{anderson2010helicopters}
+\bibnamefont{Anderson}, \bibfnamefont{D.F.} \protect\BIBand{}
+  \bibnamefont{Eberhardt}, \bibfnamefont{S.} (2010).
+\newblock Helicopters and autogyros.
+\newblock \capitalize\bblin{}: \emph{Understanding Flight}, \bblsecondo{}
+  \bbledn{}, \bblchap{}~8. McGraw Hill, New York.
+\newline\bblurlpre\url{https://www-accessengineeringlibrary-com.ez.sun.ac.za/content/book/9780071626965/chapter/chapter8}
+
+\bibitem[{\citenamefont{{Douglas Brown, Wolfgang Christian, Robert M
+  Hanson}}(2024)}]{Tracker}
+\bibnamefont{{Douglas Brown, Wolfgang Christian, Robert M Hanson}} (2024).
+\newblock Tracker video and modeling tool.
+\newline\bblurlpre\url{https://physlets.org/tracker/}
+
+\bibitem[{\citenamefont{{Franklin,Powell, Emami-Naeini}}(2020)}]{ControlSystem}
+\bibnamefont{{Franklin,Powell, Emami-Naeini}} (2020).
+\newblock \emph{Feedback Control of Dynamic Systems}.
+\newblock Pearson.
+
+\bibitem[{\citenamefont{Gessow} \protect\BIBand{} \citenamefont{Garry
+  C.~Myers}(1985)}]{AflredAerodynamicsOfHelicopters}
+\bibnamefont{Gessow}, \bibfnamefont{A.} \protect\BIBand{} \bibnamefont{Garry
+  C.~Myers}, \bibfnamefont{J.} (1985).
+\newblock \emph{Aerodynamics of the helicopter}.
+\newblock 8\bblth{} \bbledn{}. Fredrick Ungar Publishing Co., New York.
+
+\bibitem[{\citenamefont{Yaqoob}(2018)}]{nrf24l01Program}
+\bibnamefont{Yaqoob}, \bibfnamefont{M.} (2018).
+\newblock Tutorial 24 nrf24l01 radio transceiver.
+\newline\bblurlpre\url{https://github.com/MYaqoobEmbedded/STM32-Tutorials/tree/master/Tutorial%2024%20-%20NRF24L01%20Radio%20Transceiver}
+
+\end{thebibliography}

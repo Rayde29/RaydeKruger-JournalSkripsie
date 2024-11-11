@@ -1,0 +1,182 @@
+\chapter{Design}
+\label{sec: design}
+Using the values obtained from the mathematical models, the rotary aircraft can be designed. The two main components to design are the rotors and the hub. These need to have an interface together as well as with the microcontroller and other electronics.
+    \section{Rotor}
+            A NACA 4415, shown in Figure~\ref{fig: NACA_Profiles} was used to for the rotors as it has a good a high coefficient and a low drag coefficient, which allows the rotor to produce Large amount of thrust at low angular velocities.
+            \begin{figure}[h]
+                \centering
+                \includegraphics*[width = \textwidth]{figs/Design/Rotor/NACA_Profile.png}
+                \caption{NACA profiles}
+                \label{fig: NACA_Profiles}
+            \end{figure}
+            Using the points to create the NACA 4415, the shell of the rotor was extruded. A rib system was created inside the rotors to minimize the weight  while maximizing the strength of the rotors. The length and width was determined to be 600~mm and 150~mm, respectively. The rotor's center of pressure is around 25\% along the chord of the rotor, by placing a shaft through this point would ensure that these forces do not create a moment on the rotor.
+
+            \begin{figure}[h]
+                \centering
+                \includegraphics*[width = \textwidth]{figs/Design/Rotor/Rotor_Sectioned_Light.png}
+                \caption{Sectioned view one rotor}
+                \label{fig: sectioned_rotor}
+            \end{figure}
+
+            As mentioned before the thrust will be positioned 32.5\% along the rotor blade. This reduces the incoming air speed that the tip-thrust propellers experience, however, it will require more thrust to produce the required torque.     % The propellers that are currently being considered are HQ Prop 2.9X2.9X4 seen in Figure~\ref{fig: HQ_Props}.
+            % \begin{figure}[h]
+            %     \centering
+            %     \includegraphics*[width = 0.5\textwidth]{figs/Design/Rotor/HQ-Props.png}
+            %     \caption{HQ 2.9X2.9X4 Props \citep{FLying_robot_Props}}
+            %     \label{fig: HQ_Props}
+            % \end{figure}
+            % This four-blade propeller can generate sufficient thrust without requiring the motors to operate at excessively high speeds. 
+
+            % An option for the motor that meets these requirements is the Flash 1303.5 5500KV Motor, which is the brushless motor in Figure~\ref{fig: motor}. To estimate the amount of torque produced, it can be found using the following equation \
+            % \begin{figure} [h]               |
+            %     \centering
+            %     \includegraphics*[width = 0.3\textwidth]{figs/Design/Rotor/Flash_1303.5.png}
+            %     \caption{Flash 1303.5 brushless motors \citep{FPV_Fanatic_Flash_1303}}
+            %     \label{fig: motor}
+            % \end{figure}
+
+            % For the motor in Figure~\ref{fig: motor}, which has a KV of 5500, and a 12~A max current draw according to the datasheet, it can produce 0.02 Nm, which is enough torque to operate the propellers. It was stated to be able to produce a maximum of 297~g of thrust at 34489 RPM using a 76.2~mm diameter prop with 2 blades, and so can produce close to the required thrust with a two-bladed prop, and should with a 4-blade prop.\todo[color=blue!40]{Check Values}
+
+
+            % \subsection{Interface}
+            % The rotor connects to the hub with a \(\diameter\)5 by 25~mm shaft, seen in Figure~\ref{fig: rotor_connection}. The tip of the shaft is threaded and is used to connect the shaft to the rotor. The shaft rotates in a bushing to reduce friction, this is located by a circlip on the rotor side and a shoulder that connects the shaft to the hub. In between the circlip and the rotor are the torsional springs which will keep the rotor in a default pitch. A 1\(\times\)1\(\times\)2~mm raised feature will be milled out of the end shaft which will interface with a potentiometer. This will allow the controller to detect the pitch of the rotor. 
+            % \begin{figure} [h]               
+            %     \centering
+            %     \includegraphics*[width = 0.6\textwidth]{figs/Design/Rotor/Rotor_Assembly_Labeled.png}
+            %     \caption{Labeled view of rotor connection}
+            %     \label{fig: rotor_connection}
+            % \end{figure}
+            % An issue with this design is that the interface between the rotor shaft and the hub is too narrow. This causes high reaction forces to counter the moment caused by the rotor's weight and lift. While the shaft has been designed for these forces, the hub, which will be 3D printed may not. Future designs will increase the length of the shaft in the hub to help spread the load as well as in the rotor to help support the rotor.     
+    \section{Rotor Hub}
+    The second subsystem is the hub of the rotary wing aircraft. The purpose of the hub was to interface with the rotors, contain its components and to connect the spinning rotor with the stationary main body. 
+    % Two concepts were created for the hub. Table~\ref{tab: hub_requirements} show the requirements that the hub design, along with its accompanying components should achieve.
+    % \begin{table}[H]
+    % \caption{Rotor Hub Requirements}
+    % \label{tab: hub_requirements}
+    % \begin{tabularx}{\linewidth}{|p{3cm}|p{1.5cm}|X|}
+    % \hline
+    % \textbf{Requirement}            & \textbf{Weight} & \textbf{Motivation} \\ \hline
+    % High speed of data transmission & 20              & The aircraft will constantly be transmitting data which needs to be received and saved. \\ \hline
+    % Signal quality                  & 15              & Having a quality signal, free from noise will ensure the aircraft is responsive. \\ \hline
+    % Mobility                        & 10              & The aircraft will need to be airborne for future iterations, this should be considered when designing the first proof of concept model. \\ \hline
+    % Complexity                      & 10              & Reducing complexity will help reduce the number of failure points. \\ \hline
+    % Testing time                    & 10              & Preference should be given to the concept which can undergo tests for longer periods. \\ \hline
+    % Reliability                     & 10              & Having a reliable proof of concept will ensure it has consistent performance and is safe to use. \\ \hline
+    % Low torque required             & 10              & The torque needed to overcome any friction should be kept to a minimum to ensure that the torque produced is used to accelerate the speed of the rotor. \\ \hline
+    % Ease of installation            & 5               & Preference should be given to the concept which has less complexity when installing the components. \\ \hline
+    % Cost                            & 5               & The cheaper concept should get preference. \\ \hline
+    % Maintenance                     & 5               & The proof of concept should be simple to maintain and fix any issues. \\ \hline
+    % \end{tabularx}
+    % \end{table}
+
+    % \subsection{Concept 1: Data Slip-ring}
+    %     This concept uses a data slip-ring in order to transfer information. For this concept the microcontroller would be located with the main body and would remain stationary. The data slip-ring would transfer information from the microcontroller to the four ESCs and from any sensors in the rotor to the microcontroller, shown in Figure~\ref{fig: inner_hub_concept_1}. The data slip-ring has 12 channels, however it has a maximum rated current of 2~A. As each motor, at full load,  draws 12~A each, batteries would need to be used to power the brushless motors. The use of batteries will greatly reduce the testing time, especially with four brushless motors drawing up to 12~A each.\\
+    %     Since the data slip-ring is a physical connection, the speed at which it can transfer data will be as fast as the microcontroller can send it, however, the signal may become noisy or have interference as it passes through the slip ring at higher speeds. Implementation of the slip-ring will be simple as it is a physical connection, however, this needs to be connected to a computer to send or receive data. The slip-ring will add torque that needs to be overcome, however, according to the datasheet, this is expected to use 3.3\% of the total amount of torque produced by the TORB motors to overcome. 
+    %     \begin{figure} [H]               
+    %         \centering
+    %         \includegraphics*[width = 0.45\textwidth]{figs/Design/Hub/Hub_Assembly_Labled.2.png}
+    %         \caption{Rotor hub with electronic components}
+    %         \label{fig: inner_hub_concept_1}
+    %     \end{figure}
+
+
+    %     \begin{figure} [h]               
+    %         \centering
+    %         \includegraphics*[width = 0.45\textwidth]{figs/Design/Hub/Hub_Assembly_sectioned_labeled.2.png}
+    %         \caption[Sectioned hub view]{Sectioned view of hub showing the interface to the main body}
+    %         \label{fig: sectioned_hub_concpet_1}
+    %     \end{figure} 
+    %     \vspace*{-1mm}
+
+            % The first and second concept both use the same connection to the main non-rotating body as shown in Figure~\ref{fig: sectioned_hub_concpet_1}, except with different dimensions. Where the two differ is by the fact that concept 2 uses a wireless transceiver module to send data instead of the data slip ring. 
+            For the hub the electronics and microcontroller will all be spinning with the rotor and send data to another transceiver module connected to a second microcontroller. Each of the hub level, shown in Figure~\ref{fig: inner_hub_concept_2}, is used to house different components and each of these levels, besides the interface hub, can be interchanged.
+            \begin{figure} [h]               
+                \centering
+                \includegraphics*[width = 0.45\textwidth]{figs/Design/Hub/Hub_Assembly_Concept_2_Labled.png}
+                \caption[Sectioned hub view]{Concept 2 rotor hub}
+                \label{fig: inner_hub_concept_2}
+            \end{figure}
+            The hub needs to be connected to the nonrotating body. This is done with a hollow shaft. The shaft needs to enclose the power slip-ring. It is flange mounted to the hub, using the same bolts used to fix the slip ring into place. The shaft's diameter then decreases to act as a shoulder that locates the top thrust bearing. This top bearing supports the weight of the hub and rotor before the thrust produced equals the weight of the rotor-hub assembly. The shaft at the end is threaded to allow a lock nut to be tightened onto it. This lock nut is used to locate the bottom bearing, which will support the thrust produced by the rotor and transmit it to the main body.
+            Since the data that is being transmitted will be done wirelessly, it may be subject to interference, however it won't be noisy. The issue with using the wireless module is that it has a maximum transfer rate of 2~Mbs, this is fast enough for what is required, but it does set a limit for future values. While it can become battery powered, it currently can be connected straight to a power supply, this allows uninterrupted testing. While it currently has a slip-ring, it can be removed in later iterations, which can reduce the overall torque required to accelerate the rotors to their desired speed.
+
+
+        %     \begin{landscape}               
+        %         \subsection{Concept Selection}
+        %         \begin{table}[!ht]
+        %             \centering
+        %             \caption{Decision matrix for evaluate the rotor hubs}
+        %             \label{tab: decision_matrix}
+        %             \begin{tabularx}{\linewidth}{|l|>{\columncolor{gray!30}}l|c|X|}
+        %             \hline
+        %                 ~ & \textbf{Wireless} & \textbf{Slip Ring} & ~ \\ \hline
+        %                 \textbf{Requirement} & \textbf{Datum} & \centering{\textbf{Rating}} & \textbf{Motivation} \\ \hline
+        %                 Signal Quality & ~ & -1 & Transmission through slip ring may induce electrical noise \\ \hline
+        %                 Mobility & ~ & -1 & Needs to be connected to the computer  \\ \hline
+        %                 Reliability  & ~ & 1 & Wires have physical connection, unlikely to lose data in transit \\ \hline
+        %                 Complexity & ~ & 1 & Once installed, ready to work. Wireless module will need to be programmed \\ \hline
+        %                 Ease of installation & ~ & 0 & Both needs to be specially designed for, one mechanically the other would need a circuit designed for it. \\ \hline
+        %                 Cost & ~ & -1 & Using the transceiver modules each cost R30 whereas the data slip ring costs R268\\ \hline
+        %                 Speed of data transmission & ~ & 1 & Transfers as fast as the wire can carry the data, transceiver has the maximum of 2Mbs \\ \hline
+        %                 Testing time & ~ & -1 & Can only use batteries, which would limit the testing time \\ \hline
+        %                 Maintenance  & ~ & -1 & If one of the slip ring data lines fails/ needs to be replaced, there is a lot of disassembly that would be needed.  \\ \hline
+        %                 Torque required & ~ & -1 & slip ring will have torque which will increase the required force of the tip thrust \\ \hline
+        %                 \textbf{Total} & 0 & -3 & ~ \\ \hline
+        %                 \textbf{Total weighted} & 0 & -15 & ~\\ \hline
+        %             \end{tabularx}
+        %         \end{table}
+        % \end{landscape}
+        \subsection{Electronics}
+            To detect speed and position, Hall effect sensors have been used. By using two, the angular velocity of the rotor and the position can be determined. One Hall effect sensor has been placed to detect a magnet once every revolution, this is used to calculate the angular velocity. The second hall effect sensor detects eight magnets, each placed 45\(^\circ\) from each other, allowing the position of the rotor to be known to the nearest 45\(^\circ\).\\
+            A potentiometer is used to determine the pitch of the rotor. This is done by connecting the potentiometer's dial to the shaft of the rotor, such that when the rotor pitches up or down, the resistance of the potentiometer increases or decreases. A voltage is applied to the potentiometers and by measuring the change in voltage across the potentiometer, the value can be associated with an angle to measure the pitch of the rotor.\\
+            \begin{figure} [h]               
+                \centering
+                \includegraphics*[width =0.8\textwidth]{figs/Design/Final Design/Electronic Systems.png}
+                \caption{Circuit block diagram}
+                \label{fig: circuit_block_diagram}
+            \end{figure}
+            These are all controlled by the microcontroller, the STM32 Discovery board as shown in Figure~\ref{fig: circuit_block_diagram}. It takes the input data from the Hall effect sensors and the potentiometers and calculates what the required PWM signal should be for the brushless motors. All this data is then sent back to the computer using the NRF24l01+ transceiver module, using the library form \cite{nrf24l01Program}.
+            % \begin{figure} [h]               
+            %     \centering
+            %     \includegraphics*[width =\textwidth]{figs/Design/Final Design/Electronics/Electronic_Components_labled.png}
+            %     \caption{Annotated diagram of electronics}
+            %     \label{fig: electronics_labled}
+            % \end{figure}
+            
+    \section{Final Design}
+        The final design will use a power slip-ring to power the brushless motors and send data using a transceiver module. Figure~\ref{fig: annotated_final_design} shows the proposed layout for the final design. 
+
+        \begin{figure} [h]               
+            \centering
+            \includegraphics*[width = 0.8\textwidth]{figs/Design/Final Design/Annotated_Final_design.png}
+            \caption{Annotated final design}
+            \label{fig: annotated_final_design}
+        \end{figure}
+        % Figure~\ref{fig: sectioned_final_design} is a sectioned view through the center of the proof of concept. It illustrates the interfaces between the hub, rotor and main body and shows where the electronics are located.
+        The rotor has the rotor shaft running through it and a nut is used to secure the segments in place between the main body and the last segment. A spring is connected to the hub and to the rotor to help support the rotor and maintain its default position. The shaft then goes through the hub and is held in place with a circlip. The shaft then connects to the potentiometer to measure the pitch. The main body then connects to the support shaft which is held in place between two thrust bearings with a lock nut to allow the hub to spin while the body remains stationary. Inside the support shaft is the slip ring and its wires to provide power to the whole device. 
+        % \begin{figure} [H]               
+        %     \centering
+        %     \includegraphics*[width = \textwidth]{figs/Design/Final Design/Annotated_Sectioned_Final_design.png}
+        %     \caption[Sectioned view of final design]{Sectioned view of final design's interfaces}
+        %     \label{fig: sectioned_final_design}
+        % \end{figure}
+        
+
+
+        % The hub of the aircraft connects the rotors to the main body of the aircraft. It houses the electronics where the speed is minimal and won't experience high forces. The hub needs to transmit data from the rotating rotor to the stationary microcontroller. To achieve this a slip ring, seen in Figure~\ref{fig: slip_ring} will be used. This will allow a data connection that is rated to have a continuous rotation at 300 RPM, it may go above this speed but will decrease the part's life span.  
+        % \begin{figure} [h]               
+        %     \centering
+        %     \includegraphics*[width = 0.4\textwidth]{figs/Design/Hub/Slip_ring.png}
+        %     \caption{Slip ring \citep{Micro_robotics_Slip_Ring}}
+        %     \label{fig: slip_ring}
+        % \end{figure}
+        % \\This slip ring is rated to handle 240~V and up to 2~A. This causes an issue as the motors require 12~A each. While slip rings are rated up to 30~A exist, they only have four wires, compared to the twelve seen in Figure~\ref{fig: slip_ring}. To solve this issue, the decision to use two batteries was made. Using two three-cell Li-Po batteries helps balance the rotor, this can be seen in Figure~\ref{fig: inner_hub}, extends the flight time and does not require a battery that outputs 48~A. 
+        % \\To control the speed of the brushless motors each requires an ESC (electronics speed controller). Each will have two wires connected to the battery and three wires connected to the microcontroller via the slip ring to send it the commands. Three wires will come out of the ESC and go to each brushless motor. 
+        % \section{First design and future development}
+        %     Combining the two assemblies results in the model seen in Figure~\ref{fig: first_design}. In terms of further development, the first issue that will be addressed will be the rotors. An interface between the tip-thrust motor pylon and the rotor needs to be implemented such that they can be interchanged to allow iteration of the height without the need to reprint the rotor blade. The rotor blade will need to be split into two parts to allow it to be printed. The shaft used to interface the rotor with the hub will be made longer to help support the rotor and help with the connection of the rotor. Where the two rotor pieces connect, another pin will be added to ensure the parts properly align. Finally, the main body will need to be designed which will house some electronics, such as the microcontroller.
+            
+        %     \begin{figure} [h]               
+        %         \centering
+        %         \includegraphics*[width = \textwidth]{figs/Design/MantaRay.png}
+        %         \caption{First design iteration}
+        %         \label{fig: first_design}
+        %     \end{figure} 
